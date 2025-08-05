@@ -1,0 +1,4 @@
+<launch>
+    <node pkg="inter_package" exec="inter_esha_node" name="inter_esha_node" output="screen"/>
+    <node pkg="inter_package" exec="hazard_inter_esha_node" name="hazard_inter_esha_node" output="screen"/>
+</launch>

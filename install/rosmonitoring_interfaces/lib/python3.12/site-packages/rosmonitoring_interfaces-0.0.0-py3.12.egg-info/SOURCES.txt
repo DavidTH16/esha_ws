@@ -1,0 +1,8 @@
+setup.py
+rosmonitoring_interfaces/__init__.py
+rosmonitoring_interfaces.egg-info/PKG-INFO
+rosmonitoring_interfaces.egg-info/SOURCES.txt
+rosmonitoring_interfaces.egg-info/dependency_links.txt
+rosmonitoring_interfaces.egg-info/top_level.txt
+rosmonitoring_interfaces/msg/__init__.py
+rosmonitoring_interfaces/msg/_monitor_error.py

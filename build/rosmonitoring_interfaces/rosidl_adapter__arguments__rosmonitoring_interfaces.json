@@ -1,0 +1,6 @@
+{
+  "package_name": "rosmonitoring_interfaces",
+  "non_idl_tuples": [
+    "/home/david/esha_ws/src/rosmonitoring_interfaces:msg/MonitorError.msg"
+  ]
+}

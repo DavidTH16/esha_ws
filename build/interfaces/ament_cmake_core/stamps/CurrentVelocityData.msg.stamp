@@ -1,0 +1,3 @@
+float32 motor_current
+float32 arm_current
+float32 angular_z

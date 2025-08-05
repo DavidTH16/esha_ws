@@ -1,0 +1,30 @@
+running egg_info
+writing ../../build/inter_package/inter_package.egg-info/PKG-INFO
+writing dependency_links to ../../build/inter_package/inter_package.egg-info/dependency_links.txt
+writing entry points to ../../build/inter_package/inter_package.egg-info/entry_points.txt
+writing requirements to ../../build/inter_package/inter_package.egg-info/requires.txt
+writing top-level names to ../../build/inter_package/inter_package.egg-info/top_level.txt
+reading manifest file '../../build/inter_package/inter_package.egg-info/SOURCES.txt'
+adding license file 'LICENSE'
+writing manifest file '../../build/inter_package/inter_package.egg-info/SOURCES.txt'
+running build
+running build_py
+copying inter_package/ultrasonic_node_talker.py -> /home/david/esha_ws/build/inter_package/build/lib/inter_package
+running install
+running install_lib
+copying /home/david/esha_ws/build/inter_package/build/lib/inter_package/ultrasonic_node_talker.py -> /home/david/esha_ws/install/inter_package/lib/python3.12/site-packages/inter_package
+byte-compiling /home/david/esha_ws/install/inter_package/lib/python3.12/site-packages/inter_package/ultrasonic_node_talker.py to ultrasonic_node_talker.cpython-312.pyc
+running install_data
+running install_egg_info
+removing '/home/david/esha_ws/install/inter_package/lib/python3.12/site-packages/inter_package-0.0.0-py3.12.egg-info' (and everything under it)
+Copying ../../build/inter_package/inter_package.egg-info to /home/david/esha_ws/install/inter_package/lib/python3.12/site-packages/inter_package-0.0.0-py3.12.egg-info
+running install_scripts
+Installing arm_current_node script to /home/david/esha_ws/install/inter_package/lib/inter_package
+Installing camera_node script to /home/david/esha_ws/install/inter_package/lib/inter_package
+Installing co_node script to /home/david/esha_ws/install/inter_package/lib/inter_package
+Installing imu_node script to /home/david/esha_ws/install/inter_package/lib/inter_package
+Installing motor_current_node script to /home/david/esha_ws/install/inter_package/lib/inter_package
+Installing temperature_node script to /home/david/esha_ws/install/inter_package/lib/inter_package
+Installing ultrasonic_node script to /home/david/esha_ws/install/inter_package/lib/inter_package
+Installing velocity_node script to /home/david/esha_ws/install/inter_package/lib/inter_package
+writing list of installed files to '/home/david/esha_ws/build/inter_package/install.log'

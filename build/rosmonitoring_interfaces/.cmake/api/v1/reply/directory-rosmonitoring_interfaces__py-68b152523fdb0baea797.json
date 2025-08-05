@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "rosmonitoring_interfaces__py",
+		"source" : "/home/david/esha_ws/build/rosmonitoring_interfaces/rosmonitoring_interfaces__py"
+	}
+}

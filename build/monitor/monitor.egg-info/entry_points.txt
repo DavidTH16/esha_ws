@@ -1,0 +1,9 @@
+[console_scripts]
+arm_monitor = monitor.arm_monitor:main
+camera_monitor = monitor.camera_monitor:main
+carbon_monoxide_monitor = monitor.carbon_monoxide_monitor:main
+distance_monitor = monitor.distance_monitor:main
+monitor = monitor.monitor:main
+motor_monitor = monitor.motor_monitor:main
+temperature_monitor = monitor.temperature_monitor:main
+tip_out_monitor = monitor.tip_out_monitor:main

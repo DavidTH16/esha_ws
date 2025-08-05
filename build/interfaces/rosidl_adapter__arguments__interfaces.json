@@ -1,0 +1,8 @@
+{
+  "package_name": "interfaces",
+  "non_idl_tuples": [
+    "/home/david/esha_ws/src/interfaces:msg/SensorData.msg",
+    "/home/david/esha_ws/src/interfaces:msg/CurrentVelocityData.msg",
+    "/home/david/esha_ws/src/interfaces:msg/ImuData.msg"
+  ]
+}

@@ -1,0 +1,9 @@
+[console_scripts]
+arm_current_node = inter_package.arm_current_node_talker:main
+camera_node = inter_package.camera_node_talker:main
+co_node = inter_package.co_node_talker:main
+imu_node = inter_package.imu_node_talker:main
+motor_current_node = inter_package.motor_current_node_talker:main
+temperature_node = inter_package.temperature_node_talker:main
+ultrasonic_node = inter_package.ultrasonic_node_talker:main
+velocity_node = inter_package.velocity_node_talker:main
