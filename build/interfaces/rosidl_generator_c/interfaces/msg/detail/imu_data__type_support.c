@@ -4,9 +4,9 @@
 
 #include <string.h>
 
-#include "rosidl_typesupport_interface/macros.h"
-#include "interfaces/msg/detail/imu_data__functions.h"
 #include "interfaces/msg/detail/imu_data__struct.h"
+#include "interfaces/msg/detail/imu_data__functions.h"
+#include "rosidl_typesupport_interface/macros.h"
 #include "interfaces/msg/detail/imu_data__type_support.h"
 
 #ifdef __cplusplus

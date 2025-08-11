@@ -4,8 +4,8 @@
 
 #include <string.h>
 
-#include "rosidl_typesupport_interface/macros.h"
 #include "interfaces/msg/detail/current_velocity_data__type_support.h"
+#include "rosidl_typesupport_interface/macros.h"
 #include "interfaces/msg/detail/current_velocity_data__struct.h"
 #include "interfaces/msg/detail/current_velocity_data__functions.h"
 

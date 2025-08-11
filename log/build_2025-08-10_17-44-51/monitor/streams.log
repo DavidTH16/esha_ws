@@ -1,0 +1,65 @@
+[1.229s] Invoking command in '/home/david/esha_ws/src/monitor': AMENT_PREFIX_PATH=/home/david/esha_ws/install/rosmonitoring_interfaces:/home/david/esha_ws/install/interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/david/esha_ws/install/rosmonitoring_interfaces:/home/david/esha_ws/install/interfaces:${CMAKE_PREFIX_PATH} DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/david/esha_ws/install/rosmonitoring_interfaces/lib:/home/david/esha_ws/install/interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/david/esha_ws/build/monitor/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/david/esha_ws/install/monitor/lib/python3.12/site-packages:/home/david/esha_ws/install/rosmonitoring_interfaces/lib/python3.12/site-packages:/home/david/esha_ws/install/interfaces/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/monitor build --build-base /home/david/esha_ws/build/monitor/build install --record /home/david/esha_ws/build/monitor/install.log --single-version-externally-managed install_data
+[1.621s] running egg_info
+[1.622s] creating ../../build/monitor/monitor.egg-info
+[1.653s] writing ../../build/monitor/monitor.egg-info/PKG-INFO
+[1.653s] writing dependency_links to ../../build/monitor/monitor.egg-info/dependency_links.txt
+[1.654s] writing entry points to ../../build/monitor/monitor.egg-info/entry_points.txt
+[1.654s] writing requirements to ../../build/monitor/monitor.egg-info/requires.txt
+[1.654s] writing top-level names to ../../build/monitor/monitor.egg-info/top_level.txt
+[1.654s] writing manifest file '../../build/monitor/monitor.egg-info/SOURCES.txt'
+[1.721s] reading manifest file '../../build/monitor/monitor.egg-info/SOURCES.txt'
+[1.722s] writing manifest file '../../build/monitor/monitor.egg-info/SOURCES.txt'
+[1.722s] running build
+[1.722s] running build_py
+[1.722s] creating /home/david/esha_ws/build/monitor/build
+[1.723s] creating /home/david/esha_ws/build/monitor/build/lib
+[1.723s] creating /home/david/esha_ws/build/monitor/build/lib/monitor
+[1.723s] copying monitor/temperature_monitor.py -> /home/david/esha_ws/build/monitor/build/lib/monitor
+[1.723s] copying monitor/tip_out_monitor.py -> /home/david/esha_ws/build/monitor/build/lib/monitor
+[1.724s] copying monitor/motor_monitor.py -> /home/david/esha_ws/build/monitor/build/lib/monitor
+[1.724s] copying monitor/arm_monitor.py -> /home/david/esha_ws/build/monitor/build/lib/monitor
+[1.724s] copying monitor/distance_monitor.py -> /home/david/esha_ws/build/monitor/build/lib/monitor
+[1.724s] copying monitor/monitor.py -> /home/david/esha_ws/build/monitor/build/lib/monitor
+[1.725s] copying monitor/__init__.py -> /home/david/esha_ws/build/monitor/build/lib/monitor
+[1.725s] copying monitor/carbon_monoxide_monitor.py -> /home/david/esha_ws/build/monitor/build/lib/monitor
+[1.725s] copying monitor/camera_monitor.py -> /home/david/esha_ws/build/monitor/build/lib/monitor
+[1.725s] running install
+[1.734s] running install_lib
+[1.768s] creating /home/david/esha_ws/install/monitor/lib/python3.12/site-packages/monitor
+[1.768s] copying /home/david/esha_ws/build/monitor/build/lib/monitor/temperature_monitor.py -> /home/david/esha_ws/install/monitor/lib/python3.12/site-packages/monitor
+[1.769s] copying /home/david/esha_ws/build/monitor/build/lib/monitor/tip_out_monitor.py -> /home/david/esha_ws/install/monitor/lib/python3.12/site-packages/monitor
+[1.769s] copying /home/david/esha_ws/build/monitor/build/lib/monitor/motor_monitor.py -> /home/david/esha_ws/install/monitor/lib/python3.12/site-packages/monitor
+[1.769s] copying /home/david/esha_ws/build/monitor/build/lib/monitor/arm_monitor.py -> /home/david/esha_ws/install/monitor/lib/python3.12/site-packages/monitor
+[1.769s] copying /home/david/esha_ws/build/monitor/build/lib/monitor/distance_monitor.py -> /home/david/esha_ws/install/monitor/lib/python3.12/site-packages/monitor
+[1.769s] copying /home/david/esha_ws/build/monitor/build/lib/monitor/monitor.py -> /home/david/esha_ws/install/monitor/lib/python3.12/site-packages/monitor
+[1.769s] copying /home/david/esha_ws/build/monitor/build/lib/monitor/__init__.py -> /home/david/esha_ws/install/monitor/lib/python3.12/site-packages/monitor
+[1.769s] copying /home/david/esha_ws/build/monitor/build/lib/monitor/carbon_monoxide_monitor.py -> /home/david/esha_ws/install/monitor/lib/python3.12/site-packages/monitor
+[1.769s] copying /home/david/esha_ws/build/monitor/build/lib/monitor/camera_monitor.py -> /home/david/esha_ws/install/monitor/lib/python3.12/site-packages/monitor
+[1.770s] byte-compiling /home/david/esha_ws/install/monitor/lib/python3.12/site-packages/monitor/temperature_monitor.py to temperature_monitor.cpython-312.pyc
+[1.772s] byte-compiling /home/david/esha_ws/install/monitor/lib/python3.12/site-packages/monitor/tip_out_monitor.py to tip_out_monitor.cpython-312.pyc
+[1.773s] byte-compiling /home/david/esha_ws/install/monitor/lib/python3.12/site-packages/monitor/motor_monitor.py to motor_monitor.cpython-312.pyc
+[1.775s] byte-compiling /home/david/esha_ws/install/monitor/lib/python3.12/site-packages/monitor/arm_monitor.py to arm_monitor.cpython-312.pyc
+[1.776s] byte-compiling /home/david/esha_ws/install/monitor/lib/python3.12/site-packages/monitor/distance_monitor.py to distance_monitor.cpython-312.pyc
+[1.777s] byte-compiling /home/david/esha_ws/install/monitor/lib/python3.12/site-packages/monitor/monitor.py to monitor.cpython-312.pyc
+[1.779s] byte-compiling /home/david/esha_ws/install/monitor/lib/python3.12/site-packages/monitor/__init__.py to __init__.cpython-312.pyc
+[1.779s] byte-compiling /home/david/esha_ws/install/monitor/lib/python3.12/site-packages/monitor/carbon_monoxide_monitor.py to carbon_monoxide_monitor.cpython-312.pyc
+[1.781s] byte-compiling /home/david/esha_ws/install/monitor/lib/python3.12/site-packages/monitor/camera_monitor.py to camera_monitor.cpython-312.pyc
+[1.782s] running install_data
+[1.783s] creating /home/david/esha_ws/install/monitor/share/ament_index
+[1.783s] creating /home/david/esha_ws/install/monitor/share/ament_index/resource_index
+[1.783s] creating /home/david/esha_ws/install/monitor/share/ament_index/resource_index/packages
+[1.783s] copying resource/monitor -> /home/david/esha_ws/install/monitor/share/ament_index/resource_index/packages
+[1.783s] copying package.xml -> /home/david/esha_ws/install/monitor/share/monitor
+[1.784s] running install_egg_info
+[1.819s] Copying ../../build/monitor/monitor.egg-info to /home/david/esha_ws/install/monitor/lib/python3.12/site-packages/monitor-0.0.0-py3.12.egg-info
+[1.820s] running install_scripts
+[2.024s] Installing arm_monitor script to /home/david/esha_ws/install/monitor/lib/monitor
+[2.024s] Installing camera_monitor script to /home/david/esha_ws/install/monitor/lib/monitor
+[2.024s] Installing carbon_monoxide_monitor script to /home/david/esha_ws/install/monitor/lib/monitor
+[2.024s] Installing distance_monitor script to /home/david/esha_ws/install/monitor/lib/monitor
+[2.024s] Installing monitor script to /home/david/esha_ws/install/monitor/lib/monitor
+[2.025s] Installing motor_monitor script to /home/david/esha_ws/install/monitor/lib/monitor
+[2.025s] Installing temperature_monitor script to /home/david/esha_ws/install/monitor/lib/monitor
+[2.025s] Installing tip_out_monitor script to /home/david/esha_ws/install/monitor/lib/monitor
+[2.025s] writing list of installed files to '/home/david/esha_ws/build/monitor/install.log'
+[2.065s] Invoked command in '/home/david/esha_ws/src/monitor' returned '0': AMENT_PREFIX_PATH=/home/david/esha_ws/install/rosmonitoring_interfaces:/home/david/esha_ws/install/interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/david/esha_ws/install/rosmonitoring_interfaces:/home/david/esha_ws/install/interfaces:${CMAKE_PREFIX_PATH} DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/david/esha_ws/install/rosmonitoring_interfaces/lib:/home/david/esha_ws/install/interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/david/esha_ws/build/monitor/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/david/esha_ws/install/monitor/lib/python3.12/site-packages:/home/david/esha_ws/install/rosmonitoring_interfaces/lib/python3.12/site-packages:/home/david/esha_ws/install/interfaces/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/monitor build --build-base /home/david/esha_ws/build/monitor/build install --record /home/david/esha_ws/build/monitor/install.log --single-version-externally-managed install_data

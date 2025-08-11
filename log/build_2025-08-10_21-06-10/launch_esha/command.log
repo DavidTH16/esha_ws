@@ -1,0 +1,4 @@
+Invoking command in '/home/david/esha_ws/build/launch_esha': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/david/esha_ws/build/launch_esha -- -j8 -l8
+Invoked command in '/home/david/esha_ws/build/launch_esha' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/david/esha_ws/build/launch_esha -- -j8 -l8
+Invoking command in '/home/david/esha_ws/build/launch_esha': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/david/esha_ws/build/launch_esha
+Invoked command in '/home/david/esha_ws/build/launch_esha' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/david/esha_ws/build/launch_esha

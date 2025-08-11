@@ -1,0 +1,1031 @@
+[0.000000] (-) TimerEvent: {}
+[0.000455] (inter_package) JobQueued: {'identifier': 'inter_package', 'dependencies': OrderedDict()}
+[0.000532] (interfaces) JobQueued: {'identifier': 'interfaces', 'dependencies': OrderedDict()}
+[0.000580] (launch_esha) JobQueued: {'identifier': 'launch_esha', 'dependencies': OrderedDict()}
+[0.000870] (rosmonitoring_interfaces) JobQueued: {'identifier': 'rosmonitoring_interfaces', 'dependencies': OrderedDict()}
+[0.000915] (monitor) JobQueued: {'identifier': 'monitor', 'dependencies': OrderedDict({'interfaces': '/home/david/esha_ws/install/interfaces', 'rosmonitoring_interfaces': '/home/david/esha_ws/install/rosmonitoring_interfaces'})}
+[0.001039] (interfaces) JobStarted: {'identifier': 'interfaces'}
+[0.099681] (-) TimerEvent: {}
+[0.200212] (-) TimerEvent: {}
+[0.238758] (rosmonitoring_interfaces) JobStarted: {'identifier': 'rosmonitoring_interfaces'}
+[0.244173] (inter_package) JobStarted: {'identifier': 'inter_package'}
+[0.300310] (-) TimerEvent: {}
+[0.353558] (launch_esha) JobStarted: {'identifier': 'launch_esha'}
+[0.378850] (interfaces) JobProgress: {'identifier': 'interfaces', 'progress': 'cmake'}
+[0.400425] (-) TimerEvent: {}
+[0.500737] (-) TimerEvent: {}
+[0.501702] (interfaces) JobProgress: {'identifier': 'interfaces', 'progress': 'build'}
+[0.503463] (interfaces) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/david/esha_ws/build/interfaces', '--', '-j8', '-l8'], 'cwd': '/home/david/esha_ws/build/interfaces', 'env': OrderedDict({'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'PYTHON_BASIC_REPL': '1', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'david', 'FONTCONFIG_PATH': '/etc/fonts', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'GIO_MODULE_DIR': '/home/david/snap/code/common/.cache/gio-modules', 'XDG_SESSION_TYPE': 'wayland', 'GIT_ASKPASS': '/snap/code/203/usr/share/code/resources/app/extensions/git/dist/askpass.sh', 'GTK_EXE_PREFIX_VSCODE_SNAP_ORIG': '', 'GDK_BACKEND_VSCODE_SNAP_ORIG': '', 'CLUTTER_DISABLE_MIPMAPPED_TEXT': '1', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/david', 'CHROME_DESKTOP': 'code.desktop', 'LOCPATH_VSCODE_SNAP_ORIG': '', 'OLDPWD': '/home/david', 'TERM_PROGRAM_VERSION': '1.103.0', 'DESKTOP_SESSION': 'ubuntu', 'GTK_PATH': '/snap/code/203/usr/lib/x86_64-linux-gnu/gtk-3.0', 'XDG_DATA_HOME_VSCODE_SNAP_ORIG': '', 'GTK_IM_MODULE_FILE': '/home/david/snap/code/common/.cache/immodules/immodules.cache', 'GIO_LAUNCHED_DESKTOP_FILE': '/var/lib/snapd/desktop/applications/code_code.desktop', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'GSETTINGS_SCHEMA_DIR_VSCODE_SNAP_ORIG': '', 'VSCODE_GIT_ASKPASS_MAIN': '/snap/code/203/usr/share/code/resources/app/extensions/git/dist/askpass-main.js', 'VSCODE_GIT_ASKPASS_NODE': '/snap/code/203/usr/share/code/code', 'MANAGERPID': '2730', 'PYDEVD_DISABLE_FILE_VALIDATION': '1', 'SYSTEMD_EXEC_PID': '3017', 'BUNDLED_DEBUGPY_PATH': '/home/david/.vscode/extensions/ms-python.debugpy-2025.10.0-linux-x64/bundled/libs/debugpy', 'IM_CONFIG_CHECK_ENV': '1', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '5257', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'david', 'JOURNAL_STREAM': '9:22024', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_CONFIG_DIRS_VSCODE_SNAP_ORIG': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.Shell@wayland.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'XDG_DATA_DIRS_VSCODE_SNAP_ORIG': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'USERNAME': 'david', 'TERM': 'xterm-256color', 'GAZEBO_MODEL_PATH': '/opt/ros/jazzy/share/', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'PATH': '/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/home/david/.local/bin:/home/david/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/david/.vscode/extensions/ms-python.debugpy-2025.10.0-linux-x64/bundled/scripts/noConfigScripts:/home/david/.config/Code/User/globalStorage/github.copilot-chat/debugCommand', 'SESSION_MANAGER': 'local/david-GT70-2PC:@/tmp/.ICE-unix/2969,unix/david-GT70-2PC:/tmp/.ICE-unix/2969', 'GTK_EXE_PREFIX': '/snap/code/203/usr', 'INVOCATION_ID': 'a079c1a249d74e32aa7bc7b5332e4819', 'XDG_MENU_PREFIX': 'gnome-', 'BAMF_DESKTOP_FILE_HINT': '/var/lib/snapd/desktop/applications/code_code.desktop', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'GDK_BACKEND': 'x11', 'DISPLAY': ':0', 'LOCPATH': '/snap/code/203/usr/lib/locale', 'VSCODE_DEBUGPY_ADAPTER_ENDPOINTS': '/home/david/.vscode/extensions/ms-python.debugpy-2025.10.0-linux-x64/.noConfigDebugAdapterEndpoints/endpoint-5aae6d035b5a0889.txt', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'Unity', 'PYTHONSTARTUP': '/home/david/.config/Code/User/workspaceStorage/448609b2c563b19d6a8dac78be2e5f4a/ms-python.python/pythonrc.py', 'GIO_MODULE_DIR_VSCODE_SNAP_ORIG': '', 'XDG_DATA_HOME': '/home/david/snap/code/203/.local/share', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.IHFSA3', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-a9bc49ff1c.sock', 'TERM_PROGRAM': 'vscode', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'GSETTINGS_SCHEMA_DIR': '/home/david/snap/code/203/.local/share/glib-2.0/schemas', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'ORIGINAL_XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GTK_PATH_VSCODE_SNAP_ORIG': '', 'IGN_GAZEBO_RESOURCE_PATH': '/opt/ros/jazzy/share', 'FONTCONFIG_FILE': '/etc/fonts/fonts.conf', 'GTK_IM_MODULE_FILE_VSCODE_SNAP_ORIG': '', 'GJS_DEBUG_OUTPUT': 'stderr', 'GSK_RENDERER': 'gl', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/david/esha_ws/build/interfaces', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/home/david/snap/code/203/.local/share:/home/david/snap/code/203:/snap/code/203/usr/share:/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'QTWEBENGINE_DICTIONARIES_PATH': '/usr/share/hunspell-bdic/', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[0.552448] (rosmonitoring_interfaces) JobProgress: {'identifier': 'rosmonitoring_interfaces', 'progress': 'cmake'}
+[0.568816] (rosmonitoring_interfaces) JobProgress: {'identifier': 'rosmonitoring_interfaces', 'progress': 'build'}
+[0.569476] (rosmonitoring_interfaces) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/david/esha_ws/build/rosmonitoring_interfaces', '--', '-j8', '-l8'], 'cwd': '/home/david/esha_ws/build/rosmonitoring_interfaces', 'env': OrderedDict({'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'PYTHON_BASIC_REPL': '1', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'david', 'FONTCONFIG_PATH': '/etc/fonts', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'GIO_MODULE_DIR': '/home/david/snap/code/common/.cache/gio-modules', 'XDG_SESSION_TYPE': 'wayland', 'GIT_ASKPASS': '/snap/code/203/usr/share/code/resources/app/extensions/git/dist/askpass.sh', 'GTK_EXE_PREFIX_VSCODE_SNAP_ORIG': '', 'GDK_BACKEND_VSCODE_SNAP_ORIG': '', 'CLUTTER_DISABLE_MIPMAPPED_TEXT': '1', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/david', 'CHROME_DESKTOP': 'code.desktop', 'LOCPATH_VSCODE_SNAP_ORIG': '', 'OLDPWD': '/home/david', 'TERM_PROGRAM_VERSION': '1.103.0', 'DESKTOP_SESSION': 'ubuntu', 'GTK_PATH': '/snap/code/203/usr/lib/x86_64-linux-gnu/gtk-3.0', 'XDG_DATA_HOME_VSCODE_SNAP_ORIG': '', 'GTK_IM_MODULE_FILE': '/home/david/snap/code/common/.cache/immodules/immodules.cache', 'GIO_LAUNCHED_DESKTOP_FILE': '/var/lib/snapd/desktop/applications/code_code.desktop', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'GSETTINGS_SCHEMA_DIR_VSCODE_SNAP_ORIG': '', 'VSCODE_GIT_ASKPASS_MAIN': '/snap/code/203/usr/share/code/resources/app/extensions/git/dist/askpass-main.js', 'VSCODE_GIT_ASKPASS_NODE': '/snap/code/203/usr/share/code/code', 'MANAGERPID': '2730', 'PYDEVD_DISABLE_FILE_VALIDATION': '1', 'SYSTEMD_EXEC_PID': '3017', 'BUNDLED_DEBUGPY_PATH': '/home/david/.vscode/extensions/ms-python.debugpy-2025.10.0-linux-x64/bundled/libs/debugpy', 'IM_CONFIG_CHECK_ENV': '1', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '5257', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'david', 'JOURNAL_STREAM': '9:22024', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_CONFIG_DIRS_VSCODE_SNAP_ORIG': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.Shell@wayland.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'XDG_DATA_DIRS_VSCODE_SNAP_ORIG': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'USERNAME': 'david', 'TERM': 'xterm-256color', 'GAZEBO_MODEL_PATH': '/opt/ros/jazzy/share/', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'PATH': '/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/home/david/.local/bin:/home/david/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/david/.vscode/extensions/ms-python.debugpy-2025.10.0-linux-x64/bundled/scripts/noConfigScripts:/home/david/.config/Code/User/globalStorage/github.copilot-chat/debugCommand', 'SESSION_MANAGER': 'local/david-GT70-2PC:@/tmp/.ICE-unix/2969,unix/david-GT70-2PC:/tmp/.ICE-unix/2969', 'GTK_EXE_PREFIX': '/snap/code/203/usr', 'INVOCATION_ID': 'a079c1a249d74e32aa7bc7b5332e4819', 'XDG_MENU_PREFIX': 'gnome-', 'BAMF_DESKTOP_FILE_HINT': '/var/lib/snapd/desktop/applications/code_code.desktop', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'GDK_BACKEND': 'x11', 'DISPLAY': ':0', 'LOCPATH': '/snap/code/203/usr/lib/locale', 'VSCODE_DEBUGPY_ADAPTER_ENDPOINTS': '/home/david/.vscode/extensions/ms-python.debugpy-2025.10.0-linux-x64/.noConfigDebugAdapterEndpoints/endpoint-5aae6d035b5a0889.txt', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'Unity', 'PYTHONSTARTUP': '/home/david/.config/Code/User/workspaceStorage/448609b2c563b19d6a8dac78be2e5f4a/ms-python.python/pythonrc.py', 'GIO_MODULE_DIR_VSCODE_SNAP_ORIG': '', 'XDG_DATA_HOME': '/home/david/snap/code/203/.local/share', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.IHFSA3', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-a9bc49ff1c.sock', 'TERM_PROGRAM': 'vscode', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'GSETTINGS_SCHEMA_DIR': '/home/david/snap/code/203/.local/share/glib-2.0/schemas', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'ORIGINAL_XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GTK_PATH_VSCODE_SNAP_ORIG': '', 'IGN_GAZEBO_RESOURCE_PATH': '/opt/ros/jazzy/share', 'FONTCONFIG_FILE': '/etc/fonts/fonts.conf', 'GTK_IM_MODULE_FILE_VSCODE_SNAP_ORIG': '', 'GJS_DEBUG_OUTPUT': 'stderr', 'GSK_RENDERER': 'gl', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/david/esha_ws/build/rosmonitoring_interfaces', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/home/david/snap/code/203/.local/share:/home/david/snap/code/203:/snap/code/203/usr/share:/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'QTWEBENGINE_DICTIONARIES_PATH': '/usr/share/hunspell-bdic/', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[0.600858] (-) TimerEvent: {}
+[0.701227] (-) TimerEvent: {}
+[0.801637] (-) TimerEvent: {}
+[0.902283] (-) TimerEvent: {}
+[1.002620] (-) TimerEvent: {}
+[1.103000] (-) TimerEvent: {}
+[1.203509] (-) TimerEvent: {}
+[1.303827] (-) TimerEvent: {}
+[1.404207] (-) TimerEvent: {}
+[1.504538] (-) TimerEvent: {}
+[1.593992] (launch_esha) JobProgress: {'identifier': 'launch_esha', 'progress': 'cmake'}
+[1.604664] (-) TimerEvent: {}
+[1.704956] (-) TimerEvent: {}
+[1.805384] (-) TimerEvent: {}
+[1.906061] (-) TimerEvent: {}
+[1.944266] (launch_esha) JobProgress: {'identifier': 'launch_esha', 'progress': 'build'}
+[1.944807] (launch_esha) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/david/esha_ws/build/launch_esha', '--', '-j8', '-l8'], 'cwd': '/home/david/esha_ws/build/launch_esha', 'env': OrderedDict({'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'PYTHON_BASIC_REPL': '1', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'david', 'FONTCONFIG_PATH': '/etc/fonts', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'GIO_MODULE_DIR': '/home/david/snap/code/common/.cache/gio-modules', 'XDG_SESSION_TYPE': 'wayland', 'GIT_ASKPASS': '/snap/code/203/usr/share/code/resources/app/extensions/git/dist/askpass.sh', 'GTK_EXE_PREFIX_VSCODE_SNAP_ORIG': '', 'GDK_BACKEND_VSCODE_SNAP_ORIG': '', 'CLUTTER_DISABLE_MIPMAPPED_TEXT': '1', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/david', 'CHROME_DESKTOP': 'code.desktop', 'LOCPATH_VSCODE_SNAP_ORIG': '', 'OLDPWD': '/home/david', 'TERM_PROGRAM_VERSION': '1.103.0', 'DESKTOP_SESSION': 'ubuntu', 'GTK_PATH': '/snap/code/203/usr/lib/x86_64-linux-gnu/gtk-3.0', 'XDG_DATA_HOME_VSCODE_SNAP_ORIG': '', 'GTK_IM_MODULE_FILE': '/home/david/snap/code/common/.cache/immodules/immodules.cache', 'GIO_LAUNCHED_DESKTOP_FILE': '/var/lib/snapd/desktop/applications/code_code.desktop', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'GSETTINGS_SCHEMA_DIR_VSCODE_SNAP_ORIG': '', 'VSCODE_GIT_ASKPASS_MAIN': '/snap/code/203/usr/share/code/resources/app/extensions/git/dist/askpass-main.js', 'VSCODE_GIT_ASKPASS_NODE': '/snap/code/203/usr/share/code/code', 'MANAGERPID': '2730', 'PYDEVD_DISABLE_FILE_VALIDATION': '1', 'SYSTEMD_EXEC_PID': '3017', 'BUNDLED_DEBUGPY_PATH': '/home/david/.vscode/extensions/ms-python.debugpy-2025.10.0-linux-x64/bundled/libs/debugpy', 'IM_CONFIG_CHECK_ENV': '1', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '5257', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'david', 'JOURNAL_STREAM': '9:22024', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_CONFIG_DIRS_VSCODE_SNAP_ORIG': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.Shell@wayland.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'XDG_DATA_DIRS_VSCODE_SNAP_ORIG': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'USERNAME': 'david', 'TERM': 'xterm-256color', 'GAZEBO_MODEL_PATH': '/opt/ros/jazzy/share/', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'PATH': '/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/home/david/.local/bin:/home/david/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/david/.vscode/extensions/ms-python.debugpy-2025.10.0-linux-x64/bundled/scripts/noConfigScripts:/home/david/.config/Code/User/globalStorage/github.copilot-chat/debugCommand', 'SESSION_MANAGER': 'local/david-GT70-2PC:@/tmp/.ICE-unix/2969,unix/david-GT70-2PC:/tmp/.ICE-unix/2969', 'GTK_EXE_PREFIX': '/snap/code/203/usr', 'INVOCATION_ID': 'a079c1a249d74e32aa7bc7b5332e4819', 'XDG_MENU_PREFIX': 'gnome-', 'BAMF_DESKTOP_FILE_HINT': '/var/lib/snapd/desktop/applications/code_code.desktop', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'GDK_BACKEND': 'x11', 'DISPLAY': ':0', 'LOCPATH': '/snap/code/203/usr/lib/locale', 'VSCODE_DEBUGPY_ADAPTER_ENDPOINTS': '/home/david/.vscode/extensions/ms-python.debugpy-2025.10.0-linux-x64/.noConfigDebugAdapterEndpoints/endpoint-5aae6d035b5a0889.txt', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'Unity', 'PYTHONSTARTUP': '/home/david/.config/Code/User/workspaceStorage/448609b2c563b19d6a8dac78be2e5f4a/ms-python.python/pythonrc.py', 'GIO_MODULE_DIR_VSCODE_SNAP_ORIG': '', 'XDG_DATA_HOME': '/home/david/snap/code/203/.local/share', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.IHFSA3', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-a9bc49ff1c.sock', 'TERM_PROGRAM': 'vscode', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'GSETTINGS_SCHEMA_DIR': '/home/david/snap/code/203/.local/share/glib-2.0/schemas', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'ORIGINAL_XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GTK_PATH_VSCODE_SNAP_ORIG': '', 'IGN_GAZEBO_RESOURCE_PATH': '/opt/ros/jazzy/share', 'FONTCONFIG_FILE': '/etc/fonts/fonts.conf', 'GTK_IM_MODULE_FILE_VSCODE_SNAP_ORIG': '', 'GJS_DEBUG_OUTPUT': 'stderr', 'GSK_RENDERER': 'gl', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/david/esha_ws/build/launch_esha', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/home/david/snap/code/203/.local/share:/home/david/snap/code/203:/snap/code/203/usr/share:/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'QTWEBENGINE_DICTIONARIES_PATH': '/usr/share/hunspell-bdic/', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[2.006172] (-) TimerEvent: {}
+[2.106583] (-) TimerEvent: {}
+[2.206912] (-) TimerEvent: {}
+[2.307198] (-) TimerEvent: {}
+[2.407499] (-) TimerEvent: {}
+[2.507874] (-) TimerEvent: {}
+[2.608215] (-) TimerEvent: {}
+[2.708518] (-) TimerEvent: {}
+[2.808973] (-) TimerEvent: {}
+[2.909479] (-) TimerEvent: {}
+[3.009857] (-) TimerEvent: {}
+[3.110238] (-) TimerEvent: {}
+[3.210822] (-) TimerEvent: {}
+[3.284459] (rosmonitoring_interfaces) StdoutLine: {'line': b'[  2%] Built target rosmonitoring_interfaces__rosidl_generator_type_description\n'}
+[3.284771] (interfaces) StdoutLine: {'line': b'[  1%] Built target interfaces__rosidl_generator_type_description\n'}
+[3.310967] (-) TimerEvent: {}
+[3.411273] (-) TimerEvent: {}
+[3.511586] (-) TimerEvent: {}
+[3.611928] (-) TimerEvent: {}
+[3.712434] (-) TimerEvent: {}
+[3.812948] (-) TimerEvent: {}
+[3.905499] (rosmonitoring_interfaces) StdoutLine: {'line': b'[  2%] Built target ament_cmake_python_copy_rosmonitoring_interfaces\n'}
+[3.913040] (-) TimerEvent: {}
+[4.013341] (-) TimerEvent: {}
+[4.113647] (-) TimerEvent: {}
+[4.116590] (interfaces) StdoutLine: {'line': b'[  1%] Built target ament_cmake_python_copy_interfaces\n'}
+[4.213905] (-) TimerEvent: {}
+[4.314394] (-) TimerEvent: {}
+[4.414808] (-) TimerEvent: {}
+[4.515317] (-) TimerEvent: {}
+[4.615762] (-) TimerEvent: {}
+[4.697296] (rosmonitoring_interfaces) StdoutLine: {'line': b'[ 17%] Built target rosmonitoring_interfaces__rosidl_generator_c\n'}
+[4.697499] (interfaces) StdoutLine: {'line': b'[ 22%] Built target interfaces__rosidl_generator_c\n'}
+[4.715890] (-) TimerEvent: {}
+[4.816345] (-) TimerEvent: {}
+[4.916720] (-) TimerEvent: {}
+[5.016970] (-) TimerEvent: {}
+[5.117257] (-) TimerEvent: {}
+[5.217875] (-) TimerEvent: {}
+[5.318451] (-) TimerEvent: {}
+[5.419089] (-) TimerEvent: {}
+[5.519387] (-) TimerEvent: {}
+[5.619655] (-) TimerEvent: {}
+[5.719968] (-) TimerEvent: {}
+[5.820358] (-) TimerEvent: {}
+[5.921006] (-) TimerEvent: {}
+[6.021783] (-) TimerEvent: {}
+[6.122246] (-) TimerEvent: {}
+[6.223024] (-) TimerEvent: {}
+[6.307306] (launch_esha) StdoutLine: {'line': b'-- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)\n'}
+[6.323167] (-) TimerEvent: {}
+[6.423606] (-) TimerEvent: {}
+[6.463756] (rosmonitoring_interfaces) StdoutLine: {'line': b'running egg_info\n'}
+[6.464105] (interfaces) StdoutLine: {'line': b'running egg_info\n'}
+[6.500098] (rosmonitoring_interfaces) StdoutLine: {'line': b'writing rosmonitoring_interfaces.egg-info/PKG-INFO\n'}
+[6.500340] (rosmonitoring_interfaces) StdoutLine: {'line': b'writing dependency_links to rosmonitoring_interfaces.egg-info/dependency_links.txt\n'}
+[6.500663] (rosmonitoring_interfaces) StdoutLine: {'line': b'writing top-level names to rosmonitoring_interfaces.egg-info/top_level.txt\n'}
+[6.510540] (interfaces) StdoutLine: {'line': b'writing interfaces.egg-info/PKG-INFO\n'}
+[6.510813] (interfaces) StdoutLine: {'line': b'writing dependency_links to interfaces.egg-info/dependency_links.txt\n'}
+[6.510989] (interfaces) StdoutLine: {'line': b'writing top-level names to interfaces.egg-info/top_level.txt\n'}
+[6.523698] (-) TimerEvent: {}
+[6.590713] (rosmonitoring_interfaces) StdoutLine: {'line': b"reading manifest file 'rosmonitoring_interfaces.egg-info/SOURCES.txt'\n"}
+[6.599730] (interfaces) StdoutLine: {'line': b"reading manifest file 'interfaces.egg-info/SOURCES.txt'\n"}
+[6.605933] (rosmonitoring_interfaces) StdoutLine: {'line': b"writing manifest file 'rosmonitoring_interfaces.egg-info/SOURCES.txt'\n"}
+[6.623812] (-) TimerEvent: {}
+[6.638069] (interfaces) StdoutLine: {'line': b"writing manifest file 'interfaces.egg-info/SOURCES.txt'\n"}
+[6.643197] (rosmonitoring_interfaces) StdoutLine: {'line': b'[ 17%] Built target ament_cmake_python_build_rosmonitoring_interfaces_egg\n'}
+[6.679783] (interfaces) StdoutLine: {'line': b'[ 22%] Built target ament_cmake_python_build_interfaces_egg\n'}
+[6.723891] (-) TimerEvent: {}
+[6.824214] (-) TimerEvent: {}
+[6.924568] (-) TimerEvent: {}
+[6.995319] (rosmonitoring_interfaces) StdoutLine: {'line': b'[ 26%] Built target rosmonitoring_interfaces__rosidl_typesupport_c\n'}
+[6.995546] (interfaces) StdoutLine: {'line': b'[ 31%] Built target interfaces__rosidl_typesupport_c\n'}
+[7.024698] (-) TimerEvent: {}
+[7.125099] (-) TimerEvent: {}
+[7.216746] (rosmonitoring_interfaces) StdoutLine: {'line': b'[ 35%] Built target rosmonitoring_interfaces__rosidl_typesupport_introspection_c\n'}
+[7.225200] (-) TimerEvent: {}
+[7.325572] (-) TimerEvent: {}
+[7.425898] (-) TimerEvent: {}
+[7.500198] (rosmonitoring_interfaces) StdoutLine: {'line': b'[ 44%] Built target rosmonitoring_interfaces__rosidl_typesupport_fastrtps_c\n'}
+[7.507933] (interfaces) StdoutLine: {'line': b'[ 40%] Built target interfaces__rosidl_typesupport_introspection_c\n'}
+[7.526021] (-) TimerEvent: {}
+[7.586745] (rosmonitoring_interfaces) StdoutLine: {'line': b'[ 47%] Built target rosmonitoring_interfaces__cpp\n'}
+[7.626159] (-) TimerEvent: {}
+[7.726611] (-) TimerEvent: {}
+[7.768958] (rosmonitoring_interfaces) StdoutLine: {'line': b'[ 55%] Built target rosmonitoring_interfaces__rosidl_typesupport_cpp\n'}
+[7.826735] (-) TimerEvent: {}
+[7.927079] (-) TimerEvent: {}
+[8.020957] (interfaces) StdoutLine: {'line': b'[ 50%] Built target interfaces__rosidl_typesupport_fastrtps_c\n'}
+[8.027205] (-) TimerEvent: {}
+[8.127521] (-) TimerEvent: {}
+[8.227947] (-) TimerEvent: {}
+[8.328531] (-) TimerEvent: {}
+[8.362563] (interfaces) StdoutLine: {'line': b'[ 51%] Built target interfaces__cpp\n'}
+[8.428679] (-) TimerEvent: {}
+[8.529071] (-) TimerEvent: {}
+[8.629544] (-) TimerEvent: {}
+[8.664108] (rosmonitoring_interfaces) StdoutLine: {'line': b'[ 64%] Built target rosmonitoring_interfaces__rosidl_typesupport_introspection_cpp\n'}
+[8.729679] (-) TimerEvent: {}
+[8.830258] (-) TimerEvent: {}
+[8.930586] (-) TimerEvent: {}
+[9.030894] (-) TimerEvent: {}
+[9.131259] (-) TimerEvent: {}
+[9.231637] (-) TimerEvent: {}
+[9.331974] (-) TimerEvent: {}
+[9.432365] (-) TimerEvent: {}
+[9.466998] (interfaces) StdoutLine: {'line': b'[ 61%] Built target interfaces__rosidl_typesupport_fastrtps_cpp\n'}
+[9.532477] (-) TimerEvent: {}
+[9.632858] (-) TimerEvent: {}
+[9.711373] (rosmonitoring_interfaces) StdoutLine: {'line': b'[ 73%] Built target rosmonitoring_interfaces__rosidl_typesupport_fastrtps_cpp\n'}
+[9.732959] (-) TimerEvent: {}
+[9.833324] (-) TimerEvent: {}
+[9.899141] (rosmonitoring_interfaces) StdoutLine: {'line': b'[ 73%] Built target rosmonitoring_interfaces\n'}
+[9.933496] (-) TimerEvent: {}
+[9.975912] (interfaces) StdoutLine: {'line': b'[ 70%] Built target interfaces__rosidl_typesupport_cpp\n'}
+[10.033626] (-) TimerEvent: {}
+[10.134097] (-) TimerEvent: {}
+[10.172115] (rosmonitoring_interfaces) StdoutLine: {'line': b'[ 76%] Built target rosmonitoring_interfaces__py\n'}
+[10.234313] (-) TimerEvent: {}
+[10.334884] (-) TimerEvent: {}
+[10.375951] (rosmonitoring_interfaces) StdoutLine: {'line': b'[ 82%] Built target rosmonitoring_interfaces__rosidl_generator_py\n'}
+[10.435007] (-) TimerEvent: {}
+[10.535423] (-) TimerEvent: {}
+[10.635753] (-) TimerEvent: {}
+[10.651037] (rosmonitoring_interfaces) StdoutLine: {'line': b'[ 88%] Built target rosmonitoring_interfaces_s__rosidl_typesupport_fastrtps_c\n'}
+[10.735879] (-) TimerEvent: {}
+[10.743210] (rosmonitoring_interfaces) StdoutLine: {'line': b'[ 94%] Built target rosmonitoring_interfaces_s__rosidl_typesupport_c\n'}
+[10.835974] (-) TimerEvent: {}
+[10.936254] (-) TimerEvent: {}
+[11.036532] (-) TimerEvent: {}
+[11.054268] (interfaces) StdoutLine: {'line': b'[ 79%] Built target interfaces__rosidl_typesupport_introspection_cpp\n'}
+[11.060319] (rosmonitoring_interfaces) StdoutLine: {'line': b'[100%] Built target rosmonitoring_interfaces_s__rosidl_typesupport_introspection_c\n'}
+[11.076213] (rosmonitoring_interfaces) CommandEnded: {'returncode': 0}
+[11.136641] (-) TimerEvent: {}
+[11.209661] (interfaces) StdoutLine: {'line': b'[ 79%] Built target interfaces\n'}
+[11.236762] (-) TimerEvent: {}
+[11.337072] (-) TimerEvent: {}
+[11.437361] (-) TimerEvent: {}
+[11.537721] (-) TimerEvent: {}
+[11.638302] (-) TimerEvent: {}
+[11.738936] (-) TimerEvent: {}
+[11.839374] (-) TimerEvent: {}
+[11.916810] (rosmonitoring_interfaces) JobProgress: {'identifier': 'rosmonitoring_interfaces', 'progress': 'install'}
+[11.928733] (rosmonitoring_interfaces) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/david/esha_ws/build/rosmonitoring_interfaces'], 'cwd': '/home/david/esha_ws/build/rosmonitoring_interfaces', 'env': OrderedDict({'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'PYTHON_BASIC_REPL': '1', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'david', 'FONTCONFIG_PATH': '/etc/fonts', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'GIO_MODULE_DIR': '/home/david/snap/code/common/.cache/gio-modules', 'XDG_SESSION_TYPE': 'wayland', 'GIT_ASKPASS': '/snap/code/203/usr/share/code/resources/app/extensions/git/dist/askpass.sh', 'GTK_EXE_PREFIX_VSCODE_SNAP_ORIG': '', 'GDK_BACKEND_VSCODE_SNAP_ORIG': '', 'CLUTTER_DISABLE_MIPMAPPED_TEXT': '1', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/david', 'CHROME_DESKTOP': 'code.desktop', 'LOCPATH_VSCODE_SNAP_ORIG': '', 'OLDPWD': '/home/david', 'TERM_PROGRAM_VERSION': '1.103.0', 'DESKTOP_SESSION': 'ubuntu', 'GTK_PATH': '/snap/code/203/usr/lib/x86_64-linux-gnu/gtk-3.0', 'XDG_DATA_HOME_VSCODE_SNAP_ORIG': '', 'GTK_IM_MODULE_FILE': '/home/david/snap/code/common/.cache/immodules/immodules.cache', 'GIO_LAUNCHED_DESKTOP_FILE': '/var/lib/snapd/desktop/applications/code_code.desktop', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'GSETTINGS_SCHEMA_DIR_VSCODE_SNAP_ORIG': '', 'VSCODE_GIT_ASKPASS_MAIN': '/snap/code/203/usr/share/code/resources/app/extensions/git/dist/askpass-main.js', 'VSCODE_GIT_ASKPASS_NODE': '/snap/code/203/usr/share/code/code', 'MANAGERPID': '2730', 'PYDEVD_DISABLE_FILE_VALIDATION': '1', 'SYSTEMD_EXEC_PID': '3017', 'BUNDLED_DEBUGPY_PATH': '/home/david/.vscode/extensions/ms-python.debugpy-2025.10.0-linux-x64/bundled/libs/debugpy', 'IM_CONFIG_CHECK_ENV': '1', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '5257', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'david', 'JOURNAL_STREAM': '9:22024', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_CONFIG_DIRS_VSCODE_SNAP_ORIG': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.Shell@wayland.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'XDG_DATA_DIRS_VSCODE_SNAP_ORIG': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'USERNAME': 'david', 'TERM': 'xterm-256color', 'GAZEBO_MODEL_PATH': '/opt/ros/jazzy/share/', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'PATH': '/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/home/david/.local/bin:/home/david/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/david/.vscode/extensions/ms-python.debugpy-2025.10.0-linux-x64/bundled/scripts/noConfigScripts:/home/david/.config/Code/User/globalStorage/github.copilot-chat/debugCommand', 'SESSION_MANAGER': 'local/david-GT70-2PC:@/tmp/.ICE-unix/2969,unix/david-GT70-2PC:/tmp/.ICE-unix/2969', 'GTK_EXE_PREFIX': '/snap/code/203/usr', 'INVOCATION_ID': 'a079c1a249d74e32aa7bc7b5332e4819', 'XDG_MENU_PREFIX': 'gnome-', 'BAMF_DESKTOP_FILE_HINT': '/var/lib/snapd/desktop/applications/code_code.desktop', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'GDK_BACKEND': 'x11', 'DISPLAY': ':0', 'LOCPATH': '/snap/code/203/usr/lib/locale', 'VSCODE_DEBUGPY_ADAPTER_ENDPOINTS': '/home/david/.vscode/extensions/ms-python.debugpy-2025.10.0-linux-x64/.noConfigDebugAdapterEndpoints/endpoint-5aae6d035b5a0889.txt', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'Unity', 'PYTHONSTARTUP': '/home/david/.config/Code/User/workspaceStorage/448609b2c563b19d6a8dac78be2e5f4a/ms-python.python/pythonrc.py', 'GIO_MODULE_DIR_VSCODE_SNAP_ORIG': '', 'XDG_DATA_HOME': '/home/david/snap/code/203/.local/share', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.IHFSA3', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-a9bc49ff1c.sock', 'TERM_PROGRAM': 'vscode', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'GSETTINGS_SCHEMA_DIR': '/home/david/snap/code/203/.local/share/glib-2.0/schemas', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'ORIGINAL_XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GTK_PATH_VSCODE_SNAP_ORIG': '', 'IGN_GAZEBO_RESOURCE_PATH': '/opt/ros/jazzy/share', 'FONTCONFIG_FILE': '/etc/fonts/fonts.conf', 'GTK_IM_MODULE_FILE_VSCODE_SNAP_ORIG': '', 'GJS_DEBUG_OUTPUT': 'stderr', 'GSK_RENDERER': 'gl', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/david/esha_ws/build/rosmonitoring_interfaces', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/home/david/snap/code/203/.local/share:/home/david/snap/code/203:/snap/code/203/usr/share:/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'QTWEBENGINE_DICTIONARIES_PATH': '/usr/share/hunspell-bdic/', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[11.939501] (-) TimerEvent: {}
+[11.996344] (rosmonitoring_interfaces) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[11.997058] (rosmonitoring_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/david/esha_ws/install/rosmonitoring_interfaces/share/ament_index/resource_index/rosidl_interfaces/rosmonitoring_interfaces\n'}
+[11.997259] (rosmonitoring_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/david/esha_ws/install/rosmonitoring_interfaces/share/rosmonitoring_interfaces/msg/MonitorError.json\n'}
+[11.997419] (rosmonitoring_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/david/esha_ws/install/rosmonitoring_interfaces/include/rosmonitoring_interfaces/rosmonitoring_interfaces\n'}
+[11.997677] (rosmonitoring_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/david/esha_ws/install/rosmonitoring_interfaces/include/rosmonitoring_interfaces/rosmonitoring_interfaces/msg\n'}
+[11.997802] (rosmonitoring_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/david/esha_ws/install/rosmonitoring_interfaces/include/rosmonitoring_interfaces/rosmonitoring_interfaces/msg/detail\n'}
+[11.997929] (rosmonitoring_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/david/esha_ws/install/rosmonitoring_interfaces/include/rosmonitoring_interfaces/rosmonitoring_interfaces/msg/detail/monitor_error__type_support.c\n'}
+[11.998037] (rosmonitoring_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/david/esha_ws/install/rosmonitoring_interfaces/include/rosmonitoring_interfaces/rosmonitoring_interfaces/msg/detail/monitor_error__functions.h\n'}
+[11.998140] (rosmonitoring_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/david/esha_ws/install/rosmonitoring_interfaces/include/rosmonitoring_interfaces/rosmonitoring_interfaces/msg/detail/monitor_error__functions.c\n'}
+[11.998243] (rosmonitoring_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/david/esha_ws/install/rosmonitoring_interfaces/include/rosmonitoring_interfaces/rosmonitoring_interfaces/msg/detail/monitor_error__description.c\n'}
+[11.998345] (rosmonitoring_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/david/esha_ws/install/rosmonitoring_interfaces/include/rosmonitoring_interfaces/rosmonitoring_interfaces/msg/detail/monitor_error__type_support.h\n'}
+[11.998459] (rosmonitoring_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/david/esha_ws/install/rosmonitoring_interfaces/include/rosmonitoring_interfaces/rosmonitoring_interfaces/msg/detail/monitor_error__struct.h\n'}
+[11.998569] (rosmonitoring_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/david/esha_ws/install/rosmonitoring_interfaces/include/rosmonitoring_interfaces/rosmonitoring_interfaces/msg/monitor_error.h\n'}
+[11.998671] (rosmonitoring_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/david/esha_ws/install/rosmonitoring_interfaces/include/rosmonitoring_interfaces/rosmonitoring_interfaces/msg/rosidl_generator_c__visibility_control.h\n'}
+[11.998782] (rosmonitoring_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/david/esha_ws/install/rosmonitoring_interfaces/share/rosmonitoring_interfaces/environment/library_path.sh\n'}
+[11.998916] (rosmonitoring_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/david/esha_ws/install/rosmonitoring_interfaces/share/rosmonitoring_interfaces/environment/library_path.dsv\n'}
+[12.031128] (rosmonitoring_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/david/esha_ws/install/rosmonitoring_interfaces/lib/librosmonitoring_interfaces__rosidl_generator_c.so\n'}
+[12.031476] (rosmonitoring_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/david/esha_ws/install/rosmonitoring_interfaces/include/rosmonitoring_interfaces/rosmonitoring_interfaces\n'}
+[12.031718] (rosmonitoring_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/david/esha_ws/install/rosmonitoring_interfaces/include/rosmonitoring_interfaces/rosmonitoring_interfaces/msg\n'}
+[12.031858] (rosmonitoring_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/david/esha_ws/install/rosmonitoring_interfaces/include/rosmonitoring_interfaces/rosmonitoring_interfaces/msg/detail\n'}
+[12.031942] (rosmonitoring_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/david/esha_ws/install/rosmonitoring_interfaces/include/rosmonitoring_interfaces/rosmonitoring_interfaces/msg/detail/monitor_error__rosidl_typesupport_fastrtps_c.h\n'}
+[12.032015] (rosmonitoring_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/david/esha_ws/install/rosmonitoring_interfaces/include/rosmonitoring_interfaces/rosmonitoring_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[12.039618] (-) TimerEvent: {}
+[12.054547] (interfaces) StdoutLine: {'line': b'[ 81%] Built target interfaces__py\n'}
+[12.139817] (-) TimerEvent: {}
+[12.240508] (-) TimerEvent: {}
+[12.264129] (rosmonitoring_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/david/esha_ws/install/rosmonitoring_interfaces/lib/librosmonitoring_interfaces__rosidl_typesupport_fastrtps_c.so\n'}
+[12.264675] (rosmonitoring_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/david/esha_ws/install/rosmonitoring_interfaces/include/rosmonitoring_interfaces/rosmonitoring_interfaces\n'}
+[12.264987] (rosmonitoring_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/david/esha_ws/install/rosmonitoring_interfaces/include/rosmonitoring_interfaces/rosmonitoring_interfaces/msg\n'}
+[12.265270] (rosmonitoring_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/david/esha_ws/install/rosmonitoring_interfaces/include/rosmonitoring_interfaces/rosmonitoring_interfaces/msg/detail\n'}
+[12.265493] (rosmonitoring_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/david/esha_ws/install/rosmonitoring_interfaces/include/rosmonitoring_interfaces/rosmonitoring_interfaces/msg/detail/monitor_error__type_support.c\n'}
+[12.265635] (rosmonitoring_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/david/esha_ws/install/rosmonitoring_interfaces/include/rosmonitoring_interfaces/rosmonitoring_interfaces/msg/detail/monitor_error__rosidl_typesupport_introspection_c.h\n'}
+[12.265770] (rosmonitoring_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/david/esha_ws/install/rosmonitoring_interfaces/include/rosmonitoring_interfaces/rosmonitoring_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[12.276543] (rosmonitoring_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/david/esha_ws/install/rosmonitoring_interfaces/lib/librosmonitoring_interfaces__rosidl_typesupport_introspection_c.so\n'}
+[12.277401] (rosmonitoring_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/david/esha_ws/install/rosmonitoring_interfaces/lib/librosmonitoring_interfaces__rosidl_typesupport_c.so\n'}
+[12.277688] (rosmonitoring_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/david/esha_ws/install/rosmonitoring_interfaces/include/rosmonitoring_interfaces/rosmonitoring_interfaces\n'}
+[12.277799] (rosmonitoring_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/david/esha_ws/install/rosmonitoring_interfaces/include/rosmonitoring_interfaces/rosmonitoring_interfaces/msg\n'}
+[12.277930] (rosmonitoring_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/david/esha_ws/install/rosmonitoring_interfaces/include/rosmonitoring_interfaces/rosmonitoring_interfaces/msg/detail\n'}
+[12.278050] (rosmonitoring_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/david/esha_ws/install/rosmonitoring_interfaces/include/rosmonitoring_interfaces/rosmonitoring_interfaces/msg/detail/monitor_error__traits.hpp\n'}
+[12.278168] (rosmonitoring_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/david/esha_ws/install/rosmonitoring_interfaces/include/rosmonitoring_interfaces/rosmonitoring_interfaces/msg/detail/monitor_error__builder.hpp\n'}
+[12.278261] (rosmonitoring_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/david/esha_ws/install/rosmonitoring_interfaces/include/rosmonitoring_interfaces/rosmonitoring_interfaces/msg/detail/monitor_error__struct.hpp\n'}
+[12.278357] (rosmonitoring_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/david/esha_ws/install/rosmonitoring_interfaces/include/rosmonitoring_interfaces/rosmonitoring_interfaces/msg/detail/monitor_error__type_support.hpp\n'}
+[12.278435] (rosmonitoring_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/david/esha_ws/install/rosmonitoring_interfaces/include/rosmonitoring_interfaces/rosmonitoring_interfaces/msg/rosidl_generator_cpp__visibility_control.hpp\n'}
+[12.278545] (rosmonitoring_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/david/esha_ws/install/rosmonitoring_interfaces/include/rosmonitoring_interfaces/rosmonitoring_interfaces/msg/monitor_error.hpp\n'}
+[12.278647] (rosmonitoring_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/david/esha_ws/install/rosmonitoring_interfaces/include/rosmonitoring_interfaces/rosmonitoring_interfaces\n'}
+[12.278725] (rosmonitoring_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/david/esha_ws/install/rosmonitoring_interfaces/include/rosmonitoring_interfaces/rosmonitoring_interfaces/msg\n'}
+[12.278794] (rosmonitoring_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/david/esha_ws/install/rosmonitoring_interfaces/include/rosmonitoring_interfaces/rosmonitoring_interfaces/msg/detail\n'}
+[12.278870] (rosmonitoring_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/david/esha_ws/install/rosmonitoring_interfaces/include/rosmonitoring_interfaces/rosmonitoring_interfaces/msg/detail/monitor_error__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[12.278939] (rosmonitoring_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/david/esha_ws/install/rosmonitoring_interfaces/include/rosmonitoring_interfaces/rosmonitoring_interfaces/msg/detail/dds_fastrtps\n'}
+[12.279014] (rosmonitoring_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/david/esha_ws/install/rosmonitoring_interfaces/include/rosmonitoring_interfaces/rosmonitoring_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[12.324041] (rosmonitoring_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/david/esha_ws/install/rosmonitoring_interfaces/lib/librosmonitoring_interfaces__rosidl_typesupport_fastrtps_cpp.so\n'}
+[12.325140] (rosmonitoring_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/david/esha_ws/install/rosmonitoring_interfaces/include/rosmonitoring_interfaces/rosmonitoring_interfaces\n'}
+[12.325700] (rosmonitoring_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/david/esha_ws/install/rosmonitoring_interfaces/include/rosmonitoring_interfaces/rosmonitoring_interfaces/msg\n'}
+[12.326114] (rosmonitoring_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/david/esha_ws/install/rosmonitoring_interfaces/include/rosmonitoring_interfaces/rosmonitoring_interfaces/msg/detail\n'}
+[12.326234] (rosmonitoring_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/david/esha_ws/install/rosmonitoring_interfaces/include/rosmonitoring_interfaces/rosmonitoring_interfaces/msg/detail/monitor_error__type_support.cpp\n'}
+[12.326367] (rosmonitoring_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/david/esha_ws/install/rosmonitoring_interfaces/include/rosmonitoring_interfaces/rosmonitoring_interfaces/msg/detail/monitor_error__rosidl_typesupport_introspection_cpp.hpp\n'}
+[12.340664] (-) TimerEvent: {}
+[12.346231] (rosmonitoring_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/david/esha_ws/install/rosmonitoring_interfaces/lib/librosmonitoring_interfaces__rosidl_typesupport_introspection_cpp.so\n'}
+[12.348188] (rosmonitoring_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/david/esha_ws/install/rosmonitoring_interfaces/lib/librosmonitoring_interfaces__rosidl_typesupport_cpp.so\n'}
+[12.349090] (rosmonitoring_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/david/esha_ws/install/rosmonitoring_interfaces/share/rosmonitoring_interfaces/environment/pythonpath.sh\n'}
+[12.349742] (rosmonitoring_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/david/esha_ws/install/rosmonitoring_interfaces/share/rosmonitoring_interfaces/environment/pythonpath.dsv\n'}
+[12.350356] (rosmonitoring_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/david/esha_ws/install/rosmonitoring_interfaces/lib/python3.12/site-packages/rosmonitoring_interfaces-0.0.0-py3.12.egg-info\n'}
+[12.350928] (rosmonitoring_interfaces) StdoutLine: {'line': b'-- Installing: /home/david/esha_ws/install/rosmonitoring_interfaces/lib/python3.12/site-packages/rosmonitoring_interfaces-0.0.0-py3.12.egg-info/PKG-INFO\n'}
+[12.351667] (rosmonitoring_interfaces) StdoutLine: {'line': b'-- Installing: /home/david/esha_ws/install/rosmonitoring_interfaces/lib/python3.12/site-packages/rosmonitoring_interfaces-0.0.0-py3.12.egg-info/SOURCES.txt\n'}
+[12.352317] (rosmonitoring_interfaces) StdoutLine: {'line': b'-- Installing: /home/david/esha_ws/install/rosmonitoring_interfaces/lib/python3.12/site-packages/rosmonitoring_interfaces-0.0.0-py3.12.egg-info/top_level.txt\n'}
+[12.352817] (rosmonitoring_interfaces) StdoutLine: {'line': b'-- Installing: /home/david/esha_ws/install/rosmonitoring_interfaces/lib/python3.12/site-packages/rosmonitoring_interfaces-0.0.0-py3.12.egg-info/dependency_links.txt\n'}
+[12.356209] (rosmonitoring_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/david/esha_ws/install/rosmonitoring_interfaces/lib/python3.12/site-packages/rosmonitoring_interfaces\n'}
+[12.357226] (rosmonitoring_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/david/esha_ws/install/rosmonitoring_interfaces/lib/python3.12/site-packages/rosmonitoring_interfaces/rosmonitoring_interfaces_s__rosidl_typesupport_introspection_c.so\n'}
+[12.357512] (rosmonitoring_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/david/esha_ws/install/rosmonitoring_interfaces/lib/python3.12/site-packages/rosmonitoring_interfaces/msg\n'}
+[12.357770] (rosmonitoring_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/david/esha_ws/install/rosmonitoring_interfaces/lib/python3.12/site-packages/rosmonitoring_interfaces/msg/_monitor_error_s.c\n'}
+[12.358044] (rosmonitoring_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/david/esha_ws/install/rosmonitoring_interfaces/lib/python3.12/site-packages/rosmonitoring_interfaces/msg/__init__.py\n'}
+[12.358304] (rosmonitoring_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/david/esha_ws/install/rosmonitoring_interfaces/lib/python3.12/site-packages/rosmonitoring_interfaces/msg/_monitor_error.py\n'}
+[12.358543] (rosmonitoring_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/david/esha_ws/install/rosmonitoring_interfaces/lib/python3.12/site-packages/rosmonitoring_interfaces/_rosmonitoring_interfaces_s.ep.rosidl_typesupport_c.c\n'}
+[12.358854] (rosmonitoring_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/david/esha_ws/install/rosmonitoring_interfaces/lib/python3.12/site-packages/rosmonitoring_interfaces/rosmonitoring_interfaces_s__rosidl_typesupport_c.so\n'}
+[12.359073] (rosmonitoring_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/david/esha_ws/install/rosmonitoring_interfaces/lib/python3.12/site-packages/rosmonitoring_interfaces/_rosmonitoring_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[12.359244] (rosmonitoring_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/david/esha_ws/install/rosmonitoring_interfaces/lib/python3.12/site-packages/rosmonitoring_interfaces/_rosmonitoring_interfaces_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[12.359411] (rosmonitoring_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/david/esha_ws/install/rosmonitoring_interfaces/lib/python3.12/site-packages/rosmonitoring_interfaces/__init__.py\n'}
+[12.359580] (rosmonitoring_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/david/esha_ws/install/rosmonitoring_interfaces/lib/python3.12/site-packages/rosmonitoring_interfaces/rosmonitoring_interfaces_s__rosidl_typesupport_fastrtps_c.so\n'}
+[12.440796] (-) TimerEvent: {}
+[12.532284] (rosmonitoring_interfaces) StdoutLine: {'line': b"Listing '/home/david/esha_ws/install/rosmonitoring_interfaces/lib/python3.12/site-packages/rosmonitoring_interfaces'...\n"}
+[12.532466] (rosmonitoring_interfaces) StdoutLine: {'line': b"Listing '/home/david/esha_ws/install/rosmonitoring_interfaces/lib/python3.12/site-packages/rosmonitoring_interfaces/msg'...\n"}
+[12.540903] (-) TimerEvent: {}
+[12.561769] (interfaces) StdoutLine: {'line': b'[ 88%] Built target interfaces__rosidl_generator_py\n'}
+[12.614862] (rosmonitoring_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/david/esha_ws/install/rosmonitoring_interfaces/lib/python3.12/site-packages/rosmonitoring_interfaces/rosmonitoring_interfaces_s__rosidl_typesupport_fastrtps_c.so\n'}
+[12.615911] (rosmonitoring_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/david/esha_ws/install/rosmonitoring_interfaces/lib/python3.12/site-packages/rosmonitoring_interfaces/rosmonitoring_interfaces_s__rosidl_typesupport_introspection_c.so\n'}
+[12.617153] (rosmonitoring_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/david/esha_ws/install/rosmonitoring_interfaces/lib/python3.12/site-packages/rosmonitoring_interfaces/rosmonitoring_interfaces_s__rosidl_typesupport_c.so\n'}
+[12.618095] (rosmonitoring_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/david/esha_ws/install/rosmonitoring_interfaces/lib/librosmonitoring_interfaces__rosidl_generator_py.so\n'}
+[12.618346] (rosmonitoring_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/david/esha_ws/install/rosmonitoring_interfaces/share/rosmonitoring_interfaces/msg/MonitorError.idl\n'}
+[12.618670] (rosmonitoring_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/david/esha_ws/install/rosmonitoring_interfaces/share/rosmonitoring_interfaces/msg/MonitorError.msg\n'}
+[12.619016] (rosmonitoring_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/david/esha_ws/install/rosmonitoring_interfaces/share/ament_index/resource_index/package_run_dependencies/rosmonitoring_interfaces\n'}
+[12.619468] (rosmonitoring_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/david/esha_ws/install/rosmonitoring_interfaces/share/ament_index/resource_index/parent_prefix_path/rosmonitoring_interfaces\n'}
+[12.619796] (rosmonitoring_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/david/esha_ws/install/rosmonitoring_interfaces/share/rosmonitoring_interfaces/environment/ament_prefix_path.sh\n'}
+[12.620434] (rosmonitoring_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/david/esha_ws/install/rosmonitoring_interfaces/share/rosmonitoring_interfaces/environment/ament_prefix_path.dsv\n'}
+[12.620604] (rosmonitoring_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/david/esha_ws/install/rosmonitoring_interfaces/share/rosmonitoring_interfaces/environment/path.sh\n'}
+[12.621199] (rosmonitoring_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/david/esha_ws/install/rosmonitoring_interfaces/share/rosmonitoring_interfaces/environment/path.dsv\n'}
+[12.621363] (rosmonitoring_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/david/esha_ws/install/rosmonitoring_interfaces/share/rosmonitoring_interfaces/local_setup.bash\n'}
+[12.621490] (rosmonitoring_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/david/esha_ws/install/rosmonitoring_interfaces/share/rosmonitoring_interfaces/local_setup.sh\n'}
+[12.622135] (rosmonitoring_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/david/esha_ws/install/rosmonitoring_interfaces/share/rosmonitoring_interfaces/local_setup.zsh\n'}
+[12.622303] (rosmonitoring_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/david/esha_ws/install/rosmonitoring_interfaces/share/rosmonitoring_interfaces/local_setup.dsv\n'}
+[12.622437] (rosmonitoring_interfaces) StdoutLine: {'line': b'-- Installing: /home/david/esha_ws/install/rosmonitoring_interfaces/share/rosmonitoring_interfaces/package.dsv\n'}
+[12.641233] (-) TimerEvent: {}
+[12.668664] (rosmonitoring_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/david/esha_ws/install/rosmonitoring_interfaces/share/ament_index/resource_index/packages/rosmonitoring_interfaces\n'}
+[12.738121] (rosmonitoring_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/david/esha_ws/install/rosmonitoring_interfaces/share/rosmonitoring_interfaces/cmake/export_rosmonitoring_interfaces__rosidl_generator_cExport.cmake\n'}
+[12.738441] (rosmonitoring_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/david/esha_ws/install/rosmonitoring_interfaces/share/rosmonitoring_interfaces/cmake/export_rosmonitoring_interfaces__rosidl_generator_cExport-noconfig.cmake\n'}
+[12.741387] (-) TimerEvent: {}
+[12.760292] (rosmonitoring_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/david/esha_ws/install/rosmonitoring_interfaces/share/rosmonitoring_interfaces/cmake/export_rosmonitoring_interfaces__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[12.760649] (rosmonitoring_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/david/esha_ws/install/rosmonitoring_interfaces/share/rosmonitoring_interfaces/cmake/export_rosmonitoring_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[12.761486] (rosmonitoring_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/david/esha_ws/install/rosmonitoring_interfaces/share/rosmonitoring_interfaces/cmake/rosmonitoring_interfaces__rosidl_typesupport_introspection_cExport.cmake\n'}
+[12.761679] (rosmonitoring_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/david/esha_ws/install/rosmonitoring_interfaces/share/rosmonitoring_interfaces/cmake/rosmonitoring_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[12.761960] (rosmonitoring_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/david/esha_ws/install/rosmonitoring_interfaces/share/rosmonitoring_interfaces/cmake/rosmonitoring_interfaces__rosidl_typesupport_cExport.cmake\n'}
+[12.762122] (rosmonitoring_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/david/esha_ws/install/rosmonitoring_interfaces/share/rosmonitoring_interfaces/cmake/rosmonitoring_interfaces__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[12.827299] (rosmonitoring_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/david/esha_ws/install/rosmonitoring_interfaces/share/rosmonitoring_interfaces/cmake/export_rosmonitoring_interfaces__rosidl_generator_cppExport.cmake\n'}
+[12.827709] (rosmonitoring_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/david/esha_ws/install/rosmonitoring_interfaces/share/rosmonitoring_interfaces/cmake/export_rosmonitoring_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[12.827909] (rosmonitoring_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/david/esha_ws/install/rosmonitoring_interfaces/share/rosmonitoring_interfaces/cmake/export_rosmonitoring_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[12.828528] (rosmonitoring_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/david/esha_ws/install/rosmonitoring_interfaces/share/rosmonitoring_interfaces/cmake/rosmonitoring_interfaces__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[12.828678] (rosmonitoring_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/david/esha_ws/install/rosmonitoring_interfaces/share/rosmonitoring_interfaces/cmake/rosmonitoring_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[12.828998] (rosmonitoring_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/david/esha_ws/install/rosmonitoring_interfaces/share/rosmonitoring_interfaces/cmake/rosmonitoring_interfaces__rosidl_typesupport_cppExport.cmake\n'}
+[12.829215] (rosmonitoring_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/david/esha_ws/install/rosmonitoring_interfaces/share/rosmonitoring_interfaces/cmake/rosmonitoring_interfaces__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[12.829442] (rosmonitoring_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/david/esha_ws/install/rosmonitoring_interfaces/share/rosmonitoring_interfaces/cmake/export_rosmonitoring_interfaces__rosidl_generator_pyExport.cmake\n'}
+[12.829705] (rosmonitoring_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/david/esha_ws/install/rosmonitoring_interfaces/share/rosmonitoring_interfaces/cmake/export_rosmonitoring_interfaces__rosidl_generator_pyExport-noconfig.cmake\n'}
+[12.829912] (rosmonitoring_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/david/esha_ws/install/rosmonitoring_interfaces/share/rosmonitoring_interfaces/cmake/rosidl_cmake-extras.cmake\n'}
+[12.830045] (rosmonitoring_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/david/esha_ws/install/rosmonitoring_interfaces/share/rosmonitoring_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[12.830178] (rosmonitoring_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/david/esha_ws/install/rosmonitoring_interfaces/share/rosmonitoring_interfaces/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[12.830278] (rosmonitoring_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/david/esha_ws/install/rosmonitoring_interfaces/share/rosmonitoring_interfaces/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[12.830359] (rosmonitoring_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/david/esha_ws/install/rosmonitoring_interfaces/share/rosmonitoring_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[12.830436] (rosmonitoring_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/david/esha_ws/install/rosmonitoring_interfaces/share/rosmonitoring_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[12.830516] (rosmonitoring_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/david/esha_ws/install/rosmonitoring_interfaces/share/rosmonitoring_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[12.830589] (rosmonitoring_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/david/esha_ws/install/rosmonitoring_interfaces/share/rosmonitoring_interfaces/cmake/rosmonitoring_interfacesConfig.cmake\n'}
+[12.830661] (rosmonitoring_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/david/esha_ws/install/rosmonitoring_interfaces/share/rosmonitoring_interfaces/cmake/rosmonitoring_interfacesConfig-version.cmake\n'}
+[12.830734] (rosmonitoring_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/david/esha_ws/install/rosmonitoring_interfaces/share/rosmonitoring_interfaces/package.xml\n'}
+[12.841488] (-) TimerEvent: {}
+[12.847696] (interfaces) StdoutLine: {'line': b'[ 92%] Built target interfaces_s__rosidl_typesupport_fastrtps_c\n'}
+[12.854331] (rosmonitoring_interfaces) CommandEnded: {'returncode': 0}
+[12.941662] (-) TimerEvent: {}
+[13.033214] (interfaces) StdoutLine: {'line': b'[ 96%] Built target interfaces_s__rosidl_typesupport_c\n'}
+[13.041796] (-) TimerEvent: {}
+[13.142173] (-) TimerEvent: {}
+[13.242884] (-) TimerEvent: {}
+[13.258517] (interfaces) StdoutLine: {'line': b'[100%] Built target interfaces_s__rosidl_typesupport_introspection_c\n'}
+[13.270587] (rosmonitoring_interfaces) JobEnded: {'identifier': 'rosmonitoring_interfaces', 'rc': 0}
+[13.276979] (interfaces) CommandEnded: {'returncode': 0}
+[13.296579] (interfaces) JobProgress: {'identifier': 'interfaces', 'progress': 'install'}
+[13.297391] (interfaces) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/david/esha_ws/build/interfaces'], 'cwd': '/home/david/esha_ws/build/interfaces', 'env': OrderedDict({'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'PYTHON_BASIC_REPL': '1', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'david', 'FONTCONFIG_PATH': '/etc/fonts', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'GIO_MODULE_DIR': '/home/david/snap/code/common/.cache/gio-modules', 'XDG_SESSION_TYPE': 'wayland', 'GIT_ASKPASS': '/snap/code/203/usr/share/code/resources/app/extensions/git/dist/askpass.sh', 'GTK_EXE_PREFIX_VSCODE_SNAP_ORIG': '', 'GDK_BACKEND_VSCODE_SNAP_ORIG': '', 'CLUTTER_DISABLE_MIPMAPPED_TEXT': '1', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/david', 'CHROME_DESKTOP': 'code.desktop', 'LOCPATH_VSCODE_SNAP_ORIG': '', 'OLDPWD': '/home/david', 'TERM_PROGRAM_VERSION': '1.103.0', 'DESKTOP_SESSION': 'ubuntu', 'GTK_PATH': '/snap/code/203/usr/lib/x86_64-linux-gnu/gtk-3.0', 'XDG_DATA_HOME_VSCODE_SNAP_ORIG': '', 'GTK_IM_MODULE_FILE': '/home/david/snap/code/common/.cache/immodules/immodules.cache', 'GIO_LAUNCHED_DESKTOP_FILE': '/var/lib/snapd/desktop/applications/code_code.desktop', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'GSETTINGS_SCHEMA_DIR_VSCODE_SNAP_ORIG': '', 'VSCODE_GIT_ASKPASS_MAIN': '/snap/code/203/usr/share/code/resources/app/extensions/git/dist/askpass-main.js', 'VSCODE_GIT_ASKPASS_NODE': '/snap/code/203/usr/share/code/code', 'MANAGERPID': '2730', 'PYDEVD_DISABLE_FILE_VALIDATION': '1', 'SYSTEMD_EXEC_PID': '3017', 'BUNDLED_DEBUGPY_PATH': '/home/david/.vscode/extensions/ms-python.debugpy-2025.10.0-linux-x64/bundled/libs/debugpy', 'IM_CONFIG_CHECK_ENV': '1', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '5257', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'david', 'JOURNAL_STREAM': '9:22024', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_CONFIG_DIRS_VSCODE_SNAP_ORIG': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.Shell@wayland.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'XDG_DATA_DIRS_VSCODE_SNAP_ORIG': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'USERNAME': 'david', 'TERM': 'xterm-256color', 'GAZEBO_MODEL_PATH': '/opt/ros/jazzy/share/', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'PATH': '/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/home/david/.local/bin:/home/david/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/david/.vscode/extensions/ms-python.debugpy-2025.10.0-linux-x64/bundled/scripts/noConfigScripts:/home/david/.config/Code/User/globalStorage/github.copilot-chat/debugCommand', 'SESSION_MANAGER': 'local/david-GT70-2PC:@/tmp/.ICE-unix/2969,unix/david-GT70-2PC:/tmp/.ICE-unix/2969', 'GTK_EXE_PREFIX': '/snap/code/203/usr', 'INVOCATION_ID': 'a079c1a249d74e32aa7bc7b5332e4819', 'XDG_MENU_PREFIX': 'gnome-', 'BAMF_DESKTOP_FILE_HINT': '/var/lib/snapd/desktop/applications/code_code.desktop', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'GDK_BACKEND': 'x11', 'DISPLAY': ':0', 'LOCPATH': '/snap/code/203/usr/lib/locale', 'VSCODE_DEBUGPY_ADAPTER_ENDPOINTS': '/home/david/.vscode/extensions/ms-python.debugpy-2025.10.0-linux-x64/.noConfigDebugAdapterEndpoints/endpoint-5aae6d035b5a0889.txt', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'Unity', 'PYTHONSTARTUP': '/home/david/.config/Code/User/workspaceStorage/448609b2c563b19d6a8dac78be2e5f4a/ms-python.python/pythonrc.py', 'GIO_MODULE_DIR_VSCODE_SNAP_ORIG': '', 'XDG_DATA_HOME': '/home/david/snap/code/203/.local/share', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.IHFSA3', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-a9bc49ff1c.sock', 'TERM_PROGRAM': 'vscode', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'GSETTINGS_SCHEMA_DIR': '/home/david/snap/code/203/.local/share/glib-2.0/schemas', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'ORIGINAL_XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GTK_PATH_VSCODE_SNAP_ORIG': '', 'IGN_GAZEBO_RESOURCE_PATH': '/opt/ros/jazzy/share', 'FONTCONFIG_FILE': '/etc/fonts/fonts.conf', 'GTK_IM_MODULE_FILE_VSCODE_SNAP_ORIG': '', 'GJS_DEBUG_OUTPUT': 'stderr', 'GSK_RENDERER': 'gl', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/david/esha_ws/build/interfaces', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/home/david/snap/code/203/.local/share:/home/david/snap/code/203:/snap/code/203/usr/share:/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'QTWEBENGINE_DICTIONARIES_PATH': '/usr/share/hunspell-bdic/', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[13.343069] (-) TimerEvent: {}
+[13.366062] (interfaces) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[13.366370] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/david/esha_ws/install/interfaces/share/ament_index/resource_index/rosidl_interfaces/interfaces\n'}
+[13.366540] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/david/esha_ws/install/interfaces/share/interfaces/msg/SensorData.json\n'}
+[13.366913] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/david/esha_ws/install/interfaces/share/interfaces/msg/CurrentVelocityData.json\n'}
+[13.367108] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/david/esha_ws/install/interfaces/share/interfaces/msg/ImuData.json\n'}
+[13.367209] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/david/esha_ws/install/interfaces/include/interfaces/interfaces\n'}
+[13.367476] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/david/esha_ws/install/interfaces/include/interfaces/interfaces/msg\n'}
+[13.367661] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/david/esha_ws/install/interfaces/include/interfaces/interfaces/msg/detail\n'}
+[13.367842] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/david/esha_ws/install/interfaces/include/interfaces/interfaces/msg/detail/imu_data__functions.c\n'}
+[13.368012] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/david/esha_ws/install/interfaces/include/interfaces/interfaces/msg/detail/imu_data__struct.h\n'}
+[13.368167] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/david/esha_ws/install/interfaces/include/interfaces/interfaces/msg/detail/imu_data__description.c\n'}
+[13.368320] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/david/esha_ws/install/interfaces/include/interfaces/interfaces/msg/detail/sensor_data__struct.h\n'}
+[13.368477] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/david/esha_ws/install/interfaces/include/interfaces/interfaces/msg/detail/sensor_data__functions.c\n'}
+[13.368733] (interfaces) StdoutLine: {'line': b'-- Installing: /home/david/esha_ws/install/interfaces/include/interfaces/interfaces/msg/detail/current_velocity_data__type_support.c\n'}
+[13.368897] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/david/esha_ws/install/interfaces/include/interfaces/interfaces/msg/detail/current_velocity_data__type_support.h\n'}
+[13.369051] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/david/esha_ws/install/interfaces/include/interfaces/interfaces/msg/detail/sensor_data__type_support.h\n'}
+[13.369188] (interfaces) StdoutLine: {'line': b'-- Installing: /home/david/esha_ws/install/interfaces/include/interfaces/interfaces/msg/detail/imu_data__type_support.c\n'}
+[13.369324] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/david/esha_ws/install/interfaces/include/interfaces/interfaces/msg/detail/sensor_data__functions.h\n'}
+[13.369460] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/david/esha_ws/install/interfaces/include/interfaces/interfaces/msg/detail/sensor_data__description.c\n'}
+[13.369606] (interfaces) StdoutLine: {'line': b'-- Installing: /home/david/esha_ws/install/interfaces/include/interfaces/interfaces/msg/detail/sensor_data__type_support.c\n'}
+[13.369742] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/david/esha_ws/install/interfaces/include/interfaces/interfaces/msg/detail/current_velocity_data__functions.c\n'}
+[13.369880] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/david/esha_ws/install/interfaces/include/interfaces/interfaces/msg/detail/current_velocity_data__functions.h\n'}
+[13.370013] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/david/esha_ws/install/interfaces/include/interfaces/interfaces/msg/detail/imu_data__type_support.h\n'}
+[13.370141] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/david/esha_ws/install/interfaces/include/interfaces/interfaces/msg/detail/current_velocity_data__struct.h\n'}
+[13.370273] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/david/esha_ws/install/interfaces/include/interfaces/interfaces/msg/detail/imu_data__functions.h\n'}
+[13.370397] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/david/esha_ws/install/interfaces/include/interfaces/interfaces/msg/detail/current_velocity_data__description.c\n'}
+[13.370537] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/david/esha_ws/install/interfaces/include/interfaces/interfaces/msg/current_velocity_data.h\n'}
+[13.370664] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/david/esha_ws/install/interfaces/include/interfaces/interfaces/msg/imu_data.h\n'}
+[13.370791] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/david/esha_ws/install/interfaces/include/interfaces/interfaces/msg/rosidl_generator_c__visibility_control.h\n'}
+[13.370935] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/david/esha_ws/install/interfaces/include/interfaces/interfaces/msg/sensor_data.h\n'}
+[13.371112] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/david/esha_ws/install/interfaces/share/interfaces/environment/library_path.sh\n'}
+[13.371259] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/david/esha_ws/install/interfaces/share/interfaces/environment/library_path.dsv\n'}
+[13.443198] (-) TimerEvent: {}
+[13.543497] (-) TimerEvent: {}
+[13.643925] (-) TimerEvent: {}
+[13.744587] (-) TimerEvent: {}
+[13.761073] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/david/esha_ws/install/interfaces/lib/libinterfaces__rosidl_generator_c.so\n'}
+[13.761633] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/david/esha_ws/install/interfaces/include/interfaces/interfaces\n'}
+[13.761948] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/david/esha_ws/install/interfaces/include/interfaces/interfaces/msg\n'}
+[13.762241] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/david/esha_ws/install/interfaces/include/interfaces/interfaces/msg/detail\n'}
+[13.762625] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/david/esha_ws/install/interfaces/include/interfaces/interfaces/msg/detail/sensor_data__rosidl_typesupport_fastrtps_c.h\n'}
+[13.762814] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/david/esha_ws/install/interfaces/include/interfaces/interfaces/msg/detail/imu_data__rosidl_typesupport_fastrtps_c.h\n'}
+[13.763065] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/david/esha_ws/install/interfaces/include/interfaces/interfaces/msg/detail/current_velocity_data__rosidl_typesupport_fastrtps_c.h\n'}
+[13.763273] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/david/esha_ws/install/interfaces/include/interfaces/interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[13.844825] (-) TimerEvent: {}
+[13.945562] (-) TimerEvent: {}
+[14.025664] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/david/esha_ws/install/interfaces/lib/libinterfaces__rosidl_typesupport_fastrtps_c.so\n'}
+[14.026202] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/david/esha_ws/install/interfaces/include/interfaces/interfaces\n'}
+[14.026549] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/david/esha_ws/install/interfaces/include/interfaces/interfaces/msg\n'}
+[14.026807] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/david/esha_ws/install/interfaces/include/interfaces/interfaces/msg/detail\n'}
+[14.027107] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/david/esha_ws/install/interfaces/include/interfaces/interfaces/msg/detail/imu_data__rosidl_typesupport_introspection_c.h\n'}
+[14.027370] (interfaces) StdoutLine: {'line': b'-- Installing: /home/david/esha_ws/install/interfaces/include/interfaces/interfaces/msg/detail/current_velocity_data__type_support.c\n'}
+[14.045727] (-) TimerEvent: {}
+[14.146179] (-) TimerEvent: {}
+[14.164041] (interfaces) StdoutLine: {'line': b'-- Installing: /home/david/esha_ws/install/interfaces/include/interfaces/interfaces/msg/detail/imu_data__type_support.c\n'}
+[14.225856] (interfaces) StdoutLine: {'line': b'-- Installing: /home/david/esha_ws/install/interfaces/include/interfaces/interfaces/msg/detail/sensor_data__type_support.c\n'}
+[14.246283] (-) TimerEvent: {}
+[14.284043] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/david/esha_ws/install/interfaces/include/interfaces/interfaces/msg/detail/current_velocity_data__rosidl_typesupport_introspection_c.h\n'}
+[14.284590] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/david/esha_ws/install/interfaces/include/interfaces/interfaces/msg/detail/sensor_data__rosidl_typesupport_introspection_c.h\n'}
+[14.284954] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/david/esha_ws/install/interfaces/include/interfaces/interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[14.292112] (launch_esha) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.17.2 (/opt/ros/jazzy/share/ament_lint_auto/cmake)\n'}
+[14.322174] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/david/esha_ws/install/interfaces/lib/libinterfaces__rosidl_typesupport_introspection_c.so\n'}
+[14.346507] (-) TimerEvent: {}
+[14.377816] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/david/esha_ws/install/interfaces/lib/libinterfaces__rosidl_typesupport_c.so\n'}
+[14.378259] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/david/esha_ws/install/interfaces/include/interfaces/interfaces\n'}
+[14.378506] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/david/esha_ws/install/interfaces/include/interfaces/interfaces/msg\n'}
+[14.378828] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/david/esha_ws/install/interfaces/include/interfaces/interfaces/msg/detail\n'}
+[14.379127] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/david/esha_ws/install/interfaces/include/interfaces/interfaces/msg/detail/sensor_data__type_support.hpp\n'}
+[14.379427] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/david/esha_ws/install/interfaces/include/interfaces/interfaces/msg/detail/sensor_data__builder.hpp\n'}
+[14.379622] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/david/esha_ws/install/interfaces/include/interfaces/interfaces/msg/detail/sensor_data__struct.hpp\n'}
+[14.379829] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/david/esha_ws/install/interfaces/include/interfaces/interfaces/msg/detail/current_velocity_data__traits.hpp\n'}
+[14.380046] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/david/esha_ws/install/interfaces/include/interfaces/interfaces/msg/detail/current_velocity_data__builder.hpp\n'}
+[14.380243] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/david/esha_ws/install/interfaces/include/interfaces/interfaces/msg/detail/imu_data__traits.hpp\n'}
+[14.380433] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/david/esha_ws/install/interfaces/include/interfaces/interfaces/msg/detail/current_velocity_data__struct.hpp\n'}
+[14.380607] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/david/esha_ws/install/interfaces/include/interfaces/interfaces/msg/detail/imu_data__struct.hpp\n'}
+[14.380789] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/david/esha_ws/install/interfaces/include/interfaces/interfaces/msg/detail/sensor_data__traits.hpp\n'}
+[14.380996] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/david/esha_ws/install/interfaces/include/interfaces/interfaces/msg/detail/imu_data__type_support.hpp\n'}
+[14.381187] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/david/esha_ws/install/interfaces/include/interfaces/interfaces/msg/detail/imu_data__builder.hpp\n'}
+[14.381367] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/david/esha_ws/install/interfaces/include/interfaces/interfaces/msg/detail/current_velocity_data__type_support.hpp\n'}
+[14.381557] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/david/esha_ws/install/interfaces/include/interfaces/interfaces/msg/imu_data.hpp\n'}
+[14.381751] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/david/esha_ws/install/interfaces/include/interfaces/interfaces/msg/current_velocity_data.hpp\n'}
+[14.381935] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/david/esha_ws/install/interfaces/include/interfaces/interfaces/msg/rosidl_generator_cpp__visibility_control.hpp\n'}
+[14.382229] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/david/esha_ws/install/interfaces/include/interfaces/interfaces/msg/sensor_data.hpp\n'}
+[14.382423] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/david/esha_ws/install/interfaces/include/interfaces/interfaces\n'}
+[14.382610] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/david/esha_ws/install/interfaces/include/interfaces/interfaces/msg\n'}
+[14.382809] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/david/esha_ws/install/interfaces/include/interfaces/interfaces/msg/detail\n'}
+[14.383015] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/david/esha_ws/install/interfaces/include/interfaces/interfaces/msg/detail/current_velocity_data__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[14.383198] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/david/esha_ws/install/interfaces/include/interfaces/interfaces/msg/detail/dds_fastrtps\n'}
+[14.383400] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/david/esha_ws/install/interfaces/include/interfaces/interfaces/msg/detail/imu_data__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[14.383583] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/david/esha_ws/install/interfaces/include/interfaces/interfaces/msg/detail/sensor_data__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[14.383769] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/david/esha_ws/install/interfaces/include/interfaces/interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[14.446596] (-) TimerEvent: {}
+[14.491606] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/david/esha_ws/install/interfaces/lib/libinterfaces__rosidl_typesupport_fastrtps_cpp.so\n'}
+[14.491884] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/david/esha_ws/install/interfaces/include/interfaces/interfaces\n'}
+[14.492082] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/david/esha_ws/install/interfaces/include/interfaces/interfaces/msg\n'}
+[14.492203] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/david/esha_ws/install/interfaces/include/interfaces/interfaces/msg/detail\n'}
+[14.492283] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/david/esha_ws/install/interfaces/include/interfaces/interfaces/msg/detail/imu_data__type_support.cpp\n'}
+[14.492355] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/david/esha_ws/install/interfaces/include/interfaces/interfaces/msg/detail/imu_data__rosidl_typesupport_introspection_cpp.hpp\n'}
+[14.492426] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/david/esha_ws/install/interfaces/include/interfaces/interfaces/msg/detail/current_velocity_data__rosidl_typesupport_introspection_cpp.hpp\n'}
+[14.492502] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/david/esha_ws/install/interfaces/include/interfaces/interfaces/msg/detail/sensor_data__rosidl_typesupport_introspection_cpp.hpp\n'}
+[14.492572] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/david/esha_ws/install/interfaces/include/interfaces/interfaces/msg/detail/sensor_data__type_support.cpp\n'}
+[14.492652] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/david/esha_ws/install/interfaces/include/interfaces/interfaces/msg/detail/current_velocity_data__type_support.cpp\n'}
+[14.546709] (-) TimerEvent: {}
+[14.559085] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/david/esha_ws/install/interfaces/lib/libinterfaces__rosidl_typesupport_introspection_cpp.so\n'}
+[14.560342] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/david/esha_ws/install/interfaces/lib/libinterfaces__rosidl_typesupport_cpp.so\n'}
+[14.560724] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/david/esha_ws/install/interfaces/share/interfaces/environment/pythonpath.sh\n'}
+[14.561996] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/david/esha_ws/install/interfaces/share/interfaces/environment/pythonpath.dsv\n'}
+[14.564052] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/david/esha_ws/install/interfaces/lib/python3.12/site-packages/interfaces-0.0.0-py3.12.egg-info\n'}
+[14.564223] (interfaces) StdoutLine: {'line': b'-- Installing: /home/david/esha_ws/install/interfaces/lib/python3.12/site-packages/interfaces-0.0.0-py3.12.egg-info/PKG-INFO\n'}
+[14.564375] (interfaces) StdoutLine: {'line': b'-- Installing: /home/david/esha_ws/install/interfaces/lib/python3.12/site-packages/interfaces-0.0.0-py3.12.egg-info/SOURCES.txt\n'}
+[14.564550] (interfaces) StdoutLine: {'line': b'-- Installing: /home/david/esha_ws/install/interfaces/lib/python3.12/site-packages/interfaces-0.0.0-py3.12.egg-info/top_level.txt\n'}
+[14.565356] (interfaces) StdoutLine: {'line': b'-- Installing: /home/david/esha_ws/install/interfaces/lib/python3.12/site-packages/interfaces-0.0.0-py3.12.egg-info/dependency_links.txt\n'}
+[14.565515] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/david/esha_ws/install/interfaces/lib/python3.12/site-packages/interfaces\n'}
+[14.565642] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/david/esha_ws/install/interfaces/lib/python3.12/site-packages/interfaces/interfaces_s__rosidl_typesupport_introspection_c.so\n'}
+[14.565770] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/david/esha_ws/install/interfaces/lib/python3.12/site-packages/interfaces/interfaces_s__rosidl_typesupport_c.so\n'}
+[14.565915] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/david/esha_ws/install/interfaces/lib/python3.12/site-packages/interfaces/msg\n'}
+[14.566052] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/david/esha_ws/install/interfaces/lib/python3.12/site-packages/interfaces/msg/_current_velocity_data.py\n'}
+[14.566201] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/david/esha_ws/install/interfaces/lib/python3.12/site-packages/interfaces/msg/_sensor_data_s.c\n'}
+[14.566398] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/david/esha_ws/install/interfaces/lib/python3.12/site-packages/interfaces/msg/_current_velocity_data_s.c\n'}
+[14.566545] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/david/esha_ws/install/interfaces/lib/python3.12/site-packages/interfaces/msg/_imu_data.py\n'}
+[14.566679] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/david/esha_ws/install/interfaces/lib/python3.12/site-packages/interfaces/msg/_imu_data_s.c\n'}
+[14.566824] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/david/esha_ws/install/interfaces/lib/python3.12/site-packages/interfaces/msg/_sensor_data.py\n'}
+[14.566993] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/david/esha_ws/install/interfaces/lib/python3.12/site-packages/interfaces/msg/__init__.py\n'}
+[14.567117] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/david/esha_ws/install/interfaces/lib/python3.12/site-packages/interfaces/interfaces_s__rosidl_typesupport_fastrtps_c.so\n'}
+[14.567205] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/david/esha_ws/install/interfaces/lib/python3.12/site-packages/interfaces/_interfaces_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[14.567280] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/david/esha_ws/install/interfaces/lib/python3.12/site-packages/interfaces/__init__.py\n'}
+[14.567369] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/david/esha_ws/install/interfaces/lib/python3.12/site-packages/interfaces/_interfaces_s.ep.rosidl_typesupport_c.c\n'}
+[14.567443] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/david/esha_ws/install/interfaces/lib/python3.12/site-packages/interfaces/_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[14.603328] (interfaces) StdoutLine: {'line': b"Listing '/home/david/esha_ws/install/interfaces/lib/python3.12/site-packages/interfaces'...\n"}
+[14.603516] (interfaces) StdoutLine: {'line': b"Listing '/home/david/esha_ws/install/interfaces/lib/python3.12/site-packages/interfaces/msg'...\n"}
+[14.646904] (-) TimerEvent: {}
+[14.706478] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/david/esha_ws/install/interfaces/lib/python3.12/site-packages/interfaces/interfaces_s__rosidl_typesupport_fastrtps_c.so\n'}
+[14.707590] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/david/esha_ws/install/interfaces/lib/python3.12/site-packages/interfaces/interfaces_s__rosidl_typesupport_introspection_c.so\n'}
+[14.740756] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/david/esha_ws/install/interfaces/lib/python3.12/site-packages/interfaces/interfaces_s__rosidl_typesupport_c.so\n'}
+[14.747129] (-) TimerEvent: {}
+[14.807007] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/david/esha_ws/install/interfaces/lib/libinterfaces__rosidl_generator_py.so\n'}
+[14.807475] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/david/esha_ws/install/interfaces/share/interfaces/msg/SensorData.idl\n'}
+[14.808181] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/david/esha_ws/install/interfaces/share/interfaces/msg/CurrentVelocityData.idl\n'}
+[14.808664] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/david/esha_ws/install/interfaces/share/interfaces/msg/ImuData.idl\n'}
+[14.809129] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/david/esha_ws/install/interfaces/share/interfaces/msg/SensorData.msg\n'}
+[14.809563] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/david/esha_ws/install/interfaces/share/interfaces/msg/CurrentVelocityData.msg\n'}
+[14.809904] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/david/esha_ws/install/interfaces/share/interfaces/msg/ImuData.msg\n'}
+[14.810229] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/david/esha_ws/install/interfaces/share/ament_index/resource_index/package_run_dependencies/interfaces\n'}
+[14.810537] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/david/esha_ws/install/interfaces/share/ament_index/resource_index/parent_prefix_path/interfaces\n'}
+[14.810852] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/david/esha_ws/install/interfaces/share/interfaces/environment/ament_prefix_path.sh\n'}
+[14.811162] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/david/esha_ws/install/interfaces/share/interfaces/environment/ament_prefix_path.dsv\n'}
+[14.811469] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/david/esha_ws/install/interfaces/share/interfaces/environment/path.sh\n'}
+[14.811813] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/david/esha_ws/install/interfaces/share/interfaces/environment/path.dsv\n'}
+[14.812133] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/david/esha_ws/install/interfaces/share/interfaces/local_setup.bash\n'}
+[14.812431] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/david/esha_ws/install/interfaces/share/interfaces/local_setup.sh\n'}
+[14.812742] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/david/esha_ws/install/interfaces/share/interfaces/local_setup.zsh\n'}
+[14.813073] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/david/esha_ws/install/interfaces/share/interfaces/local_setup.dsv\n'}
+[14.813378] (interfaces) StdoutLine: {'line': b'-- Installing: /home/david/esha_ws/install/interfaces/share/interfaces/package.dsv\n'}
+[14.828426] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/david/esha_ws/install/interfaces/share/ament_index/resource_index/packages/interfaces\n'}
+[14.847286] (-) TimerEvent: {}
+[14.947702] (-) TimerEvent: {}
+[14.958418] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/david/esha_ws/install/interfaces/share/interfaces/cmake/export_interfaces__rosidl_generator_cExport.cmake\n'}
+[14.959339] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/david/esha_ws/install/interfaces/share/interfaces/cmake/export_interfaces__rosidl_generator_cExport-noconfig.cmake\n'}
+[15.013556] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/david/esha_ws/install/interfaces/share/interfaces/cmake/export_interfaces__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[15.013771] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/david/esha_ws/install/interfaces/share/interfaces/cmake/export_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[15.047816] (-) TimerEvent: {}
+[15.148154] (-) TimerEvent: {}
+[15.224261] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/david/esha_ws/install/interfaces/share/interfaces/cmake/interfaces__rosidl_typesupport_introspection_cExport.cmake\n'}
+[15.225117] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/david/esha_ws/install/interfaces/share/interfaces/cmake/interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[15.248352] (-) TimerEvent: {}
+[15.346622] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/david/esha_ws/install/interfaces/share/interfaces/cmake/interfaces__rosidl_typesupport_cExport.cmake\n'}
+[15.347257] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/david/esha_ws/install/interfaces/share/interfaces/cmake/interfaces__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[15.348504] (-) TimerEvent: {}
+[15.369446] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/david/esha_ws/install/interfaces/share/interfaces/cmake/export_interfaces__rosidl_generator_cppExport.cmake\n'}
+[15.370644] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/david/esha_ws/install/interfaces/share/interfaces/cmake/export_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[15.371021] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/david/esha_ws/install/interfaces/share/interfaces/cmake/export_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[15.371573] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/david/esha_ws/install/interfaces/share/interfaces/cmake/interfaces__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[15.372185] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/david/esha_ws/install/interfaces/share/interfaces/cmake/interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[15.372631] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/david/esha_ws/install/interfaces/share/interfaces/cmake/interfaces__rosidl_typesupport_cppExport.cmake\n'}
+[15.373216] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/david/esha_ws/install/interfaces/share/interfaces/cmake/interfaces__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[15.414479] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/david/esha_ws/install/interfaces/share/interfaces/cmake/export_interfaces__rosidl_generator_pyExport.cmake\n'}
+[15.414792] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/david/esha_ws/install/interfaces/share/interfaces/cmake/export_interfaces__rosidl_generator_pyExport-noconfig.cmake\n'}
+[15.414945] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/david/esha_ws/install/interfaces/share/interfaces/cmake/rosidl_cmake-extras.cmake\n'}
+[15.415040] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/david/esha_ws/install/interfaces/share/interfaces/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[15.415128] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/david/esha_ws/install/interfaces/share/interfaces/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[15.415208] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/david/esha_ws/install/interfaces/share/interfaces/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[15.415326] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/david/esha_ws/install/interfaces/share/interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[15.415401] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/david/esha_ws/install/interfaces/share/interfaces/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[15.415474] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/david/esha_ws/install/interfaces/share/interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[15.415543] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/david/esha_ws/install/interfaces/share/interfaces/cmake/interfacesConfig.cmake\n'}
+[15.415633] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/david/esha_ws/install/interfaces/share/interfaces/cmake/interfacesConfig-version.cmake\n'}
+[15.415703] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/david/esha_ws/install/interfaces/share/interfaces/package.xml\n'}
+[15.417571] (interfaces) CommandEnded: {'returncode': 0}
+[15.448965] (-) TimerEvent: {}
+[15.451495] (interfaces) JobEnded: {'identifier': 'interfaces', 'rc': 0}
+[15.452919] (monitor) JobStarted: {'identifier': 'monitor'}
+[15.549141] (-) TimerEvent: {}
+[15.649665] (-) TimerEvent: {}
+[15.749927] (-) TimerEvent: {}
+[15.850200] (-) TimerEvent: {}
+[15.950451] (-) TimerEvent: {}
+[16.050712] (-) TimerEvent: {}
+[16.151004] (-) TimerEvent: {}
+[16.251374] (-) TimerEvent: {}
+[16.351661] (-) TimerEvent: {}
+[16.451998] (-) TimerEvent: {}
+[16.552321] (-) TimerEvent: {}
+[16.652698] (-) TimerEvent: {}
+[16.664332] (launch_esha) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[16.664989] (launch_esha) StdoutLine: {'line': b"-- Configured 'flake8' exclude dirs and/or files: \n"}
+[16.752922] (-) TimerEvent: {}
+[16.769563] (launch_esha) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[16.811216] (launch_esha) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257\n"}
+[16.853063] (-) TimerEvent: {}
+[16.953564] (-) TimerEvent: {}
+[16.991322] (launch_esha) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[17.053796] (-) TimerEvent: {}
+[17.154289] (-) TimerEvent: {}
+[17.254669] (-) TimerEvent: {}
+[17.355296] (-) TimerEvent: {}
+[17.361640] (launch_esha) StdoutLine: {'line': b'-- Configuring done (14.7s)\n'}
+[17.455424] (-) TimerEvent: {}
+[17.555915] (-) TimerEvent: {}
+[17.656399] (-) TimerEvent: {}
+[17.756928] (-) TimerEvent: {}
+[17.857224] (-) TimerEvent: {}
+[17.957651] (-) TimerEvent: {}
+[18.058055] (-) TimerEvent: {}
+[18.158367] (-) TimerEvent: {}
+[18.258737] (-) TimerEvent: {}
+[18.359106] (-) TimerEvent: {}
+[18.459661] (-) TimerEvent: {}
+[18.560062] (-) TimerEvent: {}
+[18.592755] (launch_esha) StdoutLine: {'line': b'-- Generating done (0.1s)\n'}
+[18.598048] (launch_esha) StdoutLine: {'line': b'-- Build files have been written to: /home/david/esha_ws/build/launch_esha\n'}
+[18.623846] (launch_esha) CommandEnded: {'returncode': 0}
+[18.641045] (launch_esha) JobProgress: {'identifier': 'launch_esha', 'progress': 'install'}
+[18.641805] (launch_esha) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/david/esha_ws/build/launch_esha'], 'cwd': '/home/david/esha_ws/build/launch_esha', 'env': OrderedDict({'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'PYTHON_BASIC_REPL': '1', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'david', 'FONTCONFIG_PATH': '/etc/fonts', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'GIO_MODULE_DIR': '/home/david/snap/code/common/.cache/gio-modules', 'XDG_SESSION_TYPE': 'wayland', 'GIT_ASKPASS': '/snap/code/203/usr/share/code/resources/app/extensions/git/dist/askpass.sh', 'GTK_EXE_PREFIX_VSCODE_SNAP_ORIG': '', 'GDK_BACKEND_VSCODE_SNAP_ORIG': '', 'CLUTTER_DISABLE_MIPMAPPED_TEXT': '1', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/david', 'CHROME_DESKTOP': 'code.desktop', 'LOCPATH_VSCODE_SNAP_ORIG': '', 'OLDPWD': '/home/david', 'TERM_PROGRAM_VERSION': '1.103.0', 'DESKTOP_SESSION': 'ubuntu', 'GTK_PATH': '/snap/code/203/usr/lib/x86_64-linux-gnu/gtk-3.0', 'XDG_DATA_HOME_VSCODE_SNAP_ORIG': '', 'GTK_IM_MODULE_FILE': '/home/david/snap/code/common/.cache/immodules/immodules.cache', 'GIO_LAUNCHED_DESKTOP_FILE': '/var/lib/snapd/desktop/applications/code_code.desktop', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'GSETTINGS_SCHEMA_DIR_VSCODE_SNAP_ORIG': '', 'VSCODE_GIT_ASKPASS_MAIN': '/snap/code/203/usr/share/code/resources/app/extensions/git/dist/askpass-main.js', 'VSCODE_GIT_ASKPASS_NODE': '/snap/code/203/usr/share/code/code', 'MANAGERPID': '2730', 'PYDEVD_DISABLE_FILE_VALIDATION': '1', 'SYSTEMD_EXEC_PID': '3017', 'BUNDLED_DEBUGPY_PATH': '/home/david/.vscode/extensions/ms-python.debugpy-2025.10.0-linux-x64/bundled/libs/debugpy', 'IM_CONFIG_CHECK_ENV': '1', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '5257', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'david', 'JOURNAL_STREAM': '9:22024', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_CONFIG_DIRS_VSCODE_SNAP_ORIG': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.Shell@wayland.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'XDG_DATA_DIRS_VSCODE_SNAP_ORIG': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'USERNAME': 'david', 'TERM': 'xterm-256color', 'GAZEBO_MODEL_PATH': '/opt/ros/jazzy/share/', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'PATH': '/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/home/david/.local/bin:/home/david/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/david/.vscode/extensions/ms-python.debugpy-2025.10.0-linux-x64/bundled/scripts/noConfigScripts:/home/david/.config/Code/User/globalStorage/github.copilot-chat/debugCommand', 'SESSION_MANAGER': 'local/david-GT70-2PC:@/tmp/.ICE-unix/2969,unix/david-GT70-2PC:/tmp/.ICE-unix/2969', 'GTK_EXE_PREFIX': '/snap/code/203/usr', 'INVOCATION_ID': 'a079c1a249d74e32aa7bc7b5332e4819', 'XDG_MENU_PREFIX': 'gnome-', 'BAMF_DESKTOP_FILE_HINT': '/var/lib/snapd/desktop/applications/code_code.desktop', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'GDK_BACKEND': 'x11', 'DISPLAY': ':0', 'LOCPATH': '/snap/code/203/usr/lib/locale', 'VSCODE_DEBUGPY_ADAPTER_ENDPOINTS': '/home/david/.vscode/extensions/ms-python.debugpy-2025.10.0-linux-x64/.noConfigDebugAdapterEndpoints/endpoint-5aae6d035b5a0889.txt', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'Unity', 'PYTHONSTARTUP': '/home/david/.config/Code/User/workspaceStorage/448609b2c563b19d6a8dac78be2e5f4a/ms-python.python/pythonrc.py', 'GIO_MODULE_DIR_VSCODE_SNAP_ORIG': '', 'XDG_DATA_HOME': '/home/david/snap/code/203/.local/share', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.IHFSA3', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-a9bc49ff1c.sock', 'TERM_PROGRAM': 'vscode', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'GSETTINGS_SCHEMA_DIR': '/home/david/snap/code/203/.local/share/glib-2.0/schemas', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'ORIGINAL_XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GTK_PATH_VSCODE_SNAP_ORIG': '', 'IGN_GAZEBO_RESOURCE_PATH': '/opt/ros/jazzy/share', 'FONTCONFIG_FILE': '/etc/fonts/fonts.conf', 'GTK_IM_MODULE_FILE_VSCODE_SNAP_ORIG': '', 'GJS_DEBUG_OUTPUT': 'stderr', 'GSK_RENDERER': 'gl', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/david/esha_ws/build/launch_esha', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/home/david/snap/code/203/.local/share:/home/david/snap/code/203:/snap/code/203/usr/share:/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'QTWEBENGINE_DICTIONARIES_PATH': '/usr/share/hunspell-bdic/', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[18.650430] (launch_esha) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[18.650698] (launch_esha) StdoutLine: {'line': b'-- Up-to-date: /home/david/esha_ws/install/launch_esha/share/ament_index/resource_index/package_run_dependencies/launch_esha\n'}
+[18.650871] (launch_esha) StdoutLine: {'line': b'-- Up-to-date: /home/david/esha_ws/install/launch_esha/share/ament_index/resource_index/parent_prefix_path/launch_esha\n'}
+[18.651012] (launch_esha) StdoutLine: {'line': b'-- Up-to-date: /home/david/esha_ws/install/launch_esha/share/launch_esha/environment/ament_prefix_path.sh\n'}
+[18.651143] (launch_esha) StdoutLine: {'line': b'-- Up-to-date: /home/david/esha_ws/install/launch_esha/share/launch_esha/environment/ament_prefix_path.dsv\n'}
+[18.651225] (launch_esha) StdoutLine: {'line': b'-- Up-to-date: /home/david/esha_ws/install/launch_esha/share/launch_esha/environment/path.sh\n'}
+[18.651303] (launch_esha) StdoutLine: {'line': b'-- Up-to-date: /home/david/esha_ws/install/launch_esha/share/launch_esha/environment/path.dsv\n'}
+[18.651376] (launch_esha) StdoutLine: {'line': b'-- Up-to-date: /home/david/esha_ws/install/launch_esha/share/launch_esha/local_setup.bash\n'}
+[18.651446] (launch_esha) StdoutLine: {'line': b'-- Up-to-date: /home/david/esha_ws/install/launch_esha/share/launch_esha/local_setup.sh\n'}
+[18.651521] (launch_esha) StdoutLine: {'line': b'-- Up-to-date: /home/david/esha_ws/install/launch_esha/share/launch_esha/local_setup.zsh\n'}
+[18.651595] (launch_esha) StdoutLine: {'line': b'-- Up-to-date: /home/david/esha_ws/install/launch_esha/share/launch_esha/local_setup.dsv\n'}
+[18.651670] (launch_esha) StdoutLine: {'line': b'-- Up-to-date: /home/david/esha_ws/install/launch_esha/share/launch_esha/package.dsv\n'}
+[18.651746] (launch_esha) StdoutLine: {'line': b'-- Up-to-date: /home/david/esha_ws/install/launch_esha/share/ament_index/resource_index/packages/launch_esha\n'}
+[18.651821] (launch_esha) StdoutLine: {'line': b'-- Up-to-date: /home/david/esha_ws/install/launch_esha/share/launch_esha/cmake/launch_eshaConfig.cmake\n'}
+[18.651909] (launch_esha) StdoutLine: {'line': b'-- Up-to-date: /home/david/esha_ws/install/launch_esha/share/launch_esha/cmake/launch_eshaConfig-version.cmake\n'}
+[18.651984] (launch_esha) StdoutLine: {'line': b'-- Installing: /home/david/esha_ws/install/launch_esha/share/launch_esha/package.xml\n'}
+[18.652812] (launch_esha) CommandEnded: {'returncode': 0}
+[18.660278] (-) TimerEvent: {}
+[18.672294] (launch_esha) JobEnded: {'identifier': 'launch_esha', 'rc': 0}
+[18.760431] (-) TimerEvent: {}
+[18.860720] (-) TimerEvent: {}
+[18.961041] (-) TimerEvent: {}
+[19.061494] (-) TimerEvent: {}
+[19.161787] (-) TimerEvent: {}
+[19.262173] (-) TimerEvent: {}
+[19.362483] (-) TimerEvent: {}
+[19.462785] (-) TimerEvent: {}
+[19.563144] (-) TimerEvent: {}
+[19.663447] (-) TimerEvent: {}
+[19.763711] (-) TimerEvent: {}
+[19.863973] (-) TimerEvent: {}
+[19.964296] (-) TimerEvent: {}
+[20.064618] (-) TimerEvent: {}
+[20.164894] (-) TimerEvent: {}
+[20.265205] (-) TimerEvent: {}
+[20.365550] (-) TimerEvent: {}
+[20.465888] (-) TimerEvent: {}
+[20.566178] (-) TimerEvent: {}
+[20.666463] (-) TimerEvent: {}
+[20.766803] (-) TimerEvent: {}
+[20.867116] (-) TimerEvent: {}
+[20.967409] (-) TimerEvent: {}
+[21.067730] (-) TimerEvent: {}
+[21.168019] (-) TimerEvent: {}
+[21.268297] (-) TimerEvent: {}
+[21.368614] (-) TimerEvent: {}
+[21.468902] (-) TimerEvent: {}
+[21.569223] (-) TimerEvent: {}
+[21.669562] (-) TimerEvent: {}
+[21.769892] (-) TimerEvent: {}
+[21.870180] (-) TimerEvent: {}
+[21.970543] (-) TimerEvent: {}
+[22.070874] (-) TimerEvent: {}
+[22.171191] (-) TimerEvent: {}
+[22.271524] (-) TimerEvent: {}
+[22.371869] (-) TimerEvent: {}
+[22.472332] (-) TimerEvent: {}
+[22.572971] (-) TimerEvent: {}
+[22.673557] (-) TimerEvent: {}
+[22.774266] (-) TimerEvent: {}
+[22.874722] (-) TimerEvent: {}
+[22.975143] (-) TimerEvent: {}
+[23.075785] (-) TimerEvent: {}
+[23.176453] (-) TimerEvent: {}
+[23.276870] (-) TimerEvent: {}
+[23.377236] (-) TimerEvent: {}
+[23.477642] (-) TimerEvent: {}
+[23.578355] (-) TimerEvent: {}
+[23.678804] (-) TimerEvent: {}
+[23.779258] (-) TimerEvent: {}
+[23.879950] (-) TimerEvent: {}
+[23.980563] (-) TimerEvent: {}
+[24.081035] (-) TimerEvent: {}
+[24.181794] (-) TimerEvent: {}
+[24.282473] (-) TimerEvent: {}
+[24.382990] (-) TimerEvent: {}
+[24.483726] (-) TimerEvent: {}
+[24.584398] (-) TimerEvent: {}
+[24.685246] (-) TimerEvent: {}
+[24.785777] (-) TimerEvent: {}
+[24.886138] (-) TimerEvent: {}
+[24.986448] (-) TimerEvent: {}
+[25.086740] (-) TimerEvent: {}
+[25.187097] (-) TimerEvent: {}
+[25.287651] (-) TimerEvent: {}
+[25.388214] (-) TimerEvent: {}
+[25.488563] (-) TimerEvent: {}
+[25.588939] (-) TimerEvent: {}
+[25.689514] (-) TimerEvent: {}
+[25.790197] (-) TimerEvent: {}
+[25.890696] (-) TimerEvent: {}
+[25.991065] (-) TimerEvent: {}
+[26.091586] (-) TimerEvent: {}
+[26.191951] (-) TimerEvent: {}
+[26.292327] (-) TimerEvent: {}
+[26.392980] (-) TimerEvent: {}
+[26.493687] (-) TimerEvent: {}
+[26.594046] (-) TimerEvent: {}
+[26.694463] (-) TimerEvent: {}
+[26.794882] (-) TimerEvent: {}
+[26.895242] (-) TimerEvent: {}
+[26.995632] (-) TimerEvent: {}
+[27.096102] (-) TimerEvent: {}
+[27.196522] (-) TimerEvent: {}
+[27.297195] (-) TimerEvent: {}
+[27.397884] (-) TimerEvent: {}
+[27.498236] (-) TimerEvent: {}
+[27.598736] (-) TimerEvent: {}
+[27.699374] (-) TimerEvent: {}
+[27.799777] (-) TimerEvent: {}
+[27.900286] (-) TimerEvent: {}
+[28.001039] (-) TimerEvent: {}
+[28.101567] (-) TimerEvent: {}
+[28.202161] (-) TimerEvent: {}
+[28.302484] (-) TimerEvent: {}
+[28.402961] (-) TimerEvent: {}
+[28.503507] (-) TimerEvent: {}
+[28.604098] (-) TimerEvent: {}
+[28.704565] (-) TimerEvent: {}
+[28.804963] (-) TimerEvent: {}
+[28.905458] (-) TimerEvent: {}
+[29.005888] (-) TimerEvent: {}
+[29.106395] (-) TimerEvent: {}
+[29.207277] (-) TimerEvent: {}
+[29.307840] (-) TimerEvent: {}
+[29.408208] (-) TimerEvent: {}
+[29.508716] (-) TimerEvent: {}
+[29.609196] (-) TimerEvent: {}
+[29.709590] (-) TimerEvent: {}
+[29.810341] (-) TimerEvent: {}
+[29.910887] (-) TimerEvent: {}
+[30.011382] (-) TimerEvent: {}
+[30.111739] (-) TimerEvent: {}
+[30.212231] (-) TimerEvent: {}
+[30.312612] (-) TimerEvent: {}
+[30.413150] (-) TimerEvent: {}
+[30.513700] (-) TimerEvent: {}
+[30.614100] (-) TimerEvent: {}
+[30.714400] (-) TimerEvent: {}
+[30.814720] (-) TimerEvent: {}
+[30.915134] (-) TimerEvent: {}
+[31.015432] (-) TimerEvent: {}
+[31.115749] (-) TimerEvent: {}
+[31.216185] (-) TimerEvent: {}
+[31.316909] (-) TimerEvent: {}
+[31.417779] (-) TimerEvent: {}
+[31.518407] (-) TimerEvent: {}
+[31.618902] (-) TimerEvent: {}
+[31.719370] (-) TimerEvent: {}
+[31.820073] (-) TimerEvent: {}
+[31.920773] (-) TimerEvent: {}
+[32.021283] (-) TimerEvent: {}
+[32.121866] (-) TimerEvent: {}
+[32.222210] (-) TimerEvent: {}
+[32.322709] (-) TimerEvent: {}
+[32.423333] (-) TimerEvent: {}
+[32.523630] (-) TimerEvent: {}
+[32.623930] (-) TimerEvent: {}
+[32.724314] (-) TimerEvent: {}
+[32.824740] (-) TimerEvent: {}
+[32.925398] (-) TimerEvent: {}
+[33.026095] (-) TimerEvent: {}
+[33.126642] (-) TimerEvent: {}
+[33.227199] (-) TimerEvent: {}
+[33.327726] (-) TimerEvent: {}
+[33.428142] (-) TimerEvent: {}
+[33.528686] (-) TimerEvent: {}
+[33.629331] (-) TimerEvent: {}
+[33.729771] (-) TimerEvent: {}
+[33.830309] (-) TimerEvent: {}
+[33.930725] (-) TimerEvent: {}
+[34.031125] (-) TimerEvent: {}
+[34.131419] (-) TimerEvent: {}
+[34.231716] (-) TimerEvent: {}
+[34.332181] (-) TimerEvent: {}
+[34.432502] (-) TimerEvent: {}
+[34.532813] (-) TimerEvent: {}
+[34.633240] (-) TimerEvent: {}
+[34.733606] (-) TimerEvent: {}
+[34.834145] (-) TimerEvent: {}
+[34.934716] (-) TimerEvent: {}
+[35.035036] (-) TimerEvent: {}
+[35.135452] (-) TimerEvent: {}
+[35.236017] (-) TimerEvent: {}
+[35.336560] (-) TimerEvent: {}
+[35.437120] (-) TimerEvent: {}
+[35.537645] (-) TimerEvent: {}
+[35.638029] (-) TimerEvent: {}
+[35.738600] (-) TimerEvent: {}
+[35.839076] (-) TimerEvent: {}
+[35.939493] (-) TimerEvent: {}
+[36.040066] (-) TimerEvent: {}
+[36.140509] (-) TimerEvent: {}
+[36.240908] (-) TimerEvent: {}
+[36.341351] (-) TimerEvent: {}
+[36.441795] (-) TimerEvent: {}
+[36.542458] (-) TimerEvent: {}
+[36.643248] (-) TimerEvent: {}
+[36.743984] (-) TimerEvent: {}
+[36.844664] (-) TimerEvent: {}
+[36.945157] (-) TimerEvent: {}
+[37.045517] (-) TimerEvent: {}
+[37.145987] (-) TimerEvent: {}
+[37.246535] (-) TimerEvent: {}
+[37.347077] (-) TimerEvent: {}
+[37.447414] (-) TimerEvent: {}
+[37.547902] (-) TimerEvent: {}
+[37.648333] (-) TimerEvent: {}
+[37.748984] (-) TimerEvent: {}
+[37.849584] (-) TimerEvent: {}
+[37.950209] (-) TimerEvent: {}
+[38.050688] (-) TimerEvent: {}
+[38.151285] (-) TimerEvent: {}
+[38.251688] (-) TimerEvent: {}
+[38.352159] (-) TimerEvent: {}
+[38.452559] (-) TimerEvent: {}
+[38.553224] (-) TimerEvent: {}
+[38.653801] (-) TimerEvent: {}
+[38.754264] (-) TimerEvent: {}
+[38.854851] (-) TimerEvent: {}
+[38.955271] (-) TimerEvent: {}
+[39.055879] (-) TimerEvent: {}
+[39.156258] (-) TimerEvent: {}
+[39.256778] (-) TimerEvent: {}
+[39.357100] (-) TimerEvent: {}
+[39.457595] (-) TimerEvent: {}
+[39.558090] (-) TimerEvent: {}
+[39.658765] (-) TimerEvent: {}
+[39.759441] (-) TimerEvent: {}
+[39.859929] (-) TimerEvent: {}
+[39.960617] (-) TimerEvent: {}
+[40.061202] (-) TimerEvent: {}
+[40.161541] (-) TimerEvent: {}
+[40.261991] (-) TimerEvent: {}
+[40.362501] (-) TimerEvent: {}
+[40.462967] (-) TimerEvent: {}
+[40.563625] (-) TimerEvent: {}
+[40.664101] (-) TimerEvent: {}
+[40.764662] (-) TimerEvent: {}
+[40.865056] (-) TimerEvent: {}
+[40.965541] (-) TimerEvent: {}
+[41.066014] (-) TimerEvent: {}
+[41.166371] (-) TimerEvent: {}
+[41.266692] (-) TimerEvent: {}
+[41.367001] (-) TimerEvent: {}
+[41.467287] (-) TimerEvent: {}
+[41.567699] (-) TimerEvent: {}
+[41.668262] (-) TimerEvent: {}
+[41.768632] (-) TimerEvent: {}
+[41.869141] (-) TimerEvent: {}
+[41.969953] (-) TimerEvent: {}
+[42.070555] (-) TimerEvent: {}
+[42.171001] (-) TimerEvent: {}
+[42.271607] (-) TimerEvent: {}
+[42.371900] (-) TimerEvent: {}
+[42.472287] (-) TimerEvent: {}
+[42.572880] (-) TimerEvent: {}
+[42.673272] (-) TimerEvent: {}
+[42.773645] (-) TimerEvent: {}
+[42.874133] (-) TimerEvent: {}
+[42.974540] (-) TimerEvent: {}
+[43.075120] (-) TimerEvent: {}
+[43.175582] (-) TimerEvent: {}
+[43.275918] (-) TimerEvent: {}
+[43.376261] (-) TimerEvent: {}
+[43.476697] (-) TimerEvent: {}
+[43.577144] (-) TimerEvent: {}
+[43.677649] (-) TimerEvent: {}
+[43.778205] (-) TimerEvent: {}
+[43.878621] (-) TimerEvent: {}
+[43.979234] (-) TimerEvent: {}
+[44.079743] (-) TimerEvent: {}
+[44.180156] (-) TimerEvent: {}
+[44.280631] (-) TimerEvent: {}
+[44.381108] (-) TimerEvent: {}
+[44.481459] (-) TimerEvent: {}
+[44.581761] (-) TimerEvent: {}
+[44.682306] (-) TimerEvent: {}
+[44.782921] (-) TimerEvent: {}
+[44.883367] (-) TimerEvent: {}
+[44.983652] (-) TimerEvent: {}
+[45.083999] (-) TimerEvent: {}
+[45.184463] (-) TimerEvent: {}
+[45.284824] (-) TimerEvent: {}
+[45.385354] (-) TimerEvent: {}
+[45.485881] (-) TimerEvent: {}
+[45.586299] (-) TimerEvent: {}
+[45.686933] (-) TimerEvent: {}
+[45.787421] (-) TimerEvent: {}
+[45.887967] (-) TimerEvent: {}
+[45.988648] (-) TimerEvent: {}
+[46.088951] (-) TimerEvent: {}
+[46.189254] (-) TimerEvent: {}
+[46.289544] (-) TimerEvent: {}
+[46.389942] (-) TimerEvent: {}
+[46.490390] (-) TimerEvent: {}
+[46.590744] (-) TimerEvent: {}
+[46.691177] (-) TimerEvent: {}
+[46.791895] (-) TimerEvent: {}
+[46.892495] (-) TimerEvent: {}
+[46.992781] (-) TimerEvent: {}
+[47.093248] (-) TimerEvent: {}
+[47.193651] (-) TimerEvent: {}
+[47.293963] (-) TimerEvent: {}
+[47.394361] (-) TimerEvent: {}
+[47.494969] (-) TimerEvent: {}
+[47.595574] (-) TimerEvent: {}
+[47.696090] (-) TimerEvent: {}
+[47.796559] (-) TimerEvent: {}
+[47.897115] (-) TimerEvent: {}
+[47.997476] (-) TimerEvent: {}
+[48.097856] (-) TimerEvent: {}
+[48.198418] (-) TimerEvent: {}
+[48.298933] (-) TimerEvent: {}
+[48.399281] (-) TimerEvent: {}
+[48.499677] (-) TimerEvent: {}
+[48.600002] (-) TimerEvent: {}
+[48.700368] (-) TimerEvent: {}
+[48.800822] (-) TimerEvent: {}
+[48.901140] (-) TimerEvent: {}
+[49.001560] (-) TimerEvent: {}
+[49.102147] (-) TimerEvent: {}
+[49.202551] (-) TimerEvent: {}
+[49.302873] (-) TimerEvent: {}
+[49.403213] (-) TimerEvent: {}
+[49.503555] (-) TimerEvent: {}
+[49.603898] (-) TimerEvent: {}
+[49.708680] (-) TimerEvent: {}
+[49.808990] (-) TimerEvent: {}
+[49.909316] (-) TimerEvent: {}
+[50.009614] (-) TimerEvent: {}
+[50.109939] (-) TimerEvent: {}
+[50.210317] (-) TimerEvent: {}
+[50.310826] (-) TimerEvent: {}
+[50.411316] (-) TimerEvent: {}
+[50.511756] (-) TimerEvent: {}
+[50.612095] (-) TimerEvent: {}
+[50.712634] (-) TimerEvent: {}
+[50.813228] (-) TimerEvent: {}
+[50.913637] (-) TimerEvent: {}
+[51.014013] (-) TimerEvent: {}
+[51.114297] (-) TimerEvent: {}
+[51.214586] (-) TimerEvent: {}
+[51.314947] (-) TimerEvent: {}
+[51.415468] (-) TimerEvent: {}
+[51.515953] (-) TimerEvent: {}
+[51.616271] (-) TimerEvent: {}
+[51.716673] (-) TimerEvent: {}
+[51.817318] (-) TimerEvent: {}
+[51.917700] (-) TimerEvent: {}
+[52.018345] (-) TimerEvent: {}
+[52.118920] (-) TimerEvent: {}
+[52.219435] (-) TimerEvent: {}
+[52.319821] (-) TimerEvent: {}
+[52.420573] (-) TimerEvent: {}
+[52.521102] (-) TimerEvent: {}
+[52.621477] (-) TimerEvent: {}
+[52.722024] (-) TimerEvent: {}
+[52.822509] (-) TimerEvent: {}
+[52.922892] (-) TimerEvent: {}
+[53.023295] (-) TimerEvent: {}
+[53.123814] (-) TimerEvent: {}
+[53.224217] (-) TimerEvent: {}
+[53.324809] (-) TimerEvent: {}
+[53.425170] (-) TimerEvent: {}
+[53.525514] (-) TimerEvent: {}
+[53.625803] (-) TimerEvent: {}
+[53.726100] (-) TimerEvent: {}
+[53.826558] (-) TimerEvent: {}
+[53.927238] (-) TimerEvent: {}
+[54.027787] (-) TimerEvent: {}
+[54.128195] (-) TimerEvent: {}
+[54.228620] (-) TimerEvent: {}
+[54.328991] (-) TimerEvent: {}
+[54.429394] (-) TimerEvent: {}
+[54.529704] (-) TimerEvent: {}
+[54.629986] (-) TimerEvent: {}
+[54.730374] (-) TimerEvent: {}
+[54.830764] (-) TimerEvent: {}
+[54.931145] (-) TimerEvent: {}
+[55.031651] (-) TimerEvent: {}
+[55.132032] (-) TimerEvent: {}
+[55.232392] (-) TimerEvent: {}
+[55.332731] (-) TimerEvent: {}
+[55.433159] (-) TimerEvent: {}
+[55.533921] (-) TimerEvent: {}
+[55.634408] (-) TimerEvent: {}
+[55.734822] (-) TimerEvent: {}
+[55.835470] (-) TimerEvent: {}
+[55.935978] (-) TimerEvent: {}
+[56.036657] (-) TimerEvent: {}
+[56.137051] (-) TimerEvent: {}
+[56.237554] (-) TimerEvent: {}
+[56.338235] (-) TimerEvent: {}
+[56.439015] (-) TimerEvent: {}
+[56.539556] (-) TimerEvent: {}
+[56.640080] (-) TimerEvent: {}
+[56.672503] (inter_package) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/inter_package', 'build', '--build-base', '/home/david/esha_ws/build/inter_package/build', 'install', '--record', '/home/david/esha_ws/build/inter_package/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/david/esha_ws/src/inter_package', 'env': {'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'PYTHON_BASIC_REPL': '1', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'david', 'FONTCONFIG_PATH': '/etc/fonts', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'GIO_MODULE_DIR': '/home/david/snap/code/common/.cache/gio-modules', 'XDG_SESSION_TYPE': 'wayland', 'GIT_ASKPASS': '/snap/code/203/usr/share/code/resources/app/extensions/git/dist/askpass.sh', 'GTK_EXE_PREFIX_VSCODE_SNAP_ORIG': '', 'GDK_BACKEND_VSCODE_SNAP_ORIG': '', 'CLUTTER_DISABLE_MIPMAPPED_TEXT': '1', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/david', 'CHROME_DESKTOP': 'code.desktop', 'LOCPATH_VSCODE_SNAP_ORIG': '', 'OLDPWD': '/home/david', 'TERM_PROGRAM_VERSION': '1.103.0', 'DESKTOP_SESSION': 'ubuntu', 'GTK_PATH': '/snap/code/203/usr/lib/x86_64-linux-gnu/gtk-3.0', 'XDG_DATA_HOME_VSCODE_SNAP_ORIG': '', 'GTK_IM_MODULE_FILE': '/home/david/snap/code/common/.cache/immodules/immodules.cache', 'GIO_LAUNCHED_DESKTOP_FILE': '/var/lib/snapd/desktop/applications/code_code.desktop', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'GSETTINGS_SCHEMA_DIR_VSCODE_SNAP_ORIG': '', 'VSCODE_GIT_ASKPASS_MAIN': '/snap/code/203/usr/share/code/resources/app/extensions/git/dist/askpass-main.js', 'VSCODE_GIT_ASKPASS_NODE': '/snap/code/203/usr/share/code/code', 'MANAGERPID': '2730', 'PYDEVD_DISABLE_FILE_VALIDATION': '1', 'SYSTEMD_EXEC_PID': '3017', 'BUNDLED_DEBUGPY_PATH': '/home/david/.vscode/extensions/ms-python.debugpy-2025.10.0-linux-x64/bundled/libs/debugpy', 'IM_CONFIG_CHECK_ENV': '1', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '5257', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'david', 'JOURNAL_STREAM': '9:22024', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_CONFIG_DIRS_VSCODE_SNAP_ORIG': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.Shell@wayland.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'XDG_DATA_DIRS_VSCODE_SNAP_ORIG': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'USERNAME': 'david', 'TERM': 'xterm-256color', 'GAZEBO_MODEL_PATH': '/opt/ros/jazzy/share/', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'PATH': '/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/home/david/.local/bin:/home/david/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/david/.vscode/extensions/ms-python.debugpy-2025.10.0-linux-x64/bundled/scripts/noConfigScripts:/home/david/.config/Code/User/globalStorage/github.copilot-chat/debugCommand', 'SESSION_MANAGER': 'local/david-GT70-2PC:@/tmp/.ICE-unix/2969,unix/david-GT70-2PC:/tmp/.ICE-unix/2969', 'GTK_EXE_PREFIX': '/snap/code/203/usr', 'INVOCATION_ID': 'a079c1a249d74e32aa7bc7b5332e4819', 'XDG_MENU_PREFIX': 'gnome-', 'BAMF_DESKTOP_FILE_HINT': '/var/lib/snapd/desktop/applications/code_code.desktop', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'GDK_BACKEND': 'x11', 'DISPLAY': ':0', 'LOCPATH': '/snap/code/203/usr/lib/locale', 'VSCODE_DEBUGPY_ADAPTER_ENDPOINTS': '/home/david/.vscode/extensions/ms-python.debugpy-2025.10.0-linux-x64/.noConfigDebugAdapterEndpoints/endpoint-5aae6d035b5a0889.txt', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'Unity', 'PYTHONSTARTUP': '/home/david/.config/Code/User/workspaceStorage/448609b2c563b19d6a8dac78be2e5f4a/ms-python.python/pythonrc.py', 'GIO_MODULE_DIR_VSCODE_SNAP_ORIG': '', 'XDG_DATA_HOME': '/home/david/snap/code/203/.local/share', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.IHFSA3', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-a9bc49ff1c.sock', 'TERM_PROGRAM': 'vscode', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'GSETTINGS_SCHEMA_DIR': '/home/david/snap/code/203/.local/share/glib-2.0/schemas', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'ORIGINAL_XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GTK_PATH_VSCODE_SNAP_ORIG': '', 'IGN_GAZEBO_RESOURCE_PATH': '/opt/ros/jazzy/share', 'FONTCONFIG_FILE': '/etc/fonts/fonts.conf', 'GTK_IM_MODULE_FILE_VSCODE_SNAP_ORIG': '', 'GJS_DEBUG_OUTPUT': 'stderr', 'GSK_RENDERER': 'gl', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/david/esha_ws/build/inter_package', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/home/david/snap/code/203/.local/share:/home/david/snap/code/203:/snap/code/203/usr/share:/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'QTWEBENGINE_DICTIONARIES_PATH': '/usr/share/hunspell-bdic/', 'PYTHONPATH': '/home/david/esha_ws/build/inter_package/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/david/esha_ws/install/inter_package/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor'}, 'shell': False}
+[56.676794] (monitor) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/monitor', 'build', '--build-base', '/home/david/esha_ws/build/monitor/build', 'install', '--record', '/home/david/esha_ws/build/monitor/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/david/esha_ws/src/monitor', 'env': {'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'PYTHON_BASIC_REPL': '1', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'david', 'FONTCONFIG_PATH': '/etc/fonts', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'GIO_MODULE_DIR': '/home/david/snap/code/common/.cache/gio-modules', 'XDG_SESSION_TYPE': 'wayland', 'GIT_ASKPASS': '/snap/code/203/usr/share/code/resources/app/extensions/git/dist/askpass.sh', 'GTK_EXE_PREFIX_VSCODE_SNAP_ORIG': '', 'GDK_BACKEND_VSCODE_SNAP_ORIG': '', 'CLUTTER_DISABLE_MIPMAPPED_TEXT': '1', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/david/esha_ws/install/rosmonitoring_interfaces/lib:/home/david/esha_ws/install/interfaces/lib:/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/david', 'CHROME_DESKTOP': 'code.desktop', 'LOCPATH_VSCODE_SNAP_ORIG': '', 'OLDPWD': '/home/david', 'TERM_PROGRAM_VERSION': '1.103.0', 'DESKTOP_SESSION': 'ubuntu', 'GTK_PATH': '/snap/code/203/usr/lib/x86_64-linux-gnu/gtk-3.0', 'XDG_DATA_HOME_VSCODE_SNAP_ORIG': '', 'GTK_IM_MODULE_FILE': '/home/david/snap/code/common/.cache/immodules/immodules.cache', 'GIO_LAUNCHED_DESKTOP_FILE': '/var/lib/snapd/desktop/applications/code_code.desktop', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'GSETTINGS_SCHEMA_DIR_VSCODE_SNAP_ORIG': '', 'VSCODE_GIT_ASKPASS_MAIN': '/snap/code/203/usr/share/code/resources/app/extensions/git/dist/askpass-main.js', 'VSCODE_GIT_ASKPASS_NODE': '/snap/code/203/usr/share/code/code', 'MANAGERPID': '2730', 'PYDEVD_DISABLE_FILE_VALIDATION': '1', 'SYSTEMD_EXEC_PID': '3017', 'BUNDLED_DEBUGPY_PATH': '/home/david/.vscode/extensions/ms-python.debugpy-2025.10.0-linux-x64/bundled/libs/debugpy', 'IM_CONFIG_CHECK_ENV': '1', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '5257', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'david', 'JOURNAL_STREAM': '9:22024', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_CONFIG_DIRS_VSCODE_SNAP_ORIG': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.Shell@wayland.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'XDG_DATA_DIRS_VSCODE_SNAP_ORIG': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'USERNAME': 'david', 'TERM': 'xterm-256color', 'GAZEBO_MODEL_PATH': '/opt/ros/jazzy/share/', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'PATH': '/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/home/david/.local/bin:/home/david/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/david/.vscode/extensions/ms-python.debugpy-2025.10.0-linux-x64/bundled/scripts/noConfigScripts:/home/david/.config/Code/User/globalStorage/github.copilot-chat/debugCommand', 'SESSION_MANAGER': 'local/david-GT70-2PC:@/tmp/.ICE-unix/2969,unix/david-GT70-2PC:/tmp/.ICE-unix/2969', 'GTK_EXE_PREFIX': '/snap/code/203/usr', 'INVOCATION_ID': 'a079c1a249d74e32aa7bc7b5332e4819', 'XDG_MENU_PREFIX': 'gnome-', 'BAMF_DESKTOP_FILE_HINT': '/var/lib/snapd/desktop/applications/code_code.desktop', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'GDK_BACKEND': 'x11', 'DISPLAY': ':0', 'LOCPATH': '/snap/code/203/usr/lib/locale', 'VSCODE_DEBUGPY_ADAPTER_ENDPOINTS': '/home/david/.vscode/extensions/ms-python.debugpy-2025.10.0-linux-x64/.noConfigDebugAdapterEndpoints/endpoint-5aae6d035b5a0889.txt', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'Unity', 'PYTHONSTARTUP': '/home/david/.config/Code/User/workspaceStorage/448609b2c563b19d6a8dac78be2e5f4a/ms-python.python/pythonrc.py', 'GIO_MODULE_DIR_VSCODE_SNAP_ORIG': '', 'XDG_DATA_HOME': '/home/david/snap/code/203/.local/share', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.IHFSA3', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-a9bc49ff1c.sock', 'TERM_PROGRAM': 'vscode', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'GSETTINGS_SCHEMA_DIR': '/home/david/snap/code/203/.local/share/glib-2.0/schemas', 'AMENT_PREFIX_PATH': '/home/david/esha_ws/install/rosmonitoring_interfaces:/home/david/esha_ws/install/interfaces:/opt/ros/jazzy', 'ORIGINAL_XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GTK_PATH_VSCODE_SNAP_ORIG': '', 'IGN_GAZEBO_RESOURCE_PATH': '/opt/ros/jazzy/share', 'FONTCONFIG_FILE': '/etc/fonts/fonts.conf', 'GTK_IM_MODULE_FILE_VSCODE_SNAP_ORIG': '', 'GJS_DEBUG_OUTPUT': 'stderr', 'GSK_RENDERER': 'gl', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/david/esha_ws/build/monitor', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/home/david/snap/code/203/.local/share:/home/david/snap/code/203:/snap/code/203/usr/share:/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'QTWEBENGINE_DICTIONARIES_PATH': '/usr/share/hunspell-bdic/', 'PYTHONPATH': '/home/david/esha_ws/build/monitor/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/david/esha_ws/install/monitor/lib/python3.12/site-packages:/home/david/esha_ws/install/rosmonitoring_interfaces/lib/python3.12/site-packages:/home/david/esha_ws/install/interfaces/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'CMAKE_PREFIX_PATH': '/home/david/esha_ws/install/rosmonitoring_interfaces:/home/david/esha_ws/install/interfaces:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor'}, 'shell': False}
+[56.740171] (-) TimerEvent: {}
+[56.840445] (-) TimerEvent: {}
+[56.941852] (-) TimerEvent: {}
+[57.042190] (-) TimerEvent: {}
+[57.102524] (inter_package) StdoutLine: {'line': b'running egg_info\n'}
+[57.112154] (monitor) StdoutLine: {'line': b'running egg_info\n'}
+[57.130955] (inter_package) StdoutLine: {'line': b'writing ../../build/inter_package/inter_package.egg-info/PKG-INFO\n'}
+[57.131242] (inter_package) StdoutLine: {'line': b'writing dependency_links to ../../build/inter_package/inter_package.egg-info/dependency_links.txt\n'}
+[57.131533] (inter_package) StdoutLine: {'line': b'writing entry points to ../../build/inter_package/inter_package.egg-info/entry_points.txt\n'}
+[57.131707] (inter_package) StdoutLine: {'line': b'writing requirements to ../../build/inter_package/inter_package.egg-info/requires.txt\n'}
+[57.131853] (inter_package) StdoutLine: {'line': b'writing top-level names to ../../build/inter_package/inter_package.egg-info/top_level.txt\n'}
+[57.141804] (monitor) StdoutLine: {'line': b'writing ../../build/monitor/monitor.egg-info/PKG-INFO\n'}
+[57.142125] (monitor) StdoutLine: {'line': b'writing dependency_links to ../../build/monitor/monitor.egg-info/dependency_links.txt\n'}
+[57.142235] (-) TimerEvent: {}
+[57.142567] (monitor) StdoutLine: {'line': b'writing entry points to ../../build/monitor/monitor.egg-info/entry_points.txt\n'}
+[57.142764] (monitor) StdoutLine: {'line': b'writing requirements to ../../build/monitor/monitor.egg-info/requires.txt\n'}
+[57.142952] (monitor) StdoutLine: {'line': b'writing top-level names to ../../build/monitor/monitor.egg-info/top_level.txt\n'}
+[57.200053] (inter_package) StdoutLine: {'line': b"reading manifest file '../../build/inter_package/inter_package.egg-info/SOURCES.txt'\n"}
+[57.220358] (monitor) StdoutLine: {'line': b"reading manifest file '../../build/monitor/monitor.egg-info/SOURCES.txt'\n"}
+[57.242375] (-) TimerEvent: {}
+[57.256220] (monitor) StdoutLine: {'line': b"writing manifest file '../../build/monitor/monitor.egg-info/SOURCES.txt'\n"}
+[57.256975] (monitor) StdoutLine: {'line': b'running build\n'}
+[57.257143] (monitor) StdoutLine: {'line': b'running build_py\n'}
+[57.257597] (monitor) StdoutLine: {'line': b'running install\n'}
+[57.267765] (monitor) StdoutLine: {'line': b'running install_lib\n'}
+[57.277843] (inter_package) StdoutLine: {'line': b"adding license file 'LICENSE'\n"}
+[57.278946] (inter_package) StdoutLine: {'line': b"writing manifest file '../../build/inter_package/inter_package.egg-info/SOURCES.txt'\n"}
+[57.279150] (inter_package) StdoutLine: {'line': b'running build\n'}
+[57.279278] (inter_package) StdoutLine: {'line': b'running build_py\n'}
+[57.280308] (inter_package) StdoutLine: {'line': b'running install\n'}
+[57.289808] (inter_package) StdoutLine: {'line': b'running install_lib\n'}
+[57.305169] (monitor) StdoutLine: {'line': b'running install_data\n'}
+[57.305387] (monitor) StdoutLine: {'line': b'running install_egg_info\n'}
+[57.320811] (inter_package) StdoutLine: {'line': b'running install_data\n'}
+[57.321031] (inter_package) StdoutLine: {'line': b'running install_egg_info\n'}
+[57.333472] (monitor) StdoutLine: {'line': b"removing '/home/david/esha_ws/install/monitor/lib/python3.12/site-packages/monitor-0.0.0-py3.12.egg-info' (and everything under it)\n"}
+[57.333871] (monitor) StdoutLine: {'line': b'Copying ../../build/monitor/monitor.egg-info to /home/david/esha_ws/install/monitor/lib/python3.12/site-packages/monitor-0.0.0-py3.12.egg-info\n'}
+[57.342470] (-) TimerEvent: {}
+[57.350540] (inter_package) StdoutLine: {'line': b"removing '/home/david/esha_ws/install/inter_package/lib/python3.12/site-packages/inter_package-0.0.0-py3.12.egg-info' (and everything under it)\n"}
+[57.350824] (inter_package) StdoutLine: {'line': b'Copying ../../build/inter_package/inter_package.egg-info to /home/david/esha_ws/install/inter_package/lib/python3.12/site-packages/inter_package-0.0.0-py3.12.egg-info\n'}
+[57.398387] (monitor) StdoutLine: {'line': b'running install_scripts\n'}
+[57.442583] (-) TimerEvent: {}
+[57.542845] (-) TimerEvent: {}
+[57.620152] (monitor) StdoutLine: {'line': b'Installing arm_monitor script to /home/david/esha_ws/install/monitor/lib/monitor\n'}
+[57.620429] (monitor) StdoutLine: {'line': b'Installing camera_monitor script to /home/david/esha_ws/install/monitor/lib/monitor\n'}
+[57.620635] (monitor) StdoutLine: {'line': b'Installing carbon_monoxide_monitor script to /home/david/esha_ws/install/monitor/lib/monitor\n'}
+[57.620818] (monitor) StdoutLine: {'line': b'Installing distance_monitor script to /home/david/esha_ws/install/monitor/lib/monitor\n'}
+[57.621066] (monitor) StdoutLine: {'line': b'Installing monitor script to /home/david/esha_ws/install/monitor/lib/monitor\n'}
+[57.621254] (monitor) StdoutLine: {'line': b'Installing motor_monitor script to /home/david/esha_ws/install/monitor/lib/monitor\n'}
+[57.621443] (monitor) StdoutLine: {'line': b'Installing temperature_monitor script to /home/david/esha_ws/install/monitor/lib/monitor\n'}
+[57.621672] (monitor) StdoutLine: {'line': b'Installing tip_out_monitor script to /home/david/esha_ws/install/monitor/lib/monitor\n'}
+[57.622319] (monitor) StdoutLine: {'line': b"writing list of installed files to '/home/david/esha_ws/build/monitor/install.log'\n"}
+[57.642899] (-) TimerEvent: {}
+[57.672797] (monitor) CommandEnded: {'returncode': 0}
+[57.680838] (monitor) JobEnded: {'identifier': 'monitor', 'rc': 0}
+[57.739740] (inter_package) StdoutLine: {'line': b'running install_scripts\n'}
+[57.742985] (-) TimerEvent: {}
+[57.843238] (-) TimerEvent: {}
+[57.943528] (-) TimerEvent: {}
+[58.024800] (inter_package) StdoutLine: {'line': b'Installing arm_current_node script to /home/david/esha_ws/install/inter_package/lib/inter_package\n'}
+[58.025161] (inter_package) StdoutLine: {'line': b'Installing camera_node script to /home/david/esha_ws/install/inter_package/lib/inter_package\n'}
+[58.025545] (inter_package) StdoutLine: {'line': b'Installing co_node script to /home/david/esha_ws/install/inter_package/lib/inter_package\n'}
+[58.026054] (inter_package) StdoutLine: {'line': b'Installing imu_node script to /home/david/esha_ws/install/inter_package/lib/inter_package\n'}
+[58.026301] (inter_package) StdoutLine: {'line': b'Installing motor_current_node script to /home/david/esha_ws/install/inter_package/lib/inter_package\n'}
+[58.026524] (inter_package) StdoutLine: {'line': b'Installing temperature_node script to /home/david/esha_ws/install/inter_package/lib/inter_package\n'}
+[58.026718] (inter_package) StdoutLine: {'line': b'Installing ultrasonic_node script to /home/david/esha_ws/install/inter_package/lib/inter_package\n'}
+[58.026950] (inter_package) StdoutLine: {'line': b'Installing velocity_node script to /home/david/esha_ws/install/inter_package/lib/inter_package\n'}
+[58.027508] (inter_package) StdoutLine: {'line': b"writing list of installed files to '/home/david/esha_ws/build/inter_package/install.log'\n"}
+[58.043643] (-) TimerEvent: {}
+[58.090660] (inter_package) CommandEnded: {'returncode': 0}
+[58.102813] (inter_package) JobEnded: {'identifier': 'inter_package', 'rc': 0}
+[58.104219] (-) EventReactorShutdown: {}

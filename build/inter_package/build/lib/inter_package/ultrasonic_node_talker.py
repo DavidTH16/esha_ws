@@ -21,7 +21,7 @@ class UltrasonicNode(Node):
                 sensor_msg = SensorData()
                 sensor_msg.distance = distance
                 self.publisher.publish(sensor_msg)
-                self.get_logger().info(f"Path clear)
+                self.get_logger().info(f"Path clear")
             else:
                 # Abyss detected: do not publish any message
                 distance = random.uniform(20, 29)

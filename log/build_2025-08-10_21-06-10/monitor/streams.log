@@ -1,0 +1,28 @@
+[41.225s] Invoking command in '/home/david/esha_ws/src/monitor': AMENT_PREFIX_PATH=/home/david/esha_ws/install/rosmonitoring_interfaces:/home/david/esha_ws/install/interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/david/esha_ws/install/rosmonitoring_interfaces:/home/david/esha_ws/install/interfaces:${CMAKE_PREFIX_PATH} DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/david/esha_ws/install/rosmonitoring_interfaces/lib:/home/david/esha_ws/install/interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/david/esha_ws/build/monitor/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/david/esha_ws/install/monitor/lib/python3.12/site-packages:/home/david/esha_ws/install/rosmonitoring_interfaces/lib/python3.12/site-packages:/home/david/esha_ws/install/interfaces/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/monitor build --build-base /home/david/esha_ws/build/monitor/build install --record /home/david/esha_ws/build/monitor/install.log --single-version-externally-managed install_data
+[41.659s] running egg_info
+[41.689s] writing ../../build/monitor/monitor.egg-info/PKG-INFO
+[41.689s] writing dependency_links to ../../build/monitor/monitor.egg-info/dependency_links.txt
+[41.689s] writing entry points to ../../build/monitor/monitor.egg-info/entry_points.txt
+[41.690s] writing requirements to ../../build/monitor/monitor.egg-info/requires.txt
+[41.690s] writing top-level names to ../../build/monitor/monitor.egg-info/top_level.txt
+[41.767s] reading manifest file '../../build/monitor/monitor.egg-info/SOURCES.txt'
+[41.803s] writing manifest file '../../build/monitor/monitor.egg-info/SOURCES.txt'
+[41.804s] running build
+[41.804s] running build_py
+[41.804s] running install
+[41.815s] running install_lib
+[41.852s] running install_data
+[41.852s] running install_egg_info
+[41.880s] removing '/home/david/esha_ws/install/monitor/lib/python3.12/site-packages/monitor-0.0.0-py3.12.egg-info' (and everything under it)
+[41.881s] Copying ../../build/monitor/monitor.egg-info to /home/david/esha_ws/install/monitor/lib/python3.12/site-packages/monitor-0.0.0-py3.12.egg-info
+[41.945s] running install_scripts
+[42.167s] Installing arm_monitor script to /home/david/esha_ws/install/monitor/lib/monitor
+[42.167s] Installing camera_monitor script to /home/david/esha_ws/install/monitor/lib/monitor
+[42.167s] Installing carbon_monoxide_monitor script to /home/david/esha_ws/install/monitor/lib/monitor
+[42.168s] Installing distance_monitor script to /home/david/esha_ws/install/monitor/lib/monitor
+[42.168s] Installing monitor script to /home/david/esha_ws/install/monitor/lib/monitor
+[42.168s] Installing motor_monitor script to /home/david/esha_ws/install/monitor/lib/monitor
+[42.168s] Installing temperature_monitor script to /home/david/esha_ws/install/monitor/lib/monitor
+[42.168s] Installing tip_out_monitor script to /home/david/esha_ws/install/monitor/lib/monitor
+[42.169s] writing list of installed files to '/home/david/esha_ws/build/monitor/install.log'
+[42.220s] Invoked command in '/home/david/esha_ws/src/monitor' returned '0': AMENT_PREFIX_PATH=/home/david/esha_ws/install/rosmonitoring_interfaces:/home/david/esha_ws/install/interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/david/esha_ws/install/rosmonitoring_interfaces:/home/david/esha_ws/install/interfaces:${CMAKE_PREFIX_PATH} DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/david/esha_ws/install/rosmonitoring_interfaces/lib:/home/david/esha_ws/install/interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/david/esha_ws/build/monitor/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/david/esha_ws/install/monitor/lib/python3.12/site-packages:/home/david/esha_ws/install/rosmonitoring_interfaces/lib/python3.12/site-packages:/home/david/esha_ws/install/interfaces/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/monitor build --build-base /home/david/esha_ws/build/monitor/build install --record /home/david/esha_ws/build/monitor/install.log --single-version-externally-managed install_data

@@ -1,0 +1,63 @@
+running egg_info
+creating ../../build/monitor/monitor.egg-info
+writing ../../build/monitor/monitor.egg-info/PKG-INFO
+writing dependency_links to ../../build/monitor/monitor.egg-info/dependency_links.txt
+writing entry points to ../../build/monitor/monitor.egg-info/entry_points.txt
+writing requirements to ../../build/monitor/monitor.egg-info/requires.txt
+writing top-level names to ../../build/monitor/monitor.egg-info/top_level.txt
+writing manifest file '../../build/monitor/monitor.egg-info/SOURCES.txt'
+reading manifest file '../../build/monitor/monitor.egg-info/SOURCES.txt'
+writing manifest file '../../build/monitor/monitor.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/david/esha_ws/build/monitor/build
+creating /home/david/esha_ws/build/monitor/build/lib
+creating /home/david/esha_ws/build/monitor/build/lib/monitor
+copying monitor/temperature_monitor.py -> /home/david/esha_ws/build/monitor/build/lib/monitor
+copying monitor/tip_out_monitor.py -> /home/david/esha_ws/build/monitor/build/lib/monitor
+copying monitor/motor_monitor.py -> /home/david/esha_ws/build/monitor/build/lib/monitor
+copying monitor/arm_monitor.py -> /home/david/esha_ws/build/monitor/build/lib/monitor
+copying monitor/distance_monitor.py -> /home/david/esha_ws/build/monitor/build/lib/monitor
+copying monitor/monitor.py -> /home/david/esha_ws/build/monitor/build/lib/monitor
+copying monitor/__init__.py -> /home/david/esha_ws/build/monitor/build/lib/monitor
+copying monitor/carbon_monoxide_monitor.py -> /home/david/esha_ws/build/monitor/build/lib/monitor
+copying monitor/camera_monitor.py -> /home/david/esha_ws/build/monitor/build/lib/monitor
+running install
+running install_lib
+creating /home/david/esha_ws/install/monitor/lib/python3.12/site-packages/monitor
+copying /home/david/esha_ws/build/monitor/build/lib/monitor/temperature_monitor.py -> /home/david/esha_ws/install/monitor/lib/python3.12/site-packages/monitor
+copying /home/david/esha_ws/build/monitor/build/lib/monitor/tip_out_monitor.py -> /home/david/esha_ws/install/monitor/lib/python3.12/site-packages/monitor
+copying /home/david/esha_ws/build/monitor/build/lib/monitor/motor_monitor.py -> /home/david/esha_ws/install/monitor/lib/python3.12/site-packages/monitor
+copying /home/david/esha_ws/build/monitor/build/lib/monitor/arm_monitor.py -> /home/david/esha_ws/install/monitor/lib/python3.12/site-packages/monitor
+copying /home/david/esha_ws/build/monitor/build/lib/monitor/distance_monitor.py -> /home/david/esha_ws/install/monitor/lib/python3.12/site-packages/monitor
+copying /home/david/esha_ws/build/monitor/build/lib/monitor/monitor.py -> /home/david/esha_ws/install/monitor/lib/python3.12/site-packages/monitor
+copying /home/david/esha_ws/build/monitor/build/lib/monitor/__init__.py -> /home/david/esha_ws/install/monitor/lib/python3.12/site-packages/monitor
+copying /home/david/esha_ws/build/monitor/build/lib/monitor/carbon_monoxide_monitor.py -> /home/david/esha_ws/install/monitor/lib/python3.12/site-packages/monitor
+copying /home/david/esha_ws/build/monitor/build/lib/monitor/camera_monitor.py -> /home/david/esha_ws/install/monitor/lib/python3.12/site-packages/monitor
+byte-compiling /home/david/esha_ws/install/monitor/lib/python3.12/site-packages/monitor/temperature_monitor.py to temperature_monitor.cpython-312.pyc
+byte-compiling /home/david/esha_ws/install/monitor/lib/python3.12/site-packages/monitor/tip_out_monitor.py to tip_out_monitor.cpython-312.pyc
+byte-compiling /home/david/esha_ws/install/monitor/lib/python3.12/site-packages/monitor/motor_monitor.py to motor_monitor.cpython-312.pyc
+byte-compiling /home/david/esha_ws/install/monitor/lib/python3.12/site-packages/monitor/arm_monitor.py to arm_monitor.cpython-312.pyc
+byte-compiling /home/david/esha_ws/install/monitor/lib/python3.12/site-packages/monitor/distance_monitor.py to distance_monitor.cpython-312.pyc
+byte-compiling /home/david/esha_ws/install/monitor/lib/python3.12/site-packages/monitor/monitor.py to monitor.cpython-312.pyc
+byte-compiling /home/david/esha_ws/install/monitor/lib/python3.12/site-packages/monitor/__init__.py to __init__.cpython-312.pyc
+byte-compiling /home/david/esha_ws/install/monitor/lib/python3.12/site-packages/monitor/carbon_monoxide_monitor.py to carbon_monoxide_monitor.cpython-312.pyc
+byte-compiling /home/david/esha_ws/install/monitor/lib/python3.12/site-packages/monitor/camera_monitor.py to camera_monitor.cpython-312.pyc
+running install_data
+creating /home/david/esha_ws/install/monitor/share/ament_index
+creating /home/david/esha_ws/install/monitor/share/ament_index/resource_index
+creating /home/david/esha_ws/install/monitor/share/ament_index/resource_index/packages
+copying resource/monitor -> /home/david/esha_ws/install/monitor/share/ament_index/resource_index/packages
+copying package.xml -> /home/david/esha_ws/install/monitor/share/monitor
+running install_egg_info
+Copying ../../build/monitor/monitor.egg-info to /home/david/esha_ws/install/monitor/lib/python3.12/site-packages/monitor-0.0.0-py3.12.egg-info
+running install_scripts
+Installing arm_monitor script to /home/david/esha_ws/install/monitor/lib/monitor
+Installing camera_monitor script to /home/david/esha_ws/install/monitor/lib/monitor
+Installing carbon_monoxide_monitor script to /home/david/esha_ws/install/monitor/lib/monitor
+Installing distance_monitor script to /home/david/esha_ws/install/monitor/lib/monitor
+Installing monitor script to /home/david/esha_ws/install/monitor/lib/monitor
+Installing motor_monitor script to /home/david/esha_ws/install/monitor/lib/monitor
+Installing temperature_monitor script to /home/david/esha_ws/install/monitor/lib/monitor
+Installing tip_out_monitor script to /home/david/esha_ws/install/monitor/lib/monitor
+writing list of installed files to '/home/david/esha_ws/build/monitor/install.log'

@@ -1,0 +1,398 @@
+[2.001s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[2.001s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=8, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x75afac396ea0>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x75afac396bd0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x75afac396bd0>>, mixin_verb=('build',))
+[2.128s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[2.128s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[2.128s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[2.128s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[2.128s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[2.128s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[2.128s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/david/esha_ws'
+[2.128s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[2.128s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[2.129s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[2.129s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[2.129s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[2.129s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[2.129s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[2.129s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[2.129s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[2.157s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[2.157s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[2.157s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[2.157s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[2.157s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[2.157s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[2.157s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[2.157s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[2.158s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[2.158s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[2.158s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[2.158s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[2.158s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[2.158s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[2.158s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[2.158s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[2.158s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[2.158s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[2.158s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[2.159s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[2.159s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[2.159s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[2.159s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[2.159s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[2.159s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[2.159s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[2.159s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[2.159s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[2.159s] Level 1:colcon.colcon_core.package_identification:_identify(src/inter_package) by extensions ['ignore', 'ignore_ament_install']
+[2.159s] Level 1:colcon.colcon_core.package_identification:_identify(src/inter_package) by extension 'ignore'
+[2.159s] Level 1:colcon.colcon_core.package_identification:_identify(src/inter_package) by extension 'ignore_ament_install'
+[2.159s] Level 1:colcon.colcon_core.package_identification:_identify(src/inter_package) by extensions ['colcon_pkg']
+[2.159s] Level 1:colcon.colcon_core.package_identification:_identify(src/inter_package) by extension 'colcon_pkg'
+[2.159s] Level 1:colcon.colcon_core.package_identification:_identify(src/inter_package) by extensions ['colcon_meta']
+[2.159s] Level 1:colcon.colcon_core.package_identification:_identify(src/inter_package) by extension 'colcon_meta'
+[2.159s] Level 1:colcon.colcon_core.package_identification:_identify(src/inter_package) by extensions ['ros']
+[2.159s] Level 1:colcon.colcon_core.package_identification:_identify(src/inter_package) by extension 'ros'
+[2.162s] DEBUG:colcon.colcon_core.package_identification:Package 'src/inter_package' with type 'ros.ament_python' and name 'inter_package'
+[2.162s] Level 1:colcon.colcon_core.package_identification:_identify(src/interfaces) by extensions ['ignore', 'ignore_ament_install']
+[2.162s] Level 1:colcon.colcon_core.package_identification:_identify(src/interfaces) by extension 'ignore'
+[2.162s] Level 1:colcon.colcon_core.package_identification:_identify(src/interfaces) by extension 'ignore_ament_install'
+[2.162s] Level 1:colcon.colcon_core.package_identification:_identify(src/interfaces) by extensions ['colcon_pkg']
+[2.162s] Level 1:colcon.colcon_core.package_identification:_identify(src/interfaces) by extension 'colcon_pkg'
+[2.162s] Level 1:colcon.colcon_core.package_identification:_identify(src/interfaces) by extensions ['colcon_meta']
+[2.162s] Level 1:colcon.colcon_core.package_identification:_identify(src/interfaces) by extension 'colcon_meta'
+[2.162s] Level 1:colcon.colcon_core.package_identification:_identify(src/interfaces) by extensions ['ros']
+[2.162s] Level 1:colcon.colcon_core.package_identification:_identify(src/interfaces) by extension 'ros'
+[2.163s] DEBUG:colcon.colcon_core.package_identification:Package 'src/interfaces' with type 'ros.ament_cmake' and name 'interfaces'
+[2.163s] Level 1:colcon.colcon_core.package_identification:_identify(src/launch_esha) by extensions ['ignore', 'ignore_ament_install']
+[2.163s] Level 1:colcon.colcon_core.package_identification:_identify(src/launch_esha) by extension 'ignore'
+[2.163s] Level 1:colcon.colcon_core.package_identification:_identify(src/launch_esha) by extension 'ignore_ament_install'
+[2.163s] Level 1:colcon.colcon_core.package_identification:_identify(src/launch_esha) by extensions ['colcon_pkg']
+[2.163s] Level 1:colcon.colcon_core.package_identification:_identify(src/launch_esha) by extension 'colcon_pkg'
+[2.163s] Level 1:colcon.colcon_core.package_identification:_identify(src/launch_esha) by extensions ['colcon_meta']
+[2.163s] Level 1:colcon.colcon_core.package_identification:_identify(src/launch_esha) by extension 'colcon_meta'
+[2.163s] Level 1:colcon.colcon_core.package_identification:_identify(src/launch_esha) by extensions ['ros']
+[2.163s] Level 1:colcon.colcon_core.package_identification:_identify(src/launch_esha) by extension 'ros'
+[2.164s] DEBUG:colcon.colcon_core.package_identification:Package 'src/launch_esha' with type 'ros.ament_cmake' and name 'launch_esha'
+[2.164s] Level 1:colcon.colcon_core.package_identification:_identify(src/monitor) by extensions ['ignore', 'ignore_ament_install']
+[2.164s] Level 1:colcon.colcon_core.package_identification:_identify(src/monitor) by extension 'ignore'
+[2.164s] Level 1:colcon.colcon_core.package_identification:_identify(src/monitor) by extension 'ignore_ament_install'
+[2.164s] Level 1:colcon.colcon_core.package_identification:_identify(src/monitor) by extensions ['colcon_pkg']
+[2.164s] Level 1:colcon.colcon_core.package_identification:_identify(src/monitor) by extension 'colcon_pkg'
+[2.164s] Level 1:colcon.colcon_core.package_identification:_identify(src/monitor) by extensions ['colcon_meta']
+[2.164s] Level 1:colcon.colcon_core.package_identification:_identify(src/monitor) by extension 'colcon_meta'
+[2.164s] Level 1:colcon.colcon_core.package_identification:_identify(src/monitor) by extensions ['ros']
+[2.164s] Level 1:colcon.colcon_core.package_identification:_identify(src/monitor) by extension 'ros'
+[2.165s] DEBUG:colcon.colcon_core.package_identification:Package 'src/monitor' with type 'ros.ament_python' and name 'monitor'
+[2.165s] Level 1:colcon.colcon_core.package_identification:_identify(src/rosmonitoring_interfaces) by extensions ['ignore', 'ignore_ament_install']
+[2.165s] Level 1:colcon.colcon_core.package_identification:_identify(src/rosmonitoring_interfaces) by extension 'ignore'
+[2.165s] Level 1:colcon.colcon_core.package_identification:_identify(src/rosmonitoring_interfaces) by extension 'ignore_ament_install'
+[2.165s] Level 1:colcon.colcon_core.package_identification:_identify(src/rosmonitoring_interfaces) by extensions ['colcon_pkg']
+[2.165s] Level 1:colcon.colcon_core.package_identification:_identify(src/rosmonitoring_interfaces) by extension 'colcon_pkg'
+[2.165s] Level 1:colcon.colcon_core.package_identification:_identify(src/rosmonitoring_interfaces) by extensions ['colcon_meta']
+[2.165s] Level 1:colcon.colcon_core.package_identification:_identify(src/rosmonitoring_interfaces) by extension 'colcon_meta'
+[2.165s] Level 1:colcon.colcon_core.package_identification:_identify(src/rosmonitoring_interfaces) by extensions ['ros']
+[2.165s] Level 1:colcon.colcon_core.package_identification:_identify(src/rosmonitoring_interfaces) by extension 'ros'
+[2.166s] DEBUG:colcon.colcon_core.package_identification:Package 'src/rosmonitoring_interfaces' with type 'ros.ament_cmake' and name 'rosmonitoring_interfaces'
+[2.166s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[2.166s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[2.166s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[2.166s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[2.166s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[2.255s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[2.255s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[2.856s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 508 installed packages in /opt/ros/jazzy
+[2.864s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[3.395s] Level 5:colcon.colcon_core.verb:set package 'inter_package' build argument 'cmake_args' from command line to 'None'
+[3.395s] Level 5:colcon.colcon_core.verb:set package 'inter_package' build argument 'cmake_target' from command line to 'None'
+[3.395s] Level 5:colcon.colcon_core.verb:set package 'inter_package' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[3.395s] Level 5:colcon.colcon_core.verb:set package 'inter_package' build argument 'cmake_clean_cache' from command line to 'False'
+[3.395s] Level 5:colcon.colcon_core.verb:set package 'inter_package' build argument 'cmake_clean_first' from command line to 'False'
+[3.395s] Level 5:colcon.colcon_core.verb:set package 'inter_package' build argument 'cmake_force_configure' from command line to 'False'
+[3.395s] Level 5:colcon.colcon_core.verb:set package 'inter_package' build argument 'ament_cmake_args' from command line to 'None'
+[3.395s] Level 5:colcon.colcon_core.verb:set package 'inter_package' build argument 'catkin_cmake_args' from command line to 'None'
+[3.395s] Level 5:colcon.colcon_core.verb:set package 'inter_package' build argument 'catkin_skip_building_tests' from command line to 'False'
+[3.395s] DEBUG:colcon.colcon_core.verb:Building package 'inter_package' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/david/esha_ws/build/inter_package', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/david/esha_ws/install/inter_package', 'merge_install': False, 'path': '/home/david/esha_ws/src/inter_package', 'symlink_install': False, 'test_result_base': None}
+[3.395s] Level 5:colcon.colcon_core.verb:set package 'interfaces' build argument 'cmake_args' from command line to 'None'
+[3.396s] Level 5:colcon.colcon_core.verb:set package 'interfaces' build argument 'cmake_target' from command line to 'None'
+[3.396s] Level 5:colcon.colcon_core.verb:set package 'interfaces' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[3.396s] Level 5:colcon.colcon_core.verb:set package 'interfaces' build argument 'cmake_clean_cache' from command line to 'False'
+[3.396s] Level 5:colcon.colcon_core.verb:set package 'interfaces' build argument 'cmake_clean_first' from command line to 'False'
+[3.396s] Level 5:colcon.colcon_core.verb:set package 'interfaces' build argument 'cmake_force_configure' from command line to 'False'
+[3.396s] Level 5:colcon.colcon_core.verb:set package 'interfaces' build argument 'ament_cmake_args' from command line to 'None'
+[3.396s] Level 5:colcon.colcon_core.verb:set package 'interfaces' build argument 'catkin_cmake_args' from command line to 'None'
+[3.396s] Level 5:colcon.colcon_core.verb:set package 'interfaces' build argument 'catkin_skip_building_tests' from command line to 'False'
+[3.396s] DEBUG:colcon.colcon_core.verb:Building package 'interfaces' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/david/esha_ws/build/interfaces', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/david/esha_ws/install/interfaces', 'merge_install': False, 'path': '/home/david/esha_ws/src/interfaces', 'symlink_install': False, 'test_result_base': None}
+[3.396s] Level 5:colcon.colcon_core.verb:set package 'launch_esha' build argument 'cmake_args' from command line to 'None'
+[3.396s] Level 5:colcon.colcon_core.verb:set package 'launch_esha' build argument 'cmake_target' from command line to 'None'
+[3.396s] Level 5:colcon.colcon_core.verb:set package 'launch_esha' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[3.396s] Level 5:colcon.colcon_core.verb:set package 'launch_esha' build argument 'cmake_clean_cache' from command line to 'False'
+[3.396s] Level 5:colcon.colcon_core.verb:set package 'launch_esha' build argument 'cmake_clean_first' from command line to 'False'
+[3.396s] Level 5:colcon.colcon_core.verb:set package 'launch_esha' build argument 'cmake_force_configure' from command line to 'False'
+[3.396s] Level 5:colcon.colcon_core.verb:set package 'launch_esha' build argument 'ament_cmake_args' from command line to 'None'
+[3.396s] Level 5:colcon.colcon_core.verb:set package 'launch_esha' build argument 'catkin_cmake_args' from command line to 'None'
+[3.396s] Level 5:colcon.colcon_core.verb:set package 'launch_esha' build argument 'catkin_skip_building_tests' from command line to 'False'
+[3.396s] DEBUG:colcon.colcon_core.verb:Building package 'launch_esha' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/david/esha_ws/build/launch_esha', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/david/esha_ws/install/launch_esha', 'merge_install': False, 'path': '/home/david/esha_ws/src/launch_esha', 'symlink_install': False, 'test_result_base': None}
+[3.397s] Level 5:colcon.colcon_core.verb:set package 'rosmonitoring_interfaces' build argument 'cmake_args' from command line to 'None'
+[3.397s] Level 5:colcon.colcon_core.verb:set package 'rosmonitoring_interfaces' build argument 'cmake_target' from command line to 'None'
+[3.397s] Level 5:colcon.colcon_core.verb:set package 'rosmonitoring_interfaces' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[3.397s] Level 5:colcon.colcon_core.verb:set package 'rosmonitoring_interfaces' build argument 'cmake_clean_cache' from command line to 'False'
+[3.397s] Level 5:colcon.colcon_core.verb:set package 'rosmonitoring_interfaces' build argument 'cmake_clean_first' from command line to 'False'
+[3.397s] Level 5:colcon.colcon_core.verb:set package 'rosmonitoring_interfaces' build argument 'cmake_force_configure' from command line to 'False'
+[3.397s] Level 5:colcon.colcon_core.verb:set package 'rosmonitoring_interfaces' build argument 'ament_cmake_args' from command line to 'None'
+[3.397s] Level 5:colcon.colcon_core.verb:set package 'rosmonitoring_interfaces' build argument 'catkin_cmake_args' from command line to 'None'
+[3.397s] Level 5:colcon.colcon_core.verb:set package 'rosmonitoring_interfaces' build argument 'catkin_skip_building_tests' from command line to 'False'
+[3.397s] DEBUG:colcon.colcon_core.verb:Building package 'rosmonitoring_interfaces' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/david/esha_ws/build/rosmonitoring_interfaces', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/david/esha_ws/install/rosmonitoring_interfaces', 'merge_install': False, 'path': '/home/david/esha_ws/src/rosmonitoring_interfaces', 'symlink_install': False, 'test_result_base': None}
+[3.397s] Level 5:colcon.colcon_core.verb:set package 'monitor' build argument 'cmake_args' from command line to 'None'
+[3.397s] Level 5:colcon.colcon_core.verb:set package 'monitor' build argument 'cmake_target' from command line to 'None'
+[3.397s] Level 5:colcon.colcon_core.verb:set package 'monitor' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[3.397s] Level 5:colcon.colcon_core.verb:set package 'monitor' build argument 'cmake_clean_cache' from command line to 'False'
+[3.397s] Level 5:colcon.colcon_core.verb:set package 'monitor' build argument 'cmake_clean_first' from command line to 'False'
+[3.397s] Level 5:colcon.colcon_core.verb:set package 'monitor' build argument 'cmake_force_configure' from command line to 'False'
+[3.397s] Level 5:colcon.colcon_core.verb:set package 'monitor' build argument 'ament_cmake_args' from command line to 'None'
+[3.397s] Level 5:colcon.colcon_core.verb:set package 'monitor' build argument 'catkin_cmake_args' from command line to 'None'
+[3.397s] Level 5:colcon.colcon_core.verb:set package 'monitor' build argument 'catkin_skip_building_tests' from command line to 'False'
+[3.397s] DEBUG:colcon.colcon_core.verb:Building package 'monitor' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/david/esha_ws/build/monitor', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/david/esha_ws/install/monitor', 'merge_install': False, 'path': '/home/david/esha_ws/src/monitor', 'symlink_install': False, 'test_result_base': None}
+[3.397s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[3.398s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[3.399s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/david/esha_ws/src/interfaces' with build type 'ament_cmake'
+[3.399s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/david/esha_ws/src/interfaces'
+[3.603s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[3.603s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[3.603s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[3.636s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/david/esha_ws/src/rosmonitoring_interfaces' with build type 'ament_cmake'
+[3.636s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/david/esha_ws/src/rosmonitoring_interfaces'
+[3.637s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[3.637s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[3.642s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/david/esha_ws/src/inter_package' with build type 'ament_python'
+[3.642s] Level 1:colcon.colcon_core.shell:create_environment_hook('inter_package', 'ament_prefix_path')
+[3.642s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/david/esha_ws/install/inter_package/share/inter_package/hook/ament_prefix_path.ps1'
+[3.671s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/david/esha_ws/install/inter_package/share/inter_package/hook/ament_prefix_path.dsv'
+[3.742s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/david/esha_ws/install/inter_package/share/inter_package/hook/ament_prefix_path.sh'
+[3.744s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[3.744s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[3.752s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/david/esha_ws/src/launch_esha' with build type 'ament_cmake'
+[3.752s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/david/esha_ws/src/launch_esha'
+[3.753s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[3.753s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[3.904s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/david/esha_ws/build/interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/david/esha_ws/build/interfaces -- -j8 -l8
+[3.969s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/david/esha_ws/build/rosmonitoring_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/david/esha_ws/build/rosmonitoring_interfaces -- -j8 -l8
+[4.922s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/david/esha_ws/src/inter_package'
+[4.922s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[4.922s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[5.346s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/david/esha_ws/build/launch_esha': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/david/esha_ws/build/launch_esha -- -j8 -l8
+[14.475s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/david/esha_ws/build/rosmonitoring_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/david/esha_ws/build/rosmonitoring_interfaces -- -j8 -l8
+[15.328s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/david/esha_ws/build/rosmonitoring_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/david/esha_ws/build/rosmonitoring_interfaces
+[16.253s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(rosmonitoring_interfaces)
+[16.254s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/david/esha_ws/build/rosmonitoring_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/david/esha_ws/build/rosmonitoring_interfaces
+[16.458s] Level 1:colcon.colcon_core.environment:checking '/home/david/esha_ws/install/rosmonitoring_interfaces' for CMake module files
+[16.459s] Level 1:colcon.colcon_core.environment:checking '/home/david/esha_ws/install/rosmonitoring_interfaces' for CMake config files
+[16.460s] Level 1:colcon.colcon_core.shell:create_environment_hook('rosmonitoring_interfaces', 'cmake_prefix_path')
+[16.460s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/david/esha_ws/install/rosmonitoring_interfaces/share/rosmonitoring_interfaces/hook/cmake_prefix_path.ps1'
+[16.460s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/david/esha_ws/install/rosmonitoring_interfaces/share/rosmonitoring_interfaces/hook/cmake_prefix_path.dsv'
+[16.461s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/david/esha_ws/install/rosmonitoring_interfaces/share/rosmonitoring_interfaces/hook/cmake_prefix_path.sh'
+[16.462s] Level 1:colcon.colcon_core.environment:checking '/home/david/esha_ws/install/rosmonitoring_interfaces/lib'
+[16.462s] Level 1:colcon.colcon_core.shell:create_environment_hook('rosmonitoring_interfaces', 'ld_library_path_lib')
+[16.462s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/david/esha_ws/install/rosmonitoring_interfaces/share/rosmonitoring_interfaces/hook/ld_library_path_lib.ps1'
+[16.462s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/david/esha_ws/install/rosmonitoring_interfaces/share/rosmonitoring_interfaces/hook/ld_library_path_lib.dsv'
+[16.463s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/david/esha_ws/install/rosmonitoring_interfaces/share/rosmonitoring_interfaces/hook/ld_library_path_lib.sh'
+[16.463s] Level 1:colcon.colcon_core.environment:checking '/home/david/esha_ws/install/rosmonitoring_interfaces/bin'
+[16.463s] Level 1:colcon.colcon_core.environment:checking '/home/david/esha_ws/install/rosmonitoring_interfaces/lib/pkgconfig/rosmonitoring_interfaces.pc'
+[16.463s] Level 1:colcon.colcon_core.environment:checking '/home/david/esha_ws/install/rosmonitoring_interfaces/lib/python3.12/site-packages'
+[16.464s] Level 1:colcon.colcon_core.shell:create_environment_hook('rosmonitoring_interfaces', 'pythonpath')
+[16.464s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/david/esha_ws/install/rosmonitoring_interfaces/share/rosmonitoring_interfaces/hook/pythonpath.ps1'
+[16.464s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/david/esha_ws/install/rosmonitoring_interfaces/share/rosmonitoring_interfaces/hook/pythonpath.dsv'
+[16.465s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/david/esha_ws/install/rosmonitoring_interfaces/share/rosmonitoring_interfaces/hook/pythonpath.sh'
+[16.465s] Level 1:colcon.colcon_core.environment:checking '/home/david/esha_ws/install/rosmonitoring_interfaces/bin'
+[16.465s] INFO:colcon.colcon_core.shell:Creating package script '/home/david/esha_ws/install/rosmonitoring_interfaces/share/rosmonitoring_interfaces/package.ps1'
+[16.479s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/david/esha_ws/install/rosmonitoring_interfaces/share/rosmonitoring_interfaces/package.dsv'
+[16.495s] INFO:colcon.colcon_core.shell:Creating package script '/home/david/esha_ws/install/rosmonitoring_interfaces/share/rosmonitoring_interfaces/package.sh'
+[16.496s] INFO:colcon.colcon_core.shell:Creating package script '/home/david/esha_ws/install/rosmonitoring_interfaces/share/rosmonitoring_interfaces/package.bash'
+[16.618s] INFO:colcon.colcon_core.shell:Creating package script '/home/david/esha_ws/install/rosmonitoring_interfaces/share/rosmonitoring_interfaces/package.zsh'
+[16.649s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/david/esha_ws/install/rosmonitoring_interfaces/share/colcon-core/packages/rosmonitoring_interfaces)
+[16.650s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(rosmonitoring_interfaces)
+[16.650s] Level 1:colcon.colcon_core.environment:checking '/home/david/esha_ws/install/rosmonitoring_interfaces' for CMake module files
+[16.652s] Level 1:colcon.colcon_core.environment:checking '/home/david/esha_ws/install/rosmonitoring_interfaces' for CMake config files
+[16.653s] Level 1:colcon.colcon_core.shell:create_environment_hook('rosmonitoring_interfaces', 'cmake_prefix_path')
+[16.653s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/david/esha_ws/install/rosmonitoring_interfaces/share/rosmonitoring_interfaces/hook/cmake_prefix_path.ps1'
+[16.654s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/david/esha_ws/install/rosmonitoring_interfaces/share/rosmonitoring_interfaces/hook/cmake_prefix_path.dsv'
+[16.655s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/david/esha_ws/install/rosmonitoring_interfaces/share/rosmonitoring_interfaces/hook/cmake_prefix_path.sh'
+[16.656s] Level 1:colcon.colcon_core.environment:checking '/home/david/esha_ws/install/rosmonitoring_interfaces/lib'
+[16.656s] Level 1:colcon.colcon_core.shell:create_environment_hook('rosmonitoring_interfaces', 'ld_library_path_lib')
+[16.657s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/david/esha_ws/install/rosmonitoring_interfaces/share/rosmonitoring_interfaces/hook/ld_library_path_lib.ps1'
+[16.658s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/david/esha_ws/install/rosmonitoring_interfaces/share/rosmonitoring_interfaces/hook/ld_library_path_lib.dsv'
+[16.658s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/david/esha_ws/install/rosmonitoring_interfaces/share/rosmonitoring_interfaces/hook/ld_library_path_lib.sh'
+[16.659s] Level 1:colcon.colcon_core.environment:checking '/home/david/esha_ws/install/rosmonitoring_interfaces/bin'
+[16.659s] Level 1:colcon.colcon_core.environment:checking '/home/david/esha_ws/install/rosmonitoring_interfaces/lib/pkgconfig/rosmonitoring_interfaces.pc'
+[16.659s] Level 1:colcon.colcon_core.environment:checking '/home/david/esha_ws/install/rosmonitoring_interfaces/lib/python3.12/site-packages'
+[16.660s] Level 1:colcon.colcon_core.shell:create_environment_hook('rosmonitoring_interfaces', 'pythonpath')
+[16.660s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/david/esha_ws/install/rosmonitoring_interfaces/share/rosmonitoring_interfaces/hook/pythonpath.ps1'
+[16.661s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/david/esha_ws/install/rosmonitoring_interfaces/share/rosmonitoring_interfaces/hook/pythonpath.dsv'
+[16.662s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/david/esha_ws/install/rosmonitoring_interfaces/share/rosmonitoring_interfaces/hook/pythonpath.sh'
+[16.663s] Level 1:colcon.colcon_core.environment:checking '/home/david/esha_ws/install/rosmonitoring_interfaces/bin'
+[16.664s] INFO:colcon.colcon_core.shell:Creating package script '/home/david/esha_ws/install/rosmonitoring_interfaces/share/rosmonitoring_interfaces/package.ps1'
+[16.665s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/david/esha_ws/install/rosmonitoring_interfaces/share/rosmonitoring_interfaces/package.dsv'
+[16.666s] INFO:colcon.colcon_core.shell:Creating package script '/home/david/esha_ws/install/rosmonitoring_interfaces/share/rosmonitoring_interfaces/package.sh'
+[16.667s] INFO:colcon.colcon_core.shell:Creating package script '/home/david/esha_ws/install/rosmonitoring_interfaces/share/rosmonitoring_interfaces/package.bash'
+[16.668s] INFO:colcon.colcon_core.shell:Creating package script '/home/david/esha_ws/install/rosmonitoring_interfaces/share/rosmonitoring_interfaces/package.zsh'
+[16.668s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/david/esha_ws/install/rosmonitoring_interfaces/share/colcon-core/packages/rosmonitoring_interfaces)
+[16.676s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/david/esha_ws/build/interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/david/esha_ws/build/interfaces -- -j8 -l8
+[16.696s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/david/esha_ws/build/interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/david/esha_ws/build/interfaces
+[18.815s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(interfaces)
+[18.816s] Level 1:colcon.colcon_core.environment:checking '/home/david/esha_ws/install/interfaces' for CMake module files
+[18.816s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/david/esha_ws/build/interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/david/esha_ws/build/interfaces
+[18.817s] Level 1:colcon.colcon_core.environment:checking '/home/david/esha_ws/install/interfaces' for CMake config files
+[18.817s] Level 1:colcon.colcon_core.shell:create_environment_hook('interfaces', 'cmake_prefix_path')
+[18.817s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/david/esha_ws/install/interfaces/share/interfaces/hook/cmake_prefix_path.ps1'
+[18.818s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/david/esha_ws/install/interfaces/share/interfaces/hook/cmake_prefix_path.dsv'
+[18.818s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/david/esha_ws/install/interfaces/share/interfaces/hook/cmake_prefix_path.sh'
+[18.819s] Level 1:colcon.colcon_core.environment:checking '/home/david/esha_ws/install/interfaces/lib'
+[18.819s] Level 1:colcon.colcon_core.shell:create_environment_hook('interfaces', 'ld_library_path_lib')
+[18.819s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/david/esha_ws/install/interfaces/share/interfaces/hook/ld_library_path_lib.ps1'
+[18.820s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/david/esha_ws/install/interfaces/share/interfaces/hook/ld_library_path_lib.dsv'
+[18.821s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/david/esha_ws/install/interfaces/share/interfaces/hook/ld_library_path_lib.sh'
+[18.821s] Level 1:colcon.colcon_core.environment:checking '/home/david/esha_ws/install/interfaces/bin'
+[18.821s] Level 1:colcon.colcon_core.environment:checking '/home/david/esha_ws/install/interfaces/lib/pkgconfig/interfaces.pc'
+[18.822s] Level 1:colcon.colcon_core.environment:checking '/home/david/esha_ws/install/interfaces/lib/python3.12/site-packages'
+[18.822s] Level 1:colcon.colcon_core.shell:create_environment_hook('interfaces', 'pythonpath')
+[18.822s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/david/esha_ws/install/interfaces/share/interfaces/hook/pythonpath.ps1'
+[18.823s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/david/esha_ws/install/interfaces/share/interfaces/hook/pythonpath.dsv'
+[18.823s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/david/esha_ws/install/interfaces/share/interfaces/hook/pythonpath.sh'
+[18.825s] Level 1:colcon.colcon_core.environment:checking '/home/david/esha_ws/install/interfaces/bin'
+[18.825s] INFO:colcon.colcon_core.shell:Creating package script '/home/david/esha_ws/install/interfaces/share/interfaces/package.ps1'
+[18.826s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/david/esha_ws/install/interfaces/share/interfaces/package.dsv'
+[18.827s] INFO:colcon.colcon_core.shell:Creating package script '/home/david/esha_ws/install/interfaces/share/interfaces/package.sh'
+[18.828s] INFO:colcon.colcon_core.shell:Creating package script '/home/david/esha_ws/install/interfaces/share/interfaces/package.bash'
+[18.829s] INFO:colcon.colcon_core.shell:Creating package script '/home/david/esha_ws/install/interfaces/share/interfaces/package.zsh'
+[18.829s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/david/esha_ws/install/interfaces/share/colcon-core/packages/interfaces)
+[18.830s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(interfaces)
+[18.831s] Level 1:colcon.colcon_core.environment:checking '/home/david/esha_ws/install/interfaces' for CMake module files
+[18.832s] Level 1:colcon.colcon_core.environment:checking '/home/david/esha_ws/install/interfaces' for CMake config files
+[18.832s] Level 1:colcon.colcon_core.shell:create_environment_hook('interfaces', 'cmake_prefix_path')
+[18.833s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/david/esha_ws/install/interfaces/share/interfaces/hook/cmake_prefix_path.ps1'
+[18.833s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/david/esha_ws/install/interfaces/share/interfaces/hook/cmake_prefix_path.dsv'
+[18.834s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/david/esha_ws/install/interfaces/share/interfaces/hook/cmake_prefix_path.sh'
+[18.835s] Level 1:colcon.colcon_core.environment:checking '/home/david/esha_ws/install/interfaces/lib'
+[18.836s] Level 1:colcon.colcon_core.shell:create_environment_hook('interfaces', 'ld_library_path_lib')
+[18.836s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/david/esha_ws/install/interfaces/share/interfaces/hook/ld_library_path_lib.ps1'
+[18.837s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/david/esha_ws/install/interfaces/share/interfaces/hook/ld_library_path_lib.dsv'
+[18.838s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/david/esha_ws/install/interfaces/share/interfaces/hook/ld_library_path_lib.sh'
+[18.839s] Level 1:colcon.colcon_core.environment:checking '/home/david/esha_ws/install/interfaces/bin'
+[18.839s] Level 1:colcon.colcon_core.environment:checking '/home/david/esha_ws/install/interfaces/lib/pkgconfig/interfaces.pc'
+[18.839s] Level 1:colcon.colcon_core.environment:checking '/home/david/esha_ws/install/interfaces/lib/python3.12/site-packages'
+[18.840s] Level 1:colcon.colcon_core.shell:create_environment_hook('interfaces', 'pythonpath')
+[18.840s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/david/esha_ws/install/interfaces/share/interfaces/hook/pythonpath.ps1'
+[18.841s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/david/esha_ws/install/interfaces/share/interfaces/hook/pythonpath.dsv'
+[18.842s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/david/esha_ws/install/interfaces/share/interfaces/hook/pythonpath.sh'
+[18.843s] Level 1:colcon.colcon_core.environment:checking '/home/david/esha_ws/install/interfaces/bin'
+[18.843s] INFO:colcon.colcon_core.shell:Creating package script '/home/david/esha_ws/install/interfaces/share/interfaces/package.ps1'
+[18.844s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/david/esha_ws/install/interfaces/share/interfaces/package.dsv'
+[18.846s] INFO:colcon.colcon_core.shell:Creating package script '/home/david/esha_ws/install/interfaces/share/interfaces/package.sh'
+[18.847s] INFO:colcon.colcon_core.shell:Creating package script '/home/david/esha_ws/install/interfaces/share/interfaces/package.bash'
+[18.848s] INFO:colcon.colcon_core.shell:Creating package script '/home/david/esha_ws/install/interfaces/share/interfaces/package.zsh'
+[18.848s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/david/esha_ws/install/interfaces/share/colcon-core/packages/interfaces)
+[18.849s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/david/esha_ws/src/monitor' with build type 'ament_python'
+[18.849s] Level 1:colcon.colcon_core.shell:create_environment_hook('monitor', 'ament_prefix_path')
+[18.850s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/david/esha_ws/install/monitor/share/monitor/hook/ament_prefix_path.ps1'
+[18.851s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/david/esha_ws/install/monitor/share/monitor/hook/ament_prefix_path.dsv'
+[18.852s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/david/esha_ws/install/monitor/share/monitor/hook/ament_prefix_path.sh'
+[18.853s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[18.853s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[19.339s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/david/esha_ws/src/monitor'
+[19.340s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[19.340s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[22.023s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/david/esha_ws/build/launch_esha' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/david/esha_ws/build/launch_esha -- -j8 -l8
+[22.041s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/david/esha_ws/build/launch_esha': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/david/esha_ws/build/launch_esha
+[22.051s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(launch_esha)
+[22.051s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/david/esha_ws/build/launch_esha' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/david/esha_ws/build/launch_esha
+[22.052s] Level 1:colcon.colcon_core.environment:checking '/home/david/esha_ws/install/launch_esha' for CMake module files
+[22.053s] Level 1:colcon.colcon_core.environment:checking '/home/david/esha_ws/install/launch_esha' for CMake config files
+[22.053s] Level 1:colcon.colcon_core.shell:create_environment_hook('launch_esha', 'cmake_prefix_path')
+[22.053s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/david/esha_ws/install/launch_esha/share/launch_esha/hook/cmake_prefix_path.ps1'
+[22.054s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/david/esha_ws/install/launch_esha/share/launch_esha/hook/cmake_prefix_path.dsv'
+[22.054s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/david/esha_ws/install/launch_esha/share/launch_esha/hook/cmake_prefix_path.sh'
+[22.055s] Level 1:colcon.colcon_core.environment:checking '/home/david/esha_ws/install/launch_esha/bin'
+[22.055s] Level 1:colcon.colcon_core.environment:checking '/home/david/esha_ws/install/launch_esha/lib/pkgconfig/launch_esha.pc'
+[22.055s] Level 1:colcon.colcon_core.environment:checking '/home/david/esha_ws/install/launch_esha/lib/python3.12/site-packages'
+[22.056s] Level 1:colcon.colcon_core.environment:checking '/home/david/esha_ws/install/launch_esha/bin'
+[22.056s] INFO:colcon.colcon_core.shell:Creating package script '/home/david/esha_ws/install/launch_esha/share/launch_esha/package.ps1'
+[22.057s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/david/esha_ws/install/launch_esha/share/launch_esha/package.dsv'
+[22.057s] INFO:colcon.colcon_core.shell:Creating package script '/home/david/esha_ws/install/launch_esha/share/launch_esha/package.sh'
+[22.058s] INFO:colcon.colcon_core.shell:Creating package script '/home/david/esha_ws/install/launch_esha/share/launch_esha/package.bash'
+[22.058s] INFO:colcon.colcon_core.shell:Creating package script '/home/david/esha_ws/install/launch_esha/share/launch_esha/package.zsh'
+[22.059s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/david/esha_ws/install/launch_esha/share/colcon-core/packages/launch_esha)
+[22.060s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(launch_esha)
+[22.060s] Level 1:colcon.colcon_core.environment:checking '/home/david/esha_ws/install/launch_esha' for CMake module files
+[22.062s] Level 1:colcon.colcon_core.environment:checking '/home/david/esha_ws/install/launch_esha' for CMake config files
+[22.062s] Level 1:colcon.colcon_core.shell:create_environment_hook('launch_esha', 'cmake_prefix_path')
+[22.062s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/david/esha_ws/install/launch_esha/share/launch_esha/hook/cmake_prefix_path.ps1'
+[22.063s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/david/esha_ws/install/launch_esha/share/launch_esha/hook/cmake_prefix_path.dsv'
+[22.063s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/david/esha_ws/install/launch_esha/share/launch_esha/hook/cmake_prefix_path.sh'
+[22.064s] Level 1:colcon.colcon_core.environment:checking '/home/david/esha_ws/install/launch_esha/bin'
+[22.065s] Level 1:colcon.colcon_core.environment:checking '/home/david/esha_ws/install/launch_esha/lib/pkgconfig/launch_esha.pc'
+[22.065s] Level 1:colcon.colcon_core.environment:checking '/home/david/esha_ws/install/launch_esha/lib/python3.12/site-packages'
+[22.065s] Level 1:colcon.colcon_core.environment:checking '/home/david/esha_ws/install/launch_esha/bin'
+[22.066s] INFO:colcon.colcon_core.shell:Creating package script '/home/david/esha_ws/install/launch_esha/share/launch_esha/package.ps1'
+[22.067s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/david/esha_ws/install/launch_esha/share/launch_esha/package.dsv'
+[22.068s] INFO:colcon.colcon_core.shell:Creating package script '/home/david/esha_ws/install/launch_esha/share/launch_esha/package.sh'
+[22.068s] INFO:colcon.colcon_core.shell:Creating package script '/home/david/esha_ws/install/launch_esha/share/launch_esha/package.bash'
+[22.069s] INFO:colcon.colcon_core.shell:Creating package script '/home/david/esha_ws/install/launch_esha/share/launch_esha/package.zsh'
+[22.070s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/david/esha_ws/install/launch_esha/share/colcon-core/packages/launch_esha)
+[60.073s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/david/esha_ws/src/inter_package': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/david/esha_ws/build/inter_package/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/david/esha_ws/install/inter_package/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/inter_package build --build-base /home/david/esha_ws/build/inter_package/build install --record /home/david/esha_ws/build/inter_package/install.log --single-version-externally-managed install_data
+[60.076s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/david/esha_ws/src/monitor': AMENT_PREFIX_PATH=/home/david/esha_ws/install/rosmonitoring_interfaces:/home/david/esha_ws/install/interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/david/esha_ws/install/rosmonitoring_interfaces:/home/david/esha_ws/install/interfaces:${CMAKE_PREFIX_PATH} DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/david/esha_ws/install/rosmonitoring_interfaces/lib:/home/david/esha_ws/install/interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/david/esha_ws/build/monitor/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/david/esha_ws/install/monitor/lib/python3.12/site-packages:/home/david/esha_ws/install/rosmonitoring_interfaces/lib/python3.12/site-packages:/home/david/esha_ws/install/interfaces/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/monitor build --build-base /home/david/esha_ws/build/monitor/build install --record /home/david/esha_ws/build/monitor/install.log --single-version-externally-managed install_data
+[61.071s] Level 1:colcon.colcon_core.environment:checking '/home/david/esha_ws/install/monitor' for CMake module files
+[61.072s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/david/esha_ws/src/monitor' returned '0': AMENT_PREFIX_PATH=/home/david/esha_ws/install/rosmonitoring_interfaces:/home/david/esha_ws/install/interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/david/esha_ws/install/rosmonitoring_interfaces:/home/david/esha_ws/install/interfaces:${CMAKE_PREFIX_PATH} DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/david/esha_ws/install/rosmonitoring_interfaces/lib:/home/david/esha_ws/install/interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/david/esha_ws/build/monitor/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/david/esha_ws/install/monitor/lib/python3.12/site-packages:/home/david/esha_ws/install/rosmonitoring_interfaces/lib/python3.12/site-packages:/home/david/esha_ws/install/interfaces/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/monitor build --build-base /home/david/esha_ws/build/monitor/build install --record /home/david/esha_ws/build/monitor/install.log --single-version-externally-managed install_data
+[61.073s] Level 1:colcon.colcon_core.environment:checking '/home/david/esha_ws/install/monitor' for CMake config files
+[61.073s] Level 1:colcon.colcon_core.environment:checking '/home/david/esha_ws/install/monitor/lib'
+[61.073s] Level 1:colcon.colcon_core.environment:checking '/home/david/esha_ws/install/monitor/bin'
+[61.073s] Level 1:colcon.colcon_core.environment:checking '/home/david/esha_ws/install/monitor/lib/pkgconfig/monitor.pc'
+[61.074s] Level 1:colcon.colcon_core.environment:checking '/home/david/esha_ws/install/monitor/lib/python3.12/site-packages'
+[61.074s] Level 1:colcon.colcon_core.shell:create_environment_hook('monitor', 'pythonpath')
+[61.074s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/david/esha_ws/install/monitor/share/monitor/hook/pythonpath.ps1'
+[61.075s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/david/esha_ws/install/monitor/share/monitor/hook/pythonpath.dsv'
+[61.075s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/david/esha_ws/install/monitor/share/monitor/hook/pythonpath.sh'
+[61.076s] Level 1:colcon.colcon_core.environment:checking '/home/david/esha_ws/install/monitor/bin'
+[61.076s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(monitor)
+[61.076s] INFO:colcon.colcon_core.shell:Creating package script '/home/david/esha_ws/install/monitor/share/monitor/package.ps1'
+[61.077s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/david/esha_ws/install/monitor/share/monitor/package.dsv'
+[61.078s] INFO:colcon.colcon_core.shell:Creating package script '/home/david/esha_ws/install/monitor/share/monitor/package.sh'
+[61.078s] INFO:colcon.colcon_core.shell:Creating package script '/home/david/esha_ws/install/monitor/share/monitor/package.bash'
+[61.078s] INFO:colcon.colcon_core.shell:Creating package script '/home/david/esha_ws/install/monitor/share/monitor/package.zsh'
+[61.079s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/david/esha_ws/install/monitor/share/colcon-core/packages/monitor)
+[61.489s] Level 1:colcon.colcon_core.environment:checking '/home/david/esha_ws/install/inter_package' for CMake module files
+[61.490s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/david/esha_ws/src/inter_package' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/david/esha_ws/build/inter_package/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/david/esha_ws/install/inter_package/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/inter_package build --build-base /home/david/esha_ws/build/inter_package/build install --record /home/david/esha_ws/build/inter_package/install.log --single-version-externally-managed install_data
+[61.491s] Level 1:colcon.colcon_core.environment:checking '/home/david/esha_ws/install/inter_package' for CMake config files
+[61.492s] Level 1:colcon.colcon_core.environment:checking '/home/david/esha_ws/install/inter_package/lib'
+[61.492s] Level 1:colcon.colcon_core.environment:checking '/home/david/esha_ws/install/inter_package/bin'
+[61.492s] Level 1:colcon.colcon_core.environment:checking '/home/david/esha_ws/install/inter_package/lib/pkgconfig/inter_package.pc'
+[61.493s] Level 1:colcon.colcon_core.environment:checking '/home/david/esha_ws/install/inter_package/lib/python3.12/site-packages'
+[61.493s] Level 1:colcon.colcon_core.shell:create_environment_hook('inter_package', 'pythonpath')
+[61.493s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/david/esha_ws/install/inter_package/share/inter_package/hook/pythonpath.ps1'
+[61.494s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/david/esha_ws/install/inter_package/share/inter_package/hook/pythonpath.dsv'
+[61.495s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/david/esha_ws/install/inter_package/share/inter_package/hook/pythonpath.sh'
+[61.496s] Level 1:colcon.colcon_core.environment:checking '/home/david/esha_ws/install/inter_package/bin'
+[61.496s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(inter_package)
+[61.497s] INFO:colcon.colcon_core.shell:Creating package script '/home/david/esha_ws/install/inter_package/share/inter_package/package.ps1'
+[61.498s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/david/esha_ws/install/inter_package/share/inter_package/package.dsv'
+[61.499s] INFO:colcon.colcon_core.shell:Creating package script '/home/david/esha_ws/install/inter_package/share/inter_package/package.sh'
+[61.499s] INFO:colcon.colcon_core.shell:Creating package script '/home/david/esha_ws/install/inter_package/share/inter_package/package.bash'
+[61.500s] INFO:colcon.colcon_core.shell:Creating package script '/home/david/esha_ws/install/inter_package/share/inter_package/package.zsh'
+[61.501s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/david/esha_ws/install/inter_package/share/colcon-core/packages/inter_package)
+[61.501s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[61.502s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[61.502s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[61.502s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[62.039s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[62.039s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[62.039s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[62.090s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[62.091s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/david/esha_ws/install/local_setup.ps1'
+[62.110s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/david/esha_ws/install/_local_setup_util_ps1.py'
+[62.272s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/david/esha_ws/install/setup.ps1'
+[62.277s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/david/esha_ws/install/local_setup.sh'
+[62.325s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/david/esha_ws/install/_local_setup_util_sh.py'
+[62.326s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/david/esha_ws/install/setup.sh'
+[62.327s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/david/esha_ws/install/local_setup.bash'
+[62.358s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/david/esha_ws/install/setup.bash'
+[62.360s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/david/esha_ws/install/local_setup.zsh'
+[62.478s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/david/esha_ws/install/setup.zsh'

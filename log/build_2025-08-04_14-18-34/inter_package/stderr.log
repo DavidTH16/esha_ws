@@ -1,5 +1,0 @@
-  File "/home/david/esha_ws/install/inter_package/lib/python3.12/site-packages/inter_package/ultrasonic_node_talker.py", line 24
-    self.get_logger().info(f"Path clear)
-                           ^
-SyntaxError: unterminated f-string literal (detected at line 24)
-

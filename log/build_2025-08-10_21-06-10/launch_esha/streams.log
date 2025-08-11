@@ -1,0 +1,30 @@
+[1.594s] Invoking command in '/home/david/esha_ws/build/launch_esha': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/david/esha_ws/build/launch_esha -- -j8 -l8
+[5.954s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[13.939s] -- Found ament_lint_auto: 0.17.2 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[16.311s] -- Added test 'flake8' to check Python code syntax and style conventions
+[16.312s] -- Configured 'flake8' exclude dirs and/or files: 
+[16.416s] -- Added test 'lint_cmake' to check CMake code style
+[16.458s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[16.638s] -- Added test 'xmllint' to check XML markup files
+[17.008s] -- Configuring done (14.7s)
+[18.240s] -- Generating done (0.1s)
+[18.245s] -- Build files have been written to: /home/david/esha_ws/build/launch_esha
+[18.270s] Invoked command in '/home/david/esha_ws/build/launch_esha' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/david/esha_ws/build/launch_esha -- -j8 -l8
+[18.289s] Invoking command in '/home/david/esha_ws/build/launch_esha': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/david/esha_ws/build/launch_esha
+[18.297s] -- Install configuration: ""
+[18.297s] -- Up-to-date: /home/david/esha_ws/install/launch_esha/share/ament_index/resource_index/package_run_dependencies/launch_esha
+[18.297s] -- Up-to-date: /home/david/esha_ws/install/launch_esha/share/ament_index/resource_index/parent_prefix_path/launch_esha
+[18.298s] -- Up-to-date: /home/david/esha_ws/install/launch_esha/share/launch_esha/environment/ament_prefix_path.sh
+[18.298s] -- Up-to-date: /home/david/esha_ws/install/launch_esha/share/launch_esha/environment/ament_prefix_path.dsv
+[18.298s] -- Up-to-date: /home/david/esha_ws/install/launch_esha/share/launch_esha/environment/path.sh
+[18.298s] -- Up-to-date: /home/david/esha_ws/install/launch_esha/share/launch_esha/environment/path.dsv
+[18.298s] -- Up-to-date: /home/david/esha_ws/install/launch_esha/share/launch_esha/local_setup.bash
+[18.298s] -- Up-to-date: /home/david/esha_ws/install/launch_esha/share/launch_esha/local_setup.sh
+[18.298s] -- Up-to-date: /home/david/esha_ws/install/launch_esha/share/launch_esha/local_setup.zsh
+[18.298s] -- Up-to-date: /home/david/esha_ws/install/launch_esha/share/launch_esha/local_setup.dsv
+[18.298s] -- Up-to-date: /home/david/esha_ws/install/launch_esha/share/launch_esha/package.dsv
+[18.298s] -- Up-to-date: /home/david/esha_ws/install/launch_esha/share/ament_index/resource_index/packages/launch_esha
+[18.298s] -- Up-to-date: /home/david/esha_ws/install/launch_esha/share/launch_esha/cmake/launch_eshaConfig.cmake
+[18.298s] -- Up-to-date: /home/david/esha_ws/install/launch_esha/share/launch_esha/cmake/launch_eshaConfig-version.cmake
+[18.298s] -- Installing: /home/david/esha_ws/install/launch_esha/share/launch_esha/package.xml
+[18.299s] Invoked command in '/home/david/esha_ws/build/launch_esha' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/david/esha_ws/build/launch_esha
