@@ -17,7 +17,6 @@ inter_package/imu_node_talker.py
 inter_package/motor_current_node_talker.py
 inter_package/temperature_node_talker.py
 inter_package/ultrasonic_node_talker.py
-inter_package/velocity_node_talker.py
 resource/inter_package
 test/test_copyright.py
 test/test_flake8.py

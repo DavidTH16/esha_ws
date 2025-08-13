@@ -59,7 +59,7 @@ class ROSMonitor_camera_monitor(Node):
 
 		self.get_logger().info('Monitor' + self.name + ' started and ready' )
 		self.get_logger().info('Logging at' + self.logfn )
-		websocket.enableTrace(True)
+		websocket.enableTrace(False)
 		self.ws = websocket.WebSocket()
 		self.ws.connect('ws://127.0.0.1:8084')
 		self.get_logger().info('Websocket is open')

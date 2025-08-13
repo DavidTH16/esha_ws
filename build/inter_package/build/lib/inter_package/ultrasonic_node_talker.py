@@ -7,7 +7,11 @@ class UltrasonicNode(Node):
     def __init__(self):
         super().__init__('ultrasonic_node')
         self.publisher = self.create_publisher(SensorData, 'ultrasonic_talker', 10)
-        self.timer = self.create_timer(1, self.sense_distance)
+        #timer and callback
+        # 1[Hz]   -----> 1 sec
+        # 100[hz] -----> 0.01 sec
+        self.frequency=1
+        self.timer = self.create_timer(self.frequency, self.sense_distance)
         self.counter = 0
 
     def sense_distance(self):

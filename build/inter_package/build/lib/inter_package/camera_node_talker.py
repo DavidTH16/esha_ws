@@ -51,8 +51,12 @@ class CameraNode(Node):
         ]
 
         self.label_publisher = self.create_publisher(String, 'camera_label', 10)
-        self.accuracy_publisher = self.create_publisher(Float32, 'camera_accuracy', 10)
-        self.timer = self.create_timer(1.0, self.publish_detection)
+        self.accuracy_publisher = self.create_publisher(Float32, 'camera_talker', 10)
+        #timer and callback
+        # 1[Hz]   -----> 1 sec
+        # 100[hz] -----> 0.01 sec
+        self.frequency=1
+        self.timer = self.create_timer(self.frequency, self.publish_detection)
         self.counter = 0
 
     def publish_detection(self):

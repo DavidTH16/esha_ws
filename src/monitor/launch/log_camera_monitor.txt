@@ -1,0 +1,171 @@
+{"data": 0.9129917621612549, "topic": "camera_talker", "time": 1755108635.0, "verdict": "currently_true"}
+{"data": 0.9392719268798828, "topic": "camera_talker", "time": 1755108636.0, "verdict": "currently_true"}
+{"data": 0.9280320405960083, "topic": "camera_talker", "time": 1755108637.0, "verdict": "currently_true"}
+{"data": 0.9180291891098022, "topic": "camera_talker", "time": 1755108638.0, "verdict": "currently_true"}
+{"data": 0.7423286437988281, "topic": "camera_talker", "time": 1755108639.0, "verdict": "currently_false", "spec": "{accuracy>0.90}"}
+{"data": 0.9247617125511169, "topic": "camera_talker", "time": 1755108640.0, "verdict": "currently_true"}
+{"data": 0.9379990696907043, "topic": "camera_talker", "time": 1755108641.0, "verdict": "currently_true"}
+{"data": 0.9370335936546326, "topic": "camera_talker", "time": 1755108642.0, "verdict": "currently_true"}
+{"data": 0.9487857222557068, "topic": "camera_talker", "time": 1755108643.0, "verdict": "currently_true"}
+{"data": 0.7340142130851746, "topic": "camera_talker", "time": 1755108644.0, "verdict": "currently_false", "spec": "{accuracy>0.90}"}
+{"data": 0.9499171376228333, "topic": "camera_talker", "time": 1755108645.0, "verdict": "currently_true"}
+{"data": 0.9450049996376038, "topic": "camera_talker", "time": 1755108646.0, "verdict": "currently_true"}
+{"data": 0.9025400280952454, "topic": "camera_talker", "time": 1755108647.0, "verdict": "currently_true"}
+{"data": 0.9351017475128174, "topic": "camera_talker", "time": 1755108648.0, "verdict": "currently_true"}
+{"data": 0.7989164590835571, "topic": "camera_talker", "time": 1755108649.0, "verdict": "currently_false", "spec": "{accuracy>0.90}"}
+{"data": 0.9175850749015808, "topic": "camera_talker", "time": 1755108650.0, "verdict": "currently_true"}
+{"data": 0.9188159108161926, "topic": "camera_talker", "time": 1755108651.0, "verdict": "currently_true"}
+{"data": 0.9168606400489807, "topic": "camera_talker", "time": 1755108652.0, "verdict": "currently_true"}
+{"data": 0.9030879139900208, "topic": "camera_talker", "time": 1755108653.0, "verdict": "currently_true"}
+{"data": 0.8468410968780518, "topic": "camera_talker", "time": 1755108654.0, "verdict": "currently_false", "spec": "{accuracy>0.90}"}
+{"data": 0.9047062993049622, "topic": "camera_talker", "time": 1755108655.0, "verdict": "currently_true"}
+{"data": 0.900959849357605, "topic": "camera_talker", "time": 1755108656.0, "verdict": "currently_true"}
+{"data": 0.907394289970398, "topic": "camera_talker", "time": 1755108657.0, "verdict": "currently_true"}
+{"data": 0.9044905304908752, "topic": "camera_talker", "time": 1755108658.0, "verdict": "currently_true"}
+{"data": 0.7459622025489807, "topic": "camera_talker", "time": 1755108659.0, "verdict": "currently_false", "spec": "{accuracy>0.90}"}
+{"data": 0.9178138971328735, "topic": "camera_talker", "time": 1755108660.0, "verdict": "currently_true"}
+{"data": 0.9165324568748474, "topic": "camera_talker", "time": 1755108661.0, "verdict": "currently_true"}
+{"data": 0.9205666184425354, "topic": "camera_talker", "time": 1755108662.0, "verdict": "currently_true"}
+{"data": 0.9074017405509949, "topic": "camera_talker", "time": 1755108663.0, "verdict": "currently_true"}
+{"data": 0.7642087936401367, "topic": "camera_talker", "time": 1755108664.0, "verdict": "currently_false", "spec": "{accuracy>0.90}"}
+{"data": 0.9279577732086182, "topic": "camera_talker", "time": 1755108665.0, "verdict": "currently_true"}
+{"data": 0.9049582481384277, "topic": "camera_talker", "time": 1755108666.0, "verdict": "currently_true"}
+{"data": 0.9444576501846313, "topic": "camera_talker", "time": 1755108667.0, "verdict": "currently_true"}
+{"data": 0.9299772381782532, "topic": "camera_talker", "time": 1755108668.0, "verdict": "currently_true"}
+{"data": 0.7404859066009521, "topic": "camera_talker", "time": 1755108669.0, "verdict": "currently_false", "spec": "{accuracy>0.90}"}
+{"data": 0.931632936000824, "topic": "camera_talker", "time": 1755108670.0, "verdict": "currently_true"}
+{"data": 0.9281879663467407, "topic": "camera_talker", "time": 1755108671.0, "verdict": "currently_true"}
+{"data": 0.9003364443778992, "topic": "camera_talker", "time": 1755108672.0, "verdict": "currently_true"}
+{"data": 0.9091871976852417, "topic": "camera_talker", "time": 1755108673.0, "verdict": "currently_true"}
+{"data": 0.806119978427887, "topic": "camera_talker", "time": 1755108674.0, "verdict": "currently_false", "spec": "{accuracy>0.90}"}
+{"data": 0.9192883968353271, "topic": "camera_talker", "time": 1755108675.0, "verdict": "currently_true"}
+{"data": 0.9161545038223267, "topic": "camera_talker", "time": 1755108676.0, "verdict": "currently_true"}
+{"data": 0.9191614389419556, "topic": "camera_talker", "time": 1755108677.0, "verdict": "currently_true"}
+{"data": 0.9405319690704346, "topic": "camera_talker", "time": 1755108678.0, "verdict": "currently_true"}
+{"data": 0.7016995549201965, "topic": "camera_talker", "time": 1755108679.0, "verdict": "currently_false", "spec": "{accuracy>0.90}"}
+{"data": 0.9093592166900635, "topic": "camera_talker", "time": 1755108680.0, "verdict": "currently_true"}
+{"data": 0.9253081679344177, "topic": "camera_talker", "time": 1755108681.0, "verdict": "currently_true"}
+{"data": 0.903344988822937, "topic": "camera_talker", "time": 1755108682.0, "verdict": "currently_true"}
+{"data": 0.9244089126586914, "topic": "camera_talker", "time": 1755108683.0, "verdict": "currently_true"}
+{"data": 0.7514404654502869, "topic": "camera_talker", "time": 1755108684.0, "verdict": "currently_false", "spec": "{accuracy>0.90}"}
+{"data": 0.9278448224067688, "topic": "camera_talker", "time": 1755108685.0, "verdict": "currently_true"}
+{"data": 0.9136080741882324, "topic": "camera_talker", "time": 1755108686.0, "verdict": "currently_true"}
+{"data": 0.932334840297699, "topic": "camera_talker", "time": 1755108687.0, "verdict": "currently_true"}
+{"data": 0.922073483467102, "topic": "camera_talker", "time": 1755108688.0, "verdict": "currently_true"}
+{"data": 0.7301594614982605, "topic": "camera_talker", "time": 1755108689.0, "verdict": "currently_false", "spec": "{accuracy>0.90}"}
+{"data": 0.924861490726471, "topic": "camera_talker", "time": 1755108690.0, "verdict": "currently_true"}
+{"data": 0.9068195223808289, "topic": "camera_talker", "time": 1755108691.0, "verdict": "currently_true"}
+{"data": 0.9192991852760315, "topic": "camera_talker", "time": 1755108692.0, "verdict": "currently_true"}
+{"data": 0.9120806455612183, "topic": "camera_talker", "time": 1755108693.0, "verdict": "currently_true"}
+{"data": 0.752380907535553, "topic": "camera_talker", "time": 1755108694.0, "verdict": "currently_false", "spec": "{accuracy>0.90}"}
+{"data": 0.9427474141120911, "topic": "camera_talker", "time": 1755108695.0, "verdict": "currently_true"}
+{"data": 0.9037330746650696, "topic": "camera_talker", "time": 1755108696.0, "verdict": "currently_true"}
+{"data": 0.9491402506828308, "topic": "camera_talker", "time": 1755108697.0, "verdict": "currently_true"}
+{"data": 0.9066495895385742, "topic": "camera_talker", "time": 1755108698.0, "verdict": "currently_true"}
+{"data": 0.8354021906852722, "topic": "camera_talker", "time": 1755108699.0, "verdict": "currently_false", "spec": "{accuracy>0.90}"}
+{"data": 0.9053777456283569, "topic": "camera_talker", "time": 1755108700.0, "verdict": "currently_true"}
+{"data": 0.9180041551589966, "topic": "camera_talker", "time": 1755108701.0, "verdict": "currently_true"}
+{"data": 0.9003005027770996, "topic": "camera_talker", "time": 1755108702.0, "verdict": "currently_true"}
+{"data": 0.9368782043457031, "topic": "camera_talker", "time": 1755108703.0, "verdict": "currently_true"}
+{"data": 0.7468270063400269, "topic": "camera_talker", "time": 1755108704.0, "verdict": "currently_false", "spec": "{accuracy>0.90}"}
+{"data": 0.9496263265609741, "topic": "camera_talker", "time": 1755108705.0, "verdict": "currently_true"}
+{"data": 0.935452401638031, "topic": "camera_talker", "time": 1755108706.0, "verdict": "currently_true"}
+{"data": 0.9347696304321289, "topic": "camera_talker", "time": 1755108707.0, "verdict": "currently_true"}
+{"data": 0.9460681080818176, "topic": "camera_talker", "time": 1755108708.0, "verdict": "currently_true"}
+{"data": 0.7426550388336182, "topic": "camera_talker", "time": 1755108709.0, "verdict": "currently_false", "spec": "{accuracy>0.90}"}
+{"data": 0.9193183183670044, "topic": "camera_talker", "time": 1755108710.0, "verdict": "currently_true"}
+{"data": 0.9025346636772156, "topic": "camera_talker", "time": 1755108711.0, "verdict": "currently_true"}
+{"data": 0.9197219610214233, "topic": "camera_talker", "time": 1755108712.0, "verdict": "currently_true"}
+{"data": 0.9256150722503662, "topic": "camera_talker", "time": 1755108713.0, "verdict": "currently_true"}
+{"data": 0.8446739315986633, "topic": "camera_talker", "time": 1755108714.0, "verdict": "currently_false", "spec": "{accuracy>0.90}"}
+{"data": 0.912558376789093, "topic": "camera_talker", "time": 1755108715.0, "verdict": "currently_true"}
+{"data": 0.9025024771690369, "topic": "camera_talker", "time": 1755108716.0, "verdict": "currently_true"}
+{"data": 0.9023632407188416, "topic": "camera_talker", "time": 1755108717.0, "verdict": "currently_true"}
+{"data": 0.9494279623031616, "topic": "camera_talker", "time": 1755108718.0, "verdict": "currently_true"}
+{"data": 0.7376741170883179, "topic": "camera_talker", "time": 1755108719.0, "verdict": "currently_false", "spec": "{accuracy>0.90}"}
+{"data": 0.9053863883018494, "topic": "camera_talker", "time": 1755108720.0, "verdict": "currently_true"}
+{"data": 0.9131439328193665, "topic": "camera_talker", "time": 1755108721.0, "verdict": "currently_true"}
+{"data": 0.9232970476150513, "topic": "camera_talker", "time": 1755108722.0, "verdict": "currently_true"}
+{"data": 0.9192415475845337, "topic": "camera_talker", "time": 1755108723.0, "verdict": "currently_true"}
+{"data": 0.8105838298797607, "topic": "camera_talker", "time": 1755108724.0, "verdict": "currently_false", "spec": "{accuracy>0.90}"}
+{"data": 0.9329161047935486, "topic": "camera_talker", "time": 1755108725.0, "verdict": "currently_true"}
+{"data": 0.9113847017288208, "topic": "camera_talker", "time": 1755108726.0, "verdict": "currently_true"}
+{"data": 0.9046928882598877, "topic": "camera_talker", "time": 1755108727.0, "verdict": "currently_true"}
+{"data": 0.9283958077430725, "topic": "camera_talker", "time": 1755108728.0, "verdict": "currently_true"}
+{"data": 0.7403615117073059, "topic": "camera_talker", "time": 1755108729.0, "verdict": "currently_false", "spec": "{accuracy>0.90}"}
+{"data": 0.9038572311401367, "topic": "camera_talker", "time": 1755108730.0, "verdict": "currently_true"}
+{"data": 0.9030311703681946, "topic": "camera_talker", "time": 1755108731.0, "verdict": "currently_true"}
+{"data": 0.927862823009491, "topic": "camera_talker", "time": 1755108732.0, "verdict": "currently_true"}
+{"data": 0.920699417591095, "topic": "camera_talker", "time": 1755108733.0, "verdict": "currently_true"}
+{"data": 0.8675435781478882, "topic": "camera_talker", "time": 1755108734.0, "verdict": "currently_false", "spec": "{accuracy>0.90}"}
+{"data": 0.9492368102073669, "topic": "camera_talker", "time": 1755108735.0, "verdict": "currently_true"}
+{"data": 0.9333725571632385, "topic": "camera_talker", "time": 1755108736.0, "verdict": "currently_true"}
+{"data": 0.9138878583908081, "topic": "camera_talker", "time": 1755108737.0, "verdict": "currently_true"}
+{"data": 0.9333526492118835, "topic": "camera_talker", "time": 1755108738.0, "verdict": "currently_true"}
+{"data": 0.8269075751304626, "topic": "camera_talker", "time": 1755108739.0, "verdict": "currently_false", "spec": "{accuracy>0.90}"}
+{"data": 0.9070738554000854, "topic": "camera_talker", "time": 1755108740.0, "verdict": "currently_true"}
+{"data": 0.9093988537788391, "topic": "camera_talker", "time": 1755108741.0, "verdict": "currently_true"}
+{"data": 0.9496192932128906, "topic": "camera_talker", "time": 1755108742.0, "verdict": "currently_true"}
+{"data": 0.9358848929405212, "topic": "camera_talker", "time": 1755108743.0, "verdict": "currently_true"}
+{"data": 0.7942309975624084, "topic": "camera_talker", "time": 1755108744.0, "verdict": "currently_false", "spec": "{accuracy>0.90}"}
+{"data": 0.9360212087631226, "topic": "camera_talker", "time": 1755108745.0, "verdict": "currently_true"}
+{"data": 0.9496553540229797, "topic": "camera_talker", "time": 1755108746.0, "verdict": "currently_true"}
+{"data": 0.914941668510437, "topic": "camera_talker", "time": 1755108747.0, "verdict": "currently_true"}
+{"data": 0.9160171747207642, "topic": "camera_talker", "time": 1755108748.0, "verdict": "currently_true"}
+{"data": 0.8092008233070374, "topic": "camera_talker", "time": 1755108749.0, "verdict": "currently_false", "spec": "{accuracy>0.90}"}
+{"data": 0.9442363977432251, "topic": "camera_talker", "time": 1755108750.0, "verdict": "currently_true"}
+{"data": 0.9246370196342468, "topic": "camera_talker", "time": 1755108751.0, "verdict": "currently_true"}
+{"data": 0.9215748906135559, "topic": "camera_talker", "time": 1755108752.0, "verdict": "currently_true"}
+{"data": 0.9238982796669006, "topic": "camera_talker", "time": 1755108753.0, "verdict": "currently_true"}
+{"data": 0.7217636108398438, "topic": "camera_talker", "time": 1755108754.0, "verdict": "currently_false", "spec": "{accuracy>0.90}"}
+{"data": 0.9232290983200073, "topic": "camera_talker", "time": 1755108755.0, "verdict": "currently_true"}
+{"data": 0.9478455185890198, "topic": "camera_talker", "time": 1755108756.0, "verdict": "currently_true"}
+{"data": 0.9178627729415894, "topic": "camera_talker", "time": 1755108757.0, "verdict": "currently_true"}
+{"data": 0.9058257937431335, "topic": "camera_talker", "time": 1755108758.0, "verdict": "currently_true"}
+{"data": 0.8234018683433533, "topic": "camera_talker", "time": 1755108759.0, "verdict": "currently_false", "spec": "{accuracy>0.90}"}
+{"data": 0.9473851919174194, "topic": "camera_talker", "time": 1755108760.0, "verdict": "currently_true"}
+{"data": 0.9191097617149353, "topic": "camera_talker", "time": 1755108761.0, "verdict": "currently_true"}
+{"data": 0.9330841302871704, "topic": "camera_talker", "time": 1755108762.0, "verdict": "currently_true"}
+{"data": 0.9409164786338806, "topic": "camera_talker", "time": 1755108763.0, "verdict": "currently_true"}
+{"data": 0.7412973642349243, "topic": "camera_talker", "time": 1755108764.0, "verdict": "currently_false", "spec": "{accuracy>0.90}"}
+{"data": 0.9028924703598022, "topic": "camera_talker", "time": 1755108765.0, "verdict": "currently_true"}
+{"data": 0.9458057284355164, "topic": "camera_talker", "time": 1755108766.0, "verdict": "currently_true"}
+{"data": 0.9028216004371643, "topic": "camera_talker", "time": 1755108767.0, "verdict": "currently_true"}
+{"data": 0.9161431193351746, "topic": "camera_talker", "time": 1755108768.0, "verdict": "currently_true"}
+{"data": 0.7930843234062195, "topic": "camera_talker", "time": 1755108769.0, "verdict": "currently_false", "spec": "{accuracy>0.90}"}
+{"data": 0.9201066493988037, "topic": "camera_talker", "time": 1755108770.0, "verdict": "currently_true"}
+{"data": 0.9377303123474121, "topic": "camera_talker", "time": 1755108771.0, "verdict": "currently_true"}
+{"data": 0.9125550985336304, "topic": "camera_talker", "time": 1755108772.0, "verdict": "currently_true"}
+{"data": 0.9197728633880615, "topic": "camera_talker", "time": 1755108773.0, "verdict": "currently_true"}
+{"data": 0.7448633313179016, "topic": "camera_talker", "time": 1755108774.0, "verdict": "currently_false", "spec": "{accuracy>0.90}"}
+{"data": 0.91054767370224, "topic": "camera_talker", "time": 1755108775.0, "verdict": "currently_true"}
+{"data": 0.9093709588050842, "topic": "camera_talker", "time": 1755108776.0, "verdict": "currently_true"}
+{"data": 0.9154991507530212, "topic": "camera_talker", "time": 1755108777.0, "verdict": "currently_true"}
+{"data": 0.9118297696113586, "topic": "camera_talker", "time": 1755108778.0, "verdict": "currently_true"}
+{"data": 0.8347901105880737, "topic": "camera_talker", "time": 1755108779.0, "verdict": "currently_false", "spec": "{accuracy>0.90}"}
+{"data": 0.9165356159210205, "topic": "camera_talker", "time": 1755108780.0, "verdict": "currently_true"}
+{"data": 0.9401954412460327, "topic": "camera_talker", "time": 1755108781.0, "verdict": "currently_true"}
+{"data": 0.9316365718841553, "topic": "camera_talker", "time": 1755108782.0, "verdict": "currently_true"}
+{"data": 0.9410419464111328, "topic": "camera_talker", "time": 1755108783.0, "verdict": "currently_true"}
+{"data": 0.885471761226654, "topic": "camera_talker", "time": 1755108784.0, "verdict": "currently_false", "spec": "{accuracy>0.90}"}
+{"data": 0.9232791066169739, "topic": "camera_talker", "time": 1755108785.0, "verdict": "currently_true"}
+{"data": 0.9086506962776184, "topic": "camera_talker", "time": 1755108786.0, "verdict": "currently_true"}
+{"data": 0.921254575252533, "topic": "camera_talker", "time": 1755108787.0, "verdict": "currently_true"}
+{"data": 0.9072780013084412, "topic": "camera_talker", "time": 1755108788.0, "verdict": "currently_true"}
+{"data": 0.7366428375244141, "topic": "camera_talker", "time": 1755108789.0, "verdict": "currently_false", "spec": "{accuracy>0.90}"}
+{"data": 0.9296820759773254, "topic": "camera_talker", "time": 1755108790.0, "verdict": "currently_true"}
+{"data": 0.902561366558075, "topic": "camera_talker", "time": 1755108791.0, "verdict": "currently_true"}
+{"data": 0.9318554997444153, "topic": "camera_talker", "time": 1755108792.0, "verdict": "currently_true"}
+{"data": 0.9123388528823853, "topic": "camera_talker", "time": 1755108793.0, "verdict": "currently_true"}
+{"data": 0.7387298345565796, "topic": "camera_talker", "time": 1755108794.0, "verdict": "currently_false", "spec": "{accuracy>0.90}"}
+{"data": 0.9179908633232117, "topic": "camera_talker", "time": 1755108795.0, "verdict": "currently_true"}
+{"data": 0.92963045835495, "topic": "camera_talker", "time": 1755108796.0, "verdict": "currently_true"}
+{"data": 0.941766619682312, "topic": "camera_talker", "time": 1755108797.0, "verdict": "currently_true"}
+{"data": 0.915164053440094, "topic": "camera_talker", "time": 1755108798.0, "verdict": "currently_true"}
+{"data": 0.8534499406814575, "topic": "camera_talker", "time": 1755108799.0, "verdict": "currently_false", "spec": "{accuracy>0.90}"}
+{"data": 0.9387877583503723, "topic": "camera_talker", "time": 1755108800.0, "verdict": "currently_true"}
+{"data": 0.9333572387695312, "topic": "camera_talker", "time": 1755108801.0, "verdict": "currently_true"}
+{"data": 0.9044491648674011, "topic": "camera_talker", "time": 1755108802.0, "verdict": "currently_true"}
+{"data": 0.9077030420303345, "topic": "camera_talker", "time": 1755108803.0, "verdict": "currently_true"}
+{"data": 0.8646263480186462, "topic": "camera_talker", "time": 1755108804.0, "verdict": "currently_false", "spec": "{accuracy>0.90}"}
+{"data": 0.9076459407806396, "topic": "camera_talker", "time": 1755108805.0, "verdict": "currently_true"}

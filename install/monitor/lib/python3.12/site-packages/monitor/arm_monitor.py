@@ -55,12 +55,12 @@ class ROSMonitor_arm_monitor(Node):
 		# done creating monitor publishers
 
 		self.publish_topics=False
-		self.topics_info['arm_current_talker']={'package': 'interfaces.msg', 'type': 'CurrentData'}
-		self.config_subscribers['arm_current_talker']=self.create_subscription(topic='arm_current_talker',msg_type=CurrentData,callback=self.callbackarm_current_talker,qos_profile=1000)
+		self.topics_info['arm_current_talker']={'package': 'interfaces.msg', 'type': 'CurrentVelocityData'}
+		self.config_subscribers['arm_current_talker']=self.create_subscription(topic='arm_current_talker',msg_type=CurrentVelocityData,callback=self.callbackarm_current_talker,qos_profile=1000)
 
 		self.get_logger().info('Monitor' + self.name + ' started and ready' )
 		self.get_logger().info('Logging at' + self.logfn )
-		websocket.enableTrace(True)
+		websocket.enableTrace(False)
 		self.ws = websocket.WebSocket()
 		self.ws.connect('ws://127.0.0.1:8085')
 		self.get_logger().info('Websocket is open')

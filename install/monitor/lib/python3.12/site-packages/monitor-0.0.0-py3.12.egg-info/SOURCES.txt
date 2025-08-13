@@ -13,7 +13,6 @@ monitor/arm_monitor.py
 monitor/camera_monitor.py
 monitor/carbon_monoxide_monitor.py
 monitor/distance_monitor.py
-monitor/monitor.py
 monitor/motor_monitor.py
 monitor/temperature_monitor.py
 monitor/tip_out_monitor.py

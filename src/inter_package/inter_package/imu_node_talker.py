@@ -9,7 +9,11 @@ class ImuNode(Node):
         super().__init__('imu_node')
 
         self.publisher = self.create_publisher(ImuData, 'imu_talker', 10)
-        self.timer = self.create_timer(1, self.publish_imu_data)
+        #timer and callback
+        # 1[Hz]   -----> 1 sec
+        # 100[hz] -----> 0.01 sec
+        self.frequency=1
+        self.timer = self.create_timer(self.frequency, self.publish_imu_data)
         self.counter = 0
 
     def publish_imu_data(self):

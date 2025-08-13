@@ -10,10 +10,13 @@ class ArmCurrentNode(Node):
         #define publisher to send the arm current
         #message define by the user
         self.publisher= self.create_publisher(CurrentVelocityData,'arm_current_talker',10)
-        self.arm_current =0
+        self.arm_current_motor =0
 
         #timer and callback
-        self.timer=self.create_timer(1,self.publish_timer)
+        # 1[Hz]   -----> 1 sec
+        # 100[hz] -----> 0.01 sec
+        self.frequency=1
+        self.timer=self.create_timer(self.frequency,self.publish_timer)
         self.counter=0
 
         #transition to simulate current
@@ -26,13 +29,13 @@ class ArmCurrentNode(Node):
                 self.transition_mode=True
 
         if self.transition_mode:
-            self.arm_current=random.uniform(1000.0,2000.0)
+            self.arm_current_motor=random.uniform(1000.0,2000.0)
             self.transition_mode=False
         else:
-            self.arm_current=random.uniform(0.0,900.0)
+            self.arm_current_motor=random.uniform(0.0,900.0)
 
         current_msg=CurrentVelocityData()
-        current_msg.arm_current=self.arm_current
+        current_msg.arm_current=self.arm_current_motor
         self.publisher.publish(current_msg)
 
         # info or warm depending on the current

@@ -18,7 +18,11 @@ class CurrentWheelNode(Node):
         self.angular_velocity = 0
 
         # timer to publish the message frequently
-        self.timer = self.create_timer(1,self.publish_timer)
+        #timer and callback
+        # 1[Hz]   -----> 1 sec
+        # 100[hz] -----> 0.01 sec
+        self.frequency=1
+        self.timer = self.create_timer(self.frequency,self.publish_timer)
         self.counter=0
 
         #transition to simulate a change in the current

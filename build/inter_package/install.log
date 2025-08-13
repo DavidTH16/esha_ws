@@ -1,6 +1,5 @@
 /home/david/esha_ws/install/inter_package/lib/python3.12/site-packages/inter_package/motor_current_node_talker.py
 /home/david/esha_ws/install/inter_package/lib/python3.12/site-packages/inter_package/camera_node_talker.py
-/home/david/esha_ws/install/inter_package/lib/python3.12/site-packages/inter_package/velocity_node_talker.py
 /home/david/esha_ws/install/inter_package/lib/python3.12/site-packages/inter_package/imu_node_talker.py
 /home/david/esha_ws/install/inter_package/lib/python3.12/site-packages/inter_package/temperature_node_talker.py
 /home/david/esha_ws/install/inter_package/lib/python3.12/site-packages/inter_package/__init__.py
@@ -9,7 +8,6 @@
 /home/david/esha_ws/install/inter_package/lib/python3.12/site-packages/inter_package/ultrasonic_node_talker.py
 /home/david/esha_ws/install/inter_package/lib/python3.12/site-packages/inter_package/__pycache__/motor_current_node_talker.cpython-312.pyc
 /home/david/esha_ws/install/inter_package/lib/python3.12/site-packages/inter_package/__pycache__/camera_node_talker.cpython-312.pyc
-/home/david/esha_ws/install/inter_package/lib/python3.12/site-packages/inter_package/__pycache__/velocity_node_talker.cpython-312.pyc
 /home/david/esha_ws/install/inter_package/lib/python3.12/site-packages/inter_package/__pycache__/imu_node_talker.cpython-312.pyc
 /home/david/esha_ws/install/inter_package/lib/python3.12/site-packages/inter_package/__pycache__/temperature_node_talker.cpython-312.pyc
 /home/david/esha_ws/install/inter_package/lib/python3.12/site-packages/inter_package/__pycache__/__init__.cpython-312.pyc

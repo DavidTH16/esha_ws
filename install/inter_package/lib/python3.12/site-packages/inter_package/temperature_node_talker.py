@@ -8,7 +8,11 @@ class TemperatureNode(Node):
         super().__init__('temperature_node')
         self.publisher = self.create_publisher(SensorData, 'temperature_talker', 10)
         self.counter = 0
-        self.timer = self.create_timer(1.0, self.publish_temperature)  # publish every second
+        #timer and callback
+        # 1[Hz]   -----> 1 sec
+        # 100[hz] -----> 0.01 sec
+        self.frequency=1
+        self.timer = self.create_timer(self.frequency, self.publish_temperature)  # publish every second
 
     def publish_temperature(self):
         self.counter += 1

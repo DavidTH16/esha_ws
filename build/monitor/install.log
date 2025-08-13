@@ -3,7 +3,6 @@
 /home/david/esha_ws/install/monitor/lib/python3.12/site-packages/monitor/motor_monitor.py
 /home/david/esha_ws/install/monitor/lib/python3.12/site-packages/monitor/arm_monitor.py
 /home/david/esha_ws/install/monitor/lib/python3.12/site-packages/monitor/distance_monitor.py
-/home/david/esha_ws/install/monitor/lib/python3.12/site-packages/monitor/monitor.py
 /home/david/esha_ws/install/monitor/lib/python3.12/site-packages/monitor/__init__.py
 /home/david/esha_ws/install/monitor/lib/python3.12/site-packages/monitor/carbon_monoxide_monitor.py
 /home/david/esha_ws/install/monitor/lib/python3.12/site-packages/monitor/camera_monitor.py
@@ -12,7 +11,6 @@
 /home/david/esha_ws/install/monitor/lib/python3.12/site-packages/monitor/__pycache__/motor_monitor.cpython-312.pyc
 /home/david/esha_ws/install/monitor/lib/python3.12/site-packages/monitor/__pycache__/arm_monitor.cpython-312.pyc
 /home/david/esha_ws/install/monitor/lib/python3.12/site-packages/monitor/__pycache__/distance_monitor.cpython-312.pyc
-/home/david/esha_ws/install/monitor/lib/python3.12/site-packages/monitor/__pycache__/monitor.cpython-312.pyc
 /home/david/esha_ws/install/monitor/lib/python3.12/site-packages/monitor/__pycache__/__init__.cpython-312.pyc
 /home/david/esha_ws/install/monitor/lib/python3.12/site-packages/monitor/__pycache__/carbon_monoxide_monitor.cpython-312.pyc
 /home/david/esha_ws/install/monitor/lib/python3.12/site-packages/monitor/__pycache__/camera_monitor.cpython-312.pyc
@@ -29,7 +27,6 @@
 /home/david/esha_ws/install/monitor/lib/monitor/camera_monitor
 /home/david/esha_ws/install/monitor/lib/monitor/carbon_monoxide_monitor
 /home/david/esha_ws/install/monitor/lib/monitor/distance_monitor
-/home/david/esha_ws/install/monitor/lib/monitor/monitor
 /home/david/esha_ws/install/monitor/lib/monitor/motor_monitor
 /home/david/esha_ws/install/monitor/lib/monitor/temperature_monitor
 /home/david/esha_ws/install/monitor/lib/monitor/tip_out_monitor
