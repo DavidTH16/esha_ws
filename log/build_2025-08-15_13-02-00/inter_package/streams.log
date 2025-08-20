@@ -1,0 +1,32 @@
+[6.293s] Invoking command in '/home/david/esha_ws/src/inter_package': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/david/esha_ws/build/inter_package/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/david/esha_ws/install/inter_package/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/inter_package build --build-base /home/david/esha_ws/build/inter_package/build install --record /home/david/esha_ws/build/inter_package/install.log --single-version-externally-managed install_data
+[6.807s] running egg_info
+[6.847s] writing ../../build/inter_package/inter_package.egg-info/PKG-INFO
+[6.849s] writing dependency_links to ../../build/inter_package/inter_package.egg-info/dependency_links.txt
+[6.849s] writing entry points to ../../build/inter_package/inter_package.egg-info/entry_points.txt
+[6.849s] writing requirements to ../../build/inter_package/inter_package.egg-info/requires.txt
+[6.849s] writing top-level names to ../../build/inter_package/inter_package.egg-info/top_level.txt
+[6.927s] reading manifest file '../../build/inter_package/inter_package.egg-info/SOURCES.txt'
+[6.933s] adding license file 'LICENSE'
+[6.935s] writing manifest file '../../build/inter_package/inter_package.egg-info/SOURCES.txt'
+[6.935s] running build
+[6.935s] running build_py
+[6.936s] copying inter_package/imu_node_talker.py -> /home/david/esha_ws/build/inter_package/build/lib/inter_package
+[6.938s] running install
+[6.948s] running install_lib
+[6.986s] copying /home/david/esha_ws/build/inter_package/build/lib/inter_package/imu_node_talker.py -> /home/david/esha_ws/install/inter_package/lib/python3.12/site-packages/inter_package
+[6.987s] byte-compiling /home/david/esha_ws/install/inter_package/lib/python3.12/site-packages/inter_package/imu_node_talker.py to imu_node_talker.cpython-312.pyc
+[6.989s] running install_data
+[6.989s] running install_egg_info
+[7.023s] removing '/home/david/esha_ws/install/inter_package/lib/python3.12/site-packages/inter_package-0.0.0-py3.12.egg-info' (and everything under it)
+[7.023s] Copying ../../build/inter_package/inter_package.egg-info to /home/david/esha_ws/install/inter_package/lib/python3.12/site-packages/inter_package-0.0.0-py3.12.egg-info
+[7.048s] running install_scripts
+[7.321s] Installing arm_current_node script to /home/david/esha_ws/install/inter_package/lib/inter_package
+[7.321s] Installing camera_node script to /home/david/esha_ws/install/inter_package/lib/inter_package
+[7.322s] Installing co_node script to /home/david/esha_ws/install/inter_package/lib/inter_package
+[7.322s] Installing imu_node script to /home/david/esha_ws/install/inter_package/lib/inter_package
+[7.322s] Installing motor_current_node script to /home/david/esha_ws/install/inter_package/lib/inter_package
+[7.322s] Installing temperature_node script to /home/david/esha_ws/install/inter_package/lib/inter_package
+[7.322s] Installing ultrasonic_node script to /home/david/esha_ws/install/inter_package/lib/inter_package
+[7.323s] Installing velocity_node script to /home/david/esha_ws/install/inter_package/lib/inter_package
+[7.323s] writing list of installed files to '/home/david/esha_ws/build/inter_package/install.log'
+[7.393s] Invoked command in '/home/david/esha_ws/src/inter_package' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/david/esha_ws/build/inter_package/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/david/esha_ws/install/inter_package/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/inter_package build --build-base /home/david/esha_ws/build/inter_package/build install --record /home/david/esha_ws/build/inter_package/install.log --single-version-externally-managed install_data

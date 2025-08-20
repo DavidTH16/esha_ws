@@ -1,0 +1,50 @@
+[4.788s] Invoking command in '/home/david/esha_ws/src/inter_package': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/david/esha_ws/build/inter_package/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/david/esha_ws/install/inter_package/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/inter_package build --build-base /home/david/esha_ws/build/inter_package/build install --record /home/david/esha_ws/build/inter_package/install.log --single-version-externally-managed install_data
+[5.309s] running egg_info
+[5.360s] writing ../../build/inter_package/inter_package.egg-info/PKG-INFO
+[5.360s] writing dependency_links to ../../build/inter_package/inter_package.egg-info/dependency_links.txt
+[5.361s] writing entry points to ../../build/inter_package/inter_package.egg-info/entry_points.txt
+[5.361s] writing requirements to ../../build/inter_package/inter_package.egg-info/requires.txt
+[5.361s] writing top-level names to ../../build/inter_package/inter_package.egg-info/top_level.txt
+[5.442s] reading manifest file '../../build/inter_package/inter_package.egg-info/SOURCES.txt'
+[5.457s] adding license file 'LICENSE'
+[5.458s] writing manifest file '../../build/inter_package/inter_package.egg-info/SOURCES.txt'
+[5.459s] running build
+[5.459s] running build_py
+[5.459s] copying inter_package/motor_current_node_talker.py -> /home/david/esha_ws/build/inter_package/build/lib/inter_package
+[5.460s] copying inter_package/camera_node_talker.py -> /home/david/esha_ws/build/inter_package/build/lib/inter_package
+[5.460s] copying inter_package/imu_node_talker.py -> /home/david/esha_ws/build/inter_package/build/lib/inter_package
+[5.460s] copying inter_package/temperature_node_talker.py -> /home/david/esha_ws/build/inter_package/build/lib/inter_package
+[5.460s] copying inter_package/co_node_talker.py -> /home/david/esha_ws/build/inter_package/build/lib/inter_package
+[5.461s] copying inter_package/arm_current_node_talker.py -> /home/david/esha_ws/build/inter_package/build/lib/inter_package
+[5.461s] copying inter_package/ultrasonic_node_talker.py -> /home/david/esha_ws/build/inter_package/build/lib/inter_package
+[5.461s] running install
+[5.476s] running install_lib
+[5.508s] copying /home/david/esha_ws/build/inter_package/build/lib/inter_package/motor_current_node_talker.py -> /home/david/esha_ws/install/inter_package/lib/python3.12/site-packages/inter_package
+[5.508s] copying /home/david/esha_ws/build/inter_package/build/lib/inter_package/camera_node_talker.py -> /home/david/esha_ws/install/inter_package/lib/python3.12/site-packages/inter_package
+[5.508s] copying /home/david/esha_ws/build/inter_package/build/lib/inter_package/imu_node_talker.py -> /home/david/esha_ws/install/inter_package/lib/python3.12/site-packages/inter_package
+[5.508s] copying /home/david/esha_ws/build/inter_package/build/lib/inter_package/temperature_node_talker.py -> /home/david/esha_ws/install/inter_package/lib/python3.12/site-packages/inter_package
+[5.508s] copying /home/david/esha_ws/build/inter_package/build/lib/inter_package/co_node_talker.py -> /home/david/esha_ws/install/inter_package/lib/python3.12/site-packages/inter_package
+[5.509s] copying /home/david/esha_ws/build/inter_package/build/lib/inter_package/arm_current_node_talker.py -> /home/david/esha_ws/install/inter_package/lib/python3.12/site-packages/inter_package
+[5.509s] copying /home/david/esha_ws/build/inter_package/build/lib/inter_package/ultrasonic_node_talker.py -> /home/david/esha_ws/install/inter_package/lib/python3.12/site-packages/inter_package
+[5.509s] byte-compiling /home/david/esha_ws/install/inter_package/lib/python3.12/site-packages/inter_package/motor_current_node_talker.py to motor_current_node_talker.cpython-312.pyc
+[5.510s] byte-compiling /home/david/esha_ws/install/inter_package/lib/python3.12/site-packages/inter_package/camera_node_talker.py to camera_node_talker.cpython-312.pyc
+[5.511s] byte-compiling /home/david/esha_ws/install/inter_package/lib/python3.12/site-packages/inter_package/imu_node_talker.py to imu_node_talker.cpython-312.pyc
+[5.512s] byte-compiling /home/david/esha_ws/install/inter_package/lib/python3.12/site-packages/inter_package/temperature_node_talker.py to temperature_node_talker.cpython-312.pyc
+[5.513s] byte-compiling /home/david/esha_ws/install/inter_package/lib/python3.12/site-packages/inter_package/co_node_talker.py to co_node_talker.cpython-312.pyc
+[5.513s] byte-compiling /home/david/esha_ws/install/inter_package/lib/python3.12/site-packages/inter_package/arm_current_node_talker.py to arm_current_node_talker.cpython-312.pyc
+[5.514s] byte-compiling /home/david/esha_ws/install/inter_package/lib/python3.12/site-packages/inter_package/ultrasonic_node_talker.py to ultrasonic_node_talker.cpython-312.pyc
+[5.515s] running install_data
+[5.515s] running install_egg_info
+[5.566s] removing '/home/david/esha_ws/install/inter_package/lib/python3.12/site-packages/inter_package-0.0.0-py3.12.egg-info' (and everything under it)
+[5.566s] Copying ../../build/inter_package/inter_package.egg-info to /home/david/esha_ws/install/inter_package/lib/python3.12/site-packages/inter_package-0.0.0-py3.12.egg-info
+[5.587s] running install_scripts
+[5.839s] Installing arm_current_node script to /home/david/esha_ws/install/inter_package/lib/inter_package
+[5.855s] Installing camera_node script to /home/david/esha_ws/install/inter_package/lib/inter_package
+[5.895s] Installing co_node script to /home/david/esha_ws/install/inter_package/lib/inter_package
+[5.909s] Installing imu_node script to /home/david/esha_ws/install/inter_package/lib/inter_package
+[5.911s] Installing motor_current_node script to /home/david/esha_ws/install/inter_package/lib/inter_package
+[5.931s] Installing temperature_node script to /home/david/esha_ws/install/inter_package/lib/inter_package
+[5.963s] Installing ultrasonic_node script to /home/david/esha_ws/install/inter_package/lib/inter_package
+[5.985s] Installing velocity_node script to /home/david/esha_ws/install/inter_package/lib/inter_package
+[5.986s] writing list of installed files to '/home/david/esha_ws/build/inter_package/install.log'
+[6.033s] Invoked command in '/home/david/esha_ws/src/inter_package' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/david/esha_ws/build/inter_package/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/david/esha_ws/install/inter_package/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/inter_package build --build-base /home/david/esha_ws/build/inter_package/build install --record /home/david/esha_ws/build/inter_package/install.log --single-version-externally-managed install_data

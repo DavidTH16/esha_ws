@@ -11,7 +11,7 @@ class CoNode(Node):
         #timer and callback
         # 1[Hz]   -----> 1 sec      500[Hz] -----> 0.002 sec
         # 100[hz] -----> 0.01 sec  1000[Hz] -----> 0.001 sec
-        self.frequency=0.001
+        self.frequency=0.01
         self.timer = self.create_timer(self.frequency, self.publish_co)  # publish every second
 
     def publish_co(self):

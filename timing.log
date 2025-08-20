@@ -1,0 +1,16 @@
+Trial nodes - no monitors at 1000Hz: 
+real    5m0.415s
+user    1m41.569s
+sys     0m22.816s
+
+Trial nodes -monitors  at 1000Hz:
+real    5m0.990s
+user    0m44.531s
+sys     0m12.012s
+
+
+**************************************************
+Trial nodes - no monitors at 100Hz
+real    5m0.033s
+user    1m5.142s
+sys     0m7.304s
